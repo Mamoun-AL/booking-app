@@ -8,7 +8,7 @@ var tg22 = document.getElementById('city-div')
 var tg33 = document.getElementById('places-div')
 var pop_dest = document.getElementById('popup-dest');
 var des_input = document.getElementById('dest');
-
+var tesr = 0;
 var kl = document.getElementsByClassName('top-chos')
 for(var d = 0 ;d<kl.length; d++){
 	kll= kl[d]
