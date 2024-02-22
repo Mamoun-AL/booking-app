@@ -25,7 +25,7 @@ function asf(event){
 		}
 	}
 }
-
+//commentfddsff
 async function getdata(){
 	pop_dest.innerHTML ="";
 	var query = des_input.value;
