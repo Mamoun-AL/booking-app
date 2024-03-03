@@ -5,6 +5,7 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
             <link rel="stylesheet" href="css/style.css">
             <link rel="stylesheet" href="css/all.min.css">
             <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -28,14 +29,107 @@
      <!-- headar  -->
 <div class="headar container-fluid border-bottom" style="border-color: var(--dm-gray) !important;">
       <div class="container ">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex  align-items-center justify-content-between">
                <a href=""><img class="logo" src="images/لقطة الشاشة 2024-02-11 130217-Photoroom 1.png" alt=""></a>
-               <div class="right-side-headar d-flex justify-content-between align-items-center " >
-                  <div  id="currency"class=" list p-2 mx-2 text-uppercase ">usd</div>
+               <div class="right-side-headar d-none d-md-flex  justify-content-between align-items-center " >
+                  <div   ng-click="dispcurfun()" id="currency" class=" list p-2 mx-2 text-uppercase ">USD</div>
+
+                        <div ng-show="dispcur" class="currency-section">
+                              <div class="container-fluid">
+                        <div    class="d-flex     pb-1 pt-1">
+                              <div class=" p-2 m-2 fitc  ">
+                                    <div class=" ">
+                                       <div class=" mb-4 ">
+                                        <ul class="mt-3 p-0">
+                        <li class="ft-li-curr"><span class="font-bold">AED</span> <p class="m-0">emtrites dirham</p></li>
+                        <li class="ft-li-curr"><span class="font-bold">USD</span> <p class="m-0"> U.S. Dollar</p></li>
+                        <li class="ft-li-curr"><span class="font-bold">INR</span> <p class="m-0">Indian Rupee</p> </li>
+                        <li class="ft-li-curr"><span class="font-bold">EUR</span> <p class="m-0">Euro</p> </li>
+                        <li class="ft-li-curr"><span class="font-bold">mxn</span> <p class="m-0">mexican peso</p></li>
+                        <li class="ft-li-curr"><span class="font-bold">mdl</span> <p class="m-0">moldovan leu</p></li>
+                        
+
+                        </ul>
+                                      </div>
+                        
+                                     
+                              </div>
+                              </div>
+                              <div class=" p-2 m-2 fitc">
+                                    <div class=" ">
+                                     <div class=" mb-4 ">
+                                   <ul class="mt-3 p-0">
+                                    <li class="ft-li-curr"><span class="font-bold">AUD</span> <p class="m-0">Australian Dollar</p></li>
+                                    <li class="ft-li-curr"><span class="font-bold">CAD</span> <p class="m-0">Canadian Dollar</p> </li>
+                                    <li class="ft-li-curr"><span class="font-bold">THB</span> <p class="m-0">Thai Baht</p></li>
+                                    <li class="ft-li-curr"><span class="font-bold">BGN</span> <p class="m-0">Bulgarian Lev</p> </li>
+                                    <li class="ft-li-curr"><span class="font-bold">nok</span> <p class="m-0">norwegain krone</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">pln</span> <p class="m-0">polish zloty</p></li>
+            
+                        </ul>
+                                    </div>
+                                    
+                              </div>
+                        </div>
+                        
+                              <div class=" p-2 m-2 fitc">
+                                    <div class=" ">
+                                    <div class=" mb-4">
+                                    <ul class="mt-3 p-0">
+                                          <li class="ft-li-curr"><span class="font-bold">BHD</span> <p class="m-0">Bahraini Dinar</p> </li>
+                                          <li class="ft-li-curr"><span class="font-bold">BRL</span> <p class="m-0">Brazilian Real</p> </li>
+                                          <li class="ft-li-curr"><span class="font-bold">CZK</span> <p class="m-0">Czech Koruna</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">COP</span> <p class="m-0">Colombian Peso</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">omr</span> <p class="m-0">omani rial</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">qar</span> <p class="m-0">qatari riyal</p></li>
+                                      </ul>
+                                   </div>
+                              </div>
+                             </div>
+                        
+                              <div class=" p-2 m-2 fitc ">
+                                    <div class=" ">
+                                     <div class=" mb-4 ">
+
+                                    <ul class="mt-3 p-0">
+                                          <li class="ft-li-curr"><span class="font-bold">RUB</span> <p class="m-0">New Taiwan Dollar</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">MYR</span> <p class="m-0">Malaysian Ringgit</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">JPY</span> <p class="m-0">Japanese Yen</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">NAD</span> <p class="m-0">Namibian Dollar</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">nzd</span> <p class="m-0">new zealand dollar</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">ron</span> <p class="m-0">romanian leu</p></li>
+                                    </ul>
+                        
+                                    </div>
+                              </div>
+                              </div>
+           
+
+                        </div>
+                        </div>
+                        </div>
+
+
+                  
                   <div class=" list p-2 mx-2 "><a href="" >list your property</a></div>
                   <div class=" list p-2  mx-2 i-fav "><a href="" class="d-flex align-items-center" > <i class="fa-regular fa-heart pe-1" ></i><p class="p-0 m-0">favourite</p></a></div>
                   <div class=" list p-2 mx-2 i-fav "><a href="" class="d-flex align-items-center" ><i class="fa-regular fa-circle-user pe-1"></i><p class="p-0 m-0">login</p></a></div>
+
+                   
+                       
+               
                </div>
+               <input id="menu-toggle" type="checkbox" />
+               <label class='menu-button-container' for="menu-toggle">
+               <div class='menu-button'></div>
+             </label>
+               <ul class="menu container-fluid">
+                 <li>One</li>
+                 <li>Two</li>
+                 <li>Three</li>
+                 <li>Four</li>
+                 <li>Five</li>
+               </ul>
           </div>
       </div>
       <img class="headar-bg" src="images/Rectangle 3.svg" alt="">
@@ -46,10 +140,10 @@
       <p class="intro-head-text m-0">Save big on your next hotel</p>
       <p class="intro-text m-0">Great deals on hotels, resorts and private homes</p>
      
-      <div class="searchbar row align-items-center  mt-5">
-            <div    class="dest-box  col-md-3 icon-box  d-flex align-items-center">
+      <div class="searchbar position-relative  container row align-items-center mt-1 mt-sm-5">
+            <div    class=" cursor-pointer  col-12 col-md-3 icon-box  d-flex align-items-center">
                   <i class="fa-regular fa-location-dot pe-1"></i>
-                  <input onclick="focus_input()" oninput="cl_dest_api()" class="dest"  type="text" name="dest" data-dest_id="42342" data-dest_type="city"  id="dest" placeholder="going for">
+                  <input onclick="focus_input()" oninput="cl_dest_api()" class="dest"  type="text" name="dest" data-dest_id="42342" data-dest_id_img="42342" data-dest_type="city" data-dest_fcityname="sd"  id="dest" placeholder="going for">
                   <div  id="popup-dest"  class="popup-dest border p-3" style="display: none;">
                         <!-- <div onclick="addname(event)" data-each_dest_id="1111"  class="location-box p-2 ps-3 rounded d-flex align-items-center">
                               <i class="fa-regular fa-location-dot pe-3 "></i>
@@ -59,24 +153,39 @@
                               </div>
                            </div> -->
 
+
+      <ul id="load_anim" class="o-vertical-spacing o-vertical-spacing--l m-0 p-0" style="display: none;">
+        <li class="blog-post o-media">
+          <div class="o-media__body">
+            <div class="o-vertical-spacing">
+              <p>
+                <span class="skeleton-box" ></span>
+                <span class="skeleton-box" ></span>
+                <span class="skeleton-box" ></span>
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
                       
                   </div>
             </div>
 
-            <div class="checkin-box col-md-2  input-text-h  icon-box  d-flex align-items-center">
+            <div class="checkin-box  col-12 col-md-2  input-text-h  icon-box  d-flex align-items-center">
                   <i class="fa-regular fa-calendar-days pe-1"></i>
                   <input id="checkin" type="text" class="dest dateselect" required="required"/>
                   <p>checkin</p>
             </div>
 
-            <div class=" input-text-h col-md-2  checkout-box icon-box  d-flex align-items-center">
+            <div class=" input-text-h  col-12 col-md-2  checkout-box icon-box  d-flex align-items-center">
                   <i class="fa-regular fa-calendar-days pe-1"></i>
                   <input type="text" class="dest dateselect" name="checkout" id="checkout" required="required"/>
                  <p>checkout</p>
             </div>
           
-            <div    class="dest-box  col-md-3 icon-box  ">
-                  <div ng-click="display=true"    class="d-flex   align-items-center">
+            <div    class="dest-box    col-12 col-md-3 icon-box  ">
+                  <div ng-click="display=true"     class="d-flex cursor-pointer    align-items-center">
                   <i class="fa-regular fa-user  pe-1"></i>
                   <div class="mt-1"><span id="rooms_num" data-rooms_num="{{count}}">{{ count }} room</span> <span id="adults_num" data-adults_num="{{count1}}" > {{ count1 }} adult</span> <span id="childern_num" data-childern_num="{{count2}}">{{ count2 }} childern</span></div>
                   <p class="trvl">travelers</p>
@@ -94,7 +203,7 @@
                                  <i  ng-click = "minus()" class="fa-regular  p-1 m-1 rounded m-0 fa-minus"></i>
                               </div>
                            </div>
-
+<!--html comment -->
                          <div class="d-flex justify-content-between  align-items-center border-bottom pb-2" style="     border-color: var(--carmine) !important; ">
                            <p class="p-0 cat-ser  m-0">adult</p>
                            <div class=" d-flex align-items-center mt-1">
@@ -117,17 +226,17 @@
                     </div>
                   </div>
             </div>
-            <div onclick="gethotels()" class="submit-search col-md-1 p-2 text-center">search</div>
+            <div onclick="gethotels()" class="submit-search cursor-pointer  col-12 col-md-1 p-2 text-center">search</div>
       </div>
 </div>
-
+<a href=""></a>
 
 <!-- end intro-->
 <!-- coockie-->
 <div class="cockie container mt-5">
 
       <p class="main-h">your recent search</p>
-      <div class=" d-flex cockie">
+      <div  id="cookie-con" class=" d-flex cockie">
       <div class="cockie-box d-flex align-items-center me-3">
             <img class="border" src="images/pexels-nout-gdfons-378570 1.png" style="border-radius: 10px;" alt="">
             <div class="d-flex flex-column ms-2 align-middle ">
@@ -143,8 +252,8 @@
                   <h5 class="m-0 text-capitalize">los angles</h5>
                   <p id="cockie-date" class= "p-0 m-0">Feb 13-Mar 20, 2 people</p>
             </div>
-       
       </div>
+
   </div> 
 </div>
 
@@ -154,14 +263,14 @@
 <div class="cockie container mt-5">
 
       <p class="main-h">popular destinations</p>
-      <div class=" row cockie"> 
+      <div class="  row container cockie"> 
 
       <div class="col-md-4 p-1">
             <div class="des-con">
                   <img class="des-img" src="images/pexels-belle-co-783682.jpg" style="border-radius: 10px;" alt="">
 <p class="img-des-text">amestrdam</p>
             </div>
-            <div class="des-con">
+            <div class="des-con mb-2 mb-sm-0">
                   <img class="des-img mt-2" src="images/pexels-denys-gromov-4491951.jpg" style="border-radius: 10px;" alt="">
                
                   <p class="img-des-text">dubai</p>
@@ -174,14 +283,14 @@
                   <img class="des-img" src="images/pexels-nout-gons-378570.jpg" style="border-radius: 10px;" alt="">
                   <p class="img-des-text">new york</p>
             </div>
-            <div class="des-con">
+            <div class="des-con mb-2 mb-sm-0 ">
                   <img class="des-img mt-2" src="images/pexels-pixabay-2363.jpg" style="border-radius: 10px;" alt="">
                   <p class="img-des-text">los angles</p>
             </div>
 
       </div>
 
-      <div class="col-md-4 p-1 " style="height: 100%;">
+      <div class="col-md-4 p-1 mt-1 mt-sm-0  " style="height: 100%;">
             <div class="des-con des-lcon">
                   <img class="des-img" src="images/pexels-pixabay-460740.jpg" style="border-radius: 10px; height: 100%;" alt="">
                   <p class="img-des-text">tokyo</p>
@@ -238,7 +347,7 @@
 <!-- proprety type section-->
 
 <!-- list proprety  section-->
-<div class="container mt-5 list-con">
+<div class="container mt-5 list-con d-none d-sm-block">
       <img src="images/Frame 18.jpg" alt="">
       <div class="list-text-box">
             <p class="list-h">List your property on Vrbo and open your door to rental income</p>
@@ -317,7 +426,7 @@
       </div>
       <div ng-show="d2" id="places-div" class="row  mt-4">
             <div class="col-md-3  ">
-                  <div class="ml-auto  fitc">
+                  <div class="ml-auto    fitc">
                      <div class="prop-text mb-4 ">
                         <p class="m-0 topr-p1 text-start p-0">state park</p>
                         <p class="m-0 prop-p2 text-start p-0">21 property</p>
@@ -562,12 +671,13 @@
 		<!-- <script src="javascript/swiper-bundle.min.js"></script> -->
 
 		<script src="javascript/front.js"></script>
+            <script src="javascript/angular.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 		<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
 		<script src="javascript/validate.js"></script>
             <script src="javascript/date.js"></script>
 
-            
+
 
 	</body>
 </body>

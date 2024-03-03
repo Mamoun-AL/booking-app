@@ -1,147 +1,5829 @@
-[
-      {
-        "image_url": "https://cf.bstatic.com/xdata/images/city/150x150/977235.jpg?k=d5cb9bc3faa7aea376ba38ae52e5eb3055d7932e715fc3728b5b27a9485436e9&o=",
-        "cc1": "de",
-        "hotels": 1748,
-        "city_ufi": null,
-        "name": "Berlin",
-        "dest_id": "-1746443",
-        "longitude": 13.376818,
-        "rtl": 0,
-        "timezone": "Europe/Berlin",
-        "country": "Germany",
-        "dest_type": "city",
-        "latitude": 52.516212,
-        "lc": "en",
-        "city_name": "Berlin",
-        "type": "ci",
-        "label": "Berlin, Berlin Federal State, Germany",
-        "roundtrip": "GgEwIAAoATICZW46BkJlcmxpbkAASgBQAA==",
-        "region": "Berlin Federal State",
-        "nr_hotels": 1748,
-        "b_max_los_data": {
-          "experiment": "long_stays_android_extend_los_2",
-          "extended_los": 90,
-          "max_allowed_los": 90,
-          "default_los": 45,
-          "is_fullon": 0,
-          "has_extended_los": 1
+{
+  "primary_count": 228,
+  "count": 228,
+  "room_distribution": [
+    {
+      "children": [
+        5,
+        0
+      ],
+      "adults": "2"
+    }
+  ],
+  "map_bounding_box": {
+    "sw_lat": 50.0026454,
+    "ne_lat": 50.1492922727814,
+    "sw_long": 14.2691427469254,
+    "ne_long": 14.6035552024841
+  },
+  "total_count_with_filters": 228,
+  "unfiltered_count": 2664,
+  "extended_count": 0,
+  "unfiltered_primary_count": 2664,
+  "search_radius": 0,
+  "sort": [
+    {
+      "name": "Distance from city centre",
+      "id": "distance"
+    },
+    {
+      "name": "Popularity",
+      "id": "popularity"
+    },
+    {
+      "id": "class_descending",
+      "name": "Stars (5 to 0)"
+    },
+    {
+      "name": "Stars (0 to 5)",
+      "id": "class_ascending"
+    },
+    {
+      "name": "Guest review score",
+      "id": "bayesian_review_score"
+    },
+    {
+      "name": "Price (low to high)",
+      "id": "price"
+    }
+  ],
+  "result": [
+    {
+      "extended": 0,
+      "countrycode": "cz",
+      "hotel_name": "Don Giovanni Hotel Prague - Great Hotels of The World",
+      "hotel_name_trans": "Don Giovanni Hotel Prague - Great Hotels of The World",
+      "checkout": {
+        "until": "11:00",
+        "from": ""
+      },
+      "children_not_allowed": 0,
+      "badges": [],
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_68587",
+      "city_trans": "Prague",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "in_best_district": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 0,
+      "longitude": 14.476021528244,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎4 km from centre‬",
+          "icon_set": null
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "text": "‎This property has free cots available‬",
+          "icon_set": null
+        }
+      ],
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "4.05",
+      "review_score_word": "Superb",
+      "is_beach_front": 0,
+      "distance": "4.04",
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "accommodation_type": 204,
+      "zip": "130 20",
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 13,
+          "localized_area": null
         }
       },
-      {
-        "dest_type": "district",
-        "latitude": 52.517666,
-        "country": "Germany",
-        "type": "di",
-        "city_name": "Berlin",
-        "lc": "en",
-        "region": "Berlin Federal State",
-        "label": "Berlin City Centre, Berlin, Berlin Federal State, Germany",
-        "roundtrip": "GgEwIAEoATICZW46BkJlcmxpbkAASgBQAA==",
-        "b_max_los_data": {
-          "has_extended_los": 1,
-          "default_los": 45,
-          "is_fullon": 0,
-          "experiment": "long_stays_android_extend_los_2",
-          "extended_los": 90,
-          "max_allowed_los": 90
-        },
-        "nr_hotels": 287,
-        "hotels": 287,
-        "cc1": "de",
-        "image_url": "https://cf.bstatic.com/xdata/images/district/150x150/56439.jpg?k=7d6839d9deb1ba80b458bce9c97b81ec68bba9cfeff46eabdfd30a120485e8eb&o=",
-        "name": "Berlin City Centre",
-        "city_ufi": -1746443,
-        "dest_id": "2285",
-        "timezone": "Europe/Berlin",
-        "rtl": 0,
-        "longitude": 13.374681
+      "preferred": 1,
+      "address_trans": "Vinohradska 157 a",
+      "review_nr": 29411,
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "block_ids": [
+        "6858737_357600059_0_2_0"
+      ],
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.0785011007103,
+      "min_total_price": 238.3,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "class": 4,
+      "checkin": {
+        "from": "15:00",
+        "until": ""
       },
-      {
-        "image_url": "https://cf.bstatic.com/xdata/images/city/150x150/889698.jpg?k=ee9ab1b0ea6faaafeaaf00862187aa44c2e2510e06367acde0173ddc2f849a67&o=",
-        "cc1": "us",
-        "hotels": 11,
-        "name": "Berlin",
-        "city_ufi": null,
-        "dest_id": "20097081",
-        "timezone": "America/New_York",
-        "longitude": -81.7944,
-        "rtl": 0,
-        "dest_type": "city",
-        "latitude": 40.5611,
-        "country": "United States",
-        "type": "ci",
-        "lc": "en",
-        "city_name": "Berlin",
-        "region": "Ohio",
-        "roundtrip": "GgEwIAIoATICZW46BkJlcmxpbkAASgBQAA==",
-        "label": "Berlin, Ohio, United States",
-        "b_max_los_data": {
-          "max_allowed_los": 90,
-          "extended_los": 90,
-          "experiment": "long_stays_android_extend_los_2",
-          "is_fullon": 0,
-          "default_los": 45,
-          "has_extended_los": 1
-        },
-        "nr_hotels": 11
+      "hotel_id": 68587,
+      "updated_checkout": null,
+      "native_ads_tracking": "",
+      "native_ad_id": "",
+      "cant_book": 0,
+      "main_photo_id": 492782278,
+      "price_breakdown": {
+        "sum_excluded_raw": "0.00",
+        "has_fine_print_charges": 1,
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "all_inclusive_price": 238.3,
+        "has_tax_exceptions": 0,
+        "gross_price": "238.30"
       },
-      {
-        "city_ufi": -1746443,
-        "name": "Berlin Brandenburg Airport Willy Brandt",
-        "cc1": "de",
-        "image_url": "https://cf.bstatic.com/static/img/plane-100.jpg",
-        "hotels": 48,
-        "longitude": 13.51,
-        "rtl": 0,
-        "timezone": "Europe/Berlin",
-        "dest_id": "7944",
-        "lc": "en",
-        "city_name": "Berlin",
-        "type": "ai",
-        "country": "Germany",
-        "latitude": 52.363,
-        "dest_type": "airport",
-        "nr_hotels": 48,
-        "b_max_los_data": {
-          "has_extended_los": 1,
-          "is_fullon": 0,
-          "default_los": 45,
-          "max_allowed_los": 90,
-          "extended_los": 90,
-          "experiment": "long_stays_android_extend_los_2"
-        },
-        "label": "Berlin Brandenburg Airport Willy Brandt, Berlin, Berlin Federal State, Germany",
-        "roundtrip": "GgEwIAMoATICZW46BkJlcmxpbkAASgBQAA==",
-        "region": "Berlin Federal State"
+      "currency_code": "EUR",
+      "bwallet": {
+        "hotel_eligibility": 0
       },
-      {
-        "country": "United States",
-        "dest_type": "city",
-        "latitude": 38.3225,
-        "city_name": "Berlin",
-        "lc": "en",
-        "type": "ci",
-        "roundtrip": "GgEwIAQoATICZW46BkJlcmxpbkAASgBQAA==",
-        "label": "Berlin, Maryland, United States",
-        "region": "Maryland",
-        "nr_hotels": 26,
-        "b_max_los_data": {
-          "experiment": "long_stays_android_extend_los_2",
-          "max_allowed_los": 90,
-          "extended_los": 90,
-          "has_extended_los": 1,
-          "is_fullon": 0,
-          "default_los": 45
+      "default_language": "en",
+      "is_mobile_deal": 0,
+      "composite_price_breakdown": {
+        "gross_amount_per_night": {
+          "value": 238.3,
+          "currency": "EUR"
         },
-        "hotels": 26,
-        "image_url": "https://cf.bstatic.com/xdata/images/city/150x150/958859.jpg?k=acb26b8148b9cdb1d7feab9489704859859714260120a0115a4ec0d0f0d2edae&o=",
-        "cc1": "us",
-        "city_ufi": null,
-        "name": "Berlin",
-        "dest_id": "20053988",
-        "rtl": 0,
-        "longitude": -75.2181,
-        "timezone": "America/New_York"
-      }
-    ]
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 0
+        },
+        "product_price_breakdowns": [
+          {
+            "gross_amount_per_night": {
+              "value": 238.3,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 0
+            },
+            "charges_details": {
+              "translated_copy": "Includes taxes and charges",
+              "mode": "all_included",
+              "amount": {
+                "currency": "EUR",
+                "value": 0
+              }
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 238.3
+            },
+            "gross_amount": {
+              "value": 238.3,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "value": 238.3,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 25.5321428571429,
+              "currency": "EUR"
+            },
+            "net_amount": {
+              "value": 212.767857142857,
+              "currency": "EUR"
+            },
+            "benefits": [],
+            "items": [
+              {
+                "item_amount": {
+                  "value": 25.5321428571429,
+                  "currency": "EUR"
+                },
+                "name": "VAT",
+                "details": "12 % VAT",
+                "kind": "charge",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included"
+              }
+            ]
+          }
+        ],
+        "all_inclusive_amount": {
+          "value": 238.3,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "value": 0,
+            "currency": "EUR"
+          },
+          "translated_copy": "Includes taxes and charges",
+          "mode": "all_included"
+        },
+        "net_amount": {
+          "value": 212.767857142857,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 238.3
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 238.3
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 25.5321428571429,
+          "currency": "EUR"
+        },
+        "benefits": [],
+        "items": [
+          {
+            "name": "VAT",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 25.5321428571429
+            },
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included"
+          }
+        ]
+      },
+      "class_is_estimated": 0,
+      "review_score": 9,
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "is_city_center": 0,
+      "review_recommendation": "",
+      "city_in_trans": "in Prague",
+      "is_free_cancellable": 1,
+      "district_id": 0,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/492782278.jpg?k=f82a8aaa6d463bb158753a2963c9884832bc5a0e824c62cb4ec47d5a5dc3d626&o=",
+      "cc_required": 1,
+      "city_name_en": "Prague",
+      "type": "property_card",
+      "is_genius_deal": 0,
+      "hotel_facilities": "158,408,110,418,450,499,439,503,506,143,535,513,234,470,514,205,236,233,181,489,52,247,521,241,527,222,425,255,444,465,5,249,529,48,487,43,118,400,49,491,108,497,410,458,437,170,75,443,446,486,7,494,532,460,6,420,250,3,447,44,55,519,496,493,436,484,57,28,449,517,14,530,147,501,51,524,462,244,455,184,422,133,526,246,523,134,304,183,210,29,23,468,160,79,47,124,73,145,505,533,63,419,117,10,22,54,457,451,11,498,107,240,520,488,203,492,78,235,163,534,248,528,80,466,96,81,463,423,253,256,426,464,242,522,445,254,424,17,177,2,15,411,459,109,251,257,421,25,461,129,467,209,219,502,142,512,485,27,404,495,91,406,176,440,518,226,453,305,8,531,448,500,140,53,64,16,161,20,230,127,4,454,245,525,442",
+      "unit_configuration_label": "<b>Hotel room</b>: 3 beds",
+      "cc1": "cz",
+      "districts": "",
+      "city": "Prague",
+      "district": "",
+      "distance_to_cc_formatted": "4 km",
+      "address": "Vinohradska 157 a",
+      "url": "https://www.booking.com/hotel/cz/hotel-don-giovanni-prague.html",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/492782278.jpg?k=f82a8aaa6d463bb158753a2963c9884832bc5a0e824c62cb4ec47d5a5dc3d626&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/492782278.jpg?k=f82a8aaa6d463bb158753a2963c9884832bc5a0e824c62cb4ec47d5a5dc3d626&o="
+    },
+    {
+      
+      "longitude": 14.4061447353515,
+      "in_best_district": 0,
+      "is_no_prepayment_block": 0,
+      "updated_checkin": null,
+      "genius_discount_percentage": 0,
+      "mobile_discount_percentage": 16.3,
+      "city_trans": "Prague",
+      "accommodation_type_name": "Apartment",
+      "id": "property_card_2923620",
+      "badges": [
+        {
+          "id": "Mobile Rate",
+          "badge_variant": "constructive",
+          "text": "Mobile-only price"
+        }
+      ],
+      "checkout": {
+        "from": "08:00",
+        "until": "10:30"
+      },
+      
+      "children_not_allowed": 0,
+      "hotel_name": "Lazenska N°4",
+      "hotel_name_trans": "Lazenska N°4",
+      "extended": 0,
+      "countrycode": "cz",
+      "min_total_price": 146.7,
+      "preferred_plus": 1,
+      "price_is_final": 0,
+      "latitude": 50.0866875694739,
+      "default_wishlist_name": "Prague",
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "block_ids": [
+        "292362008_369467134_3_0_0"
+      ],
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "accommodation_type": 201,
+      "zip": "110 00",
+      "review_nr": 1607,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 12,
+          "localized_area": "49"
+        }
+      },
+      "address_trans": "Lazenska 4",
+      "preferred": 1,
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "review_score_word": "Fabulous",
+      "distance": "1.06",
+      "is_beach_front": 0,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "icon_set": null,
+          "text": "‎Prague 1‬ • ‎1.1 km from centre‬"
+        },
+        {
+          "text": "‎This property has cots available‬",
+          "icon_set": null,
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "is_geo_rate": "",
+      "is_smart_deal": 0,
+      "distance_to_cc": "1.10",
+      "city_in_trans": "in Prague",
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/149996686.jpg?k=f47533674ca5a72af5f1f187676db9a59fe7b5379d1d022eade30ef5057f8138&o=",
+      "district_id": 255,
+      "is_free_cancellable": 1,
+      "review_recommendation": "",
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "is_city_center": 0,
+      "review_score": 8.8,
+      "default_language": "en",
+      "is_mobile_deal": 1,
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 146.7
+        },
+        "excluded_amount": {
+          "value": 30,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "strikethrough_amount_per_night": {
+              "currency": "EUR",
+              "value": 163
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 176.7
+            },
+            "charges_details": {
+              "mode": "extra_charges",
+              "translated_copy": "+€ 30 taxes and charges",
+              "amount": {
+                "currency": "EUR",
+                "value": 30
+              }
+            },
+            "items": [
+              {
+                "base": {
+                  "kind": "per_person_per_night",
+                  "base_amount": 0.6
+                },
+                "inclusion_type": "included",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 1.8
+                },
+                "name": "City tax",
+                "details": null,
+                "kind": "charge"
+              },
+              {
+                "name": "VAT",
+                "item_amount": {
+                  "value": 15.525,
+                  "currency": "EUR"
+                },
+                "details": "12 % VAT",
+                "kind": "charge",
+                "base": {
+                  "kind": "percentage",
+                  "percentage": 12
+                },
+                "inclusion_type": "included"
+              },
+              {
+                "inclusion_type": "excluded",
+                "base": {
+                  "kind": "per_stay",
+                  "base_amount": 30
+                },
+                "kind": "charge",
+                "details": "You don't pay the cleaning fee because of Genius",
+                "name": "Cleaning fee",
+                "item_amount": {
+                  "value": 30,
+                  "currency": "EUR"
+                }
+              },
+              {
+                "details": null,
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 200
+                },
+                "name": "Damage deposit",
+                "kind": "charge",
+                "inclusion_type": "deposit",
+                "base": {
+                  "base_amount": 200,
+                  "kind": "per_stay"
+                }
+              },
+              {
+                "identifier": "mobile-discount",
+                "kind": "discount",
+                "item_amount": {
+                  "value": 16.3,
+                  "currency": "EUR"
+                },
+                "name": "Mobile-only price",
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "base": {
+                  "kind": "rate"
+                }
+              }
+            ],
+            "benefits": [
+              {
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "name": "Mobile-only price",
+                "identifier": "mobile-rate",
+                "kind": "badge",
+                "badge_variant": "constructive",
+                "icon": null
+              }
+            ],
+            "discounted_amount": {
+              "currency": "EUR",
+              "value": 16.3
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 129.375
+            },
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 146.7
+            },
+            "gross_amount": {
+              "currency": "EUR",
+              "value": 146.7
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 17.325
+            },
+            "strikethrough_amount": {
+              "value": 163,
+              "currency": "EUR"
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 146.7
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 30
+            }
+          }
+        ],
+        "strikethrough_amount": {
+          "currency": "EUR",
+          "value": 163
+        },
+        "net_amount": {
+          "value": 129.375,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "value": 146.7,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 146.7
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 17.325,
+          "currency": "EUR"
+        },
+        "discounted_amount": {
+          "value": 16.3,
+          "currency": "EUR"
+        },
+        "benefits": [
+          {
+            "identifier": "mobile-rate",
+            "kind": "badge",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "name": "Mobile-only price",
+            "icon": null,
+            "badge_variant": "constructive"
+          }
+        ],
+        "items": [
+          {
+            "item_amount": {
+              "value": 1.8,
+              "currency": "EUR"
+            },
+            "name": "City tax",
+            "details": null,
+            "kind": "charge",
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 0.6
+            },
+            "inclusion_type": "included"
+          },
+          {
+            "inclusion_type": "included",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "details": "12 % VAT",
+            "item_amount": {
+              "value": 15.525,
+              "currency": "EUR"
+            },
+            "name": "VAT",
+            "kind": "charge"
+          },
+          {
+            "inclusion_type": "excluded",
+            "base": {
+              "base_amount": 30,
+              "kind": "per_stay"
+            },
+            "details": "You don't pay the cleaning fee because of Genius",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 30
+            },
+            "name": "Cleaning fee",
+            "kind": "charge"
+          },
+          {
+            "base": {
+              "base_amount": 200,
+              "kind": "per_stay"
+            },
+            "inclusion_type": "deposit",
+            "kind": "charge",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 200
+            },
+            "name": "Damage deposit",
+            "details": null
+          },
+          {
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 16.3
+            },
+            "name": "Mobile-only price",
+            "identifier": "mobile-discount",
+            "kind": "discount",
+            "base": {
+              "kind": "rate"
+            }
+          }
+        ],
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 176.7
+        },
+        "charges_details": {
+          "mode": "extra_charges",
+          "translated_copy": "+€ 30 taxes and charges",
+          "amount": {
+            "currency": "EUR",
+            "value": 30
+          }
+        },
+        "strikethrough_amount_per_night": {
+          "value": 163,
+          "currency": "EUR"
+        }
+      },
+      "price_breakdown": {
+        "gross_price": "146.70",
+        "has_tax_exceptions": 0,
+        "all_inclusive_price": 176.7,
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "sum_excluded_raw": "30.00",
+        "has_fine_print_charges": 0
+      },
+      "currency_code": "EUR",
+      "hotel_id": 2923620,
+      "updated_checkout": null,
+      "main_photo_id": 149996686,
+      "cant_book": 0,
+      "native_ad_id": "",
+      "native_ads_tracking": "",
+      "class": 4,
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "checkin": {
+        "until": "23:30",
+        "from": "14:30"
+      },
+      "url": "https://www.booking.com/hotel/cz/lazenska-ndeg4.html",
+      "address": "Lazenska 4",
+      "distance_to_cc_formatted": "1.1 km",
+      "district": "Prague 1",
+      "districts": "255,271,2309",
+      "unit_configuration_label": "<b>Entire studio – 49 m²</b>: 2 beds • 1 bedroom • 1 bathroom",
+      "cc1": "cz",
+      "city": "Prague",
+      "is_genius_deal": 0,
+      "hotel_facilities": "110,408,158,450,47,124,209,439,467,499,461,460,419,506,404,470,70,107,71,451,457,441,55,435,91,495,180,488,406,436,492,496,440,489,163,222,452,456,449,425,28,305,465,80,448,462,463,140,81,96,466,48,455,472,423,64,422,16,445,400,17,437,4,497,108,210,2,454,490,468,459,245,443,442",
+      "city_name_en": "Prague",
+      "type": "property_card",
+      "booking_home": {
+        "quality_class": 0,
+        "is_booking_home": 1,
+        "is_single_unit_property": "",
+        "group": "apartment_like",
+        "segment": 1
+      },
+      "cc_required": 1,
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/149996686.jpg?k=f47533674ca5a72af5f1f187676db9a59fe7b5379d1d022eade30ef5057f8138&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/149996686.jpg?k=f47533674ca5a72af5f1f187676db9a59fe7b5379d1d022eade30ef5057f8138&o="
+    },
+    {
+      "is_city_center": 0,
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "review_score": 8.4,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/480491464.jpg?k=2e2aff4f7a55cf1479f69e6c35f86ea4c9387fee4df0210e0b3f0dc2afb1b04a&o=",
+      "district_id": 260,
+      "is_free_cancellable": 1,
+      "city_in_trans": "in Prague",
+      "review_recommendation": "",
+      "main_photo_id": 480491464,
+      "native_ads_tracking": "",
+      "native_ad_id": "",
+      "cant_book": 0,
+      "updated_checkout": null,
+      "hotel_id": 77634,
+      "checkin": {
+        "from": "15:00",
+        "until": ""
+      },
+      "class": 4,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "composite_price_breakdown": {
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 236.21
+        },
+        "excluded_amount": {
+          "value": 0,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "gross_amount_hotel_currency": {
+              "value": 236.21,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 25.3082142857143,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "value": 236.21,
+              "currency": "EUR"
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 210.901785714286
+            },
+            "items": [
+              {
+                "details": "12 % VAT",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 25.3082142857143,
+                  "currency": "EUR"
+                },
+                "kind": "charge",
+                "inclusion_type": "included",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                }
+              }
+            ],
+            "benefits": [],
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 0
+            },
+            "gross_amount_per_night": {
+              "value": 236.21,
+              "currency": "EUR"
+            },
+            "charges_details": {
+              "amount": {
+                "value": 0,
+                "currency": "EUR"
+              },
+              "mode": "all_included",
+              "translated_copy": "Includes taxes and charges"
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 236.21
+            }
+          }
+        ],
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 236.21
+        },
+        "charges_details": {
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "translated_copy": "Includes taxes and charges",
+          "mode": "all_included"
+        },
+        "net_amount": {
+          "currency": "EUR",
+          "value": 210.901785714286
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 25.3082142857143,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 236.21
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 236.21
+        },
+        "benefits": [],
+        "items": [
+          {
+            "inclusion_type": "included",
+            "base": {
+              "kind": "percentage",
+              "percentage": 12
+            },
+            "kind": "charge",
+            "details": "12 % VAT",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 25.3082142857143
+            },
+            "name": "VAT"
+          }
+        ]
+      },
+      "class_is_estimated": 0,
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "currency_code": "EUR",
+      "price_breakdown": {
+        "sum_excluded_raw": "0.00",
+        "has_fine_print_charges": 0,
+        "currency": "EUR",
+        "has_incalculable_charges": 0,
+        "all_inclusive_price": 236.21,
+        "has_tax_exceptions": 0,
+        "gross_price": 236.21
+      },
+      "district": "Prague 6",
+      "distance_to_cc_formatted": "3.1 km",
+      "unit_configuration_label": "<b>Hotel room</b>: 3 beds",
+      "city": "Praha",
+      "districts": "260,3207",
+      "cc1": "cz",
+      "url": "https://www.booking.com/hotel/cz/hotel-international-prague.html",
+      "address": "Koulova 15",
+      "type": "property_card",
+      "city_name_en": "Praha",
+      "cc_required": 1,
+      "hotel_facilities": "493,436,176,496,484,440,441,44,55,91,495,502,6,250,485,420,3,7,251,486,494,25,209,467,461,219,210,454,224,23,468,245,160,246,16,161,134,20,4,448,462,140,500,184,455,64,422,453,456,449,28,305,14,8,501,492,203,78,52,163,247,488,506,503,22,70,117,11,498,107,101,451,457,158,450,124,47,418,505,439,499,2,490,15,109,459,446,443,464,445,118,49,43,17,458,437,177,108,497,491,5,80,81,466,96,48,249,487,423,222,452,425,444,248,465",
+      "is_genius_deal": 0,
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "city_trans": "Prague",
+      "id": "property_card_77634",
+      "accommodation_type_name": "Hotel",
+      "longitude": 14.3935798108578,
+      "is_no_prepayment_block": 0,
+      "updated_checkin": null,
+      "in_best_district": 0,
+      "hotel_name_trans": "Grand Hotel International - Czech Leading Hotels",
+      "hotel_name": "Grand Hotel International - Czech Leading Hotels",
+      "countrycode": "cz",
+      "extended": 0,
+      "badges": [],
+      "children_not_allowed": 0,
+      "checkout": {
+        "from": "",
+        "until": "11:00"
+      },
+      "block_ids": [
+        "7763463_370969266_0_2_0"
+      ],
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "min_total_price": 236.21,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.1093862931846,
+      "preferred_plus": 1,
+      "price_is_final": 1,
+      "distance": "3.14",
+      "is_beach_front": 0,
+      "review_score_word": "Very good",
+      "is_geo_rate": "",
+      "distance_to_cc": "3.15",
+      "is_smart_deal": 0,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "icon_set": null,
+          "text": "‎Prague 6‬ • ‎3.1 km from centre‬"
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "icon_set": null,
+          "text": "‎This property has free cots available‬"
+        }
+      ],
+      "review_nr": 4946,
+      "address_trans": "Koulova 15",
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": null,
+          "unit_type_id": 13
+        }
+      },
+      "preferred": 1,
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "zip": "160 45",
+      "accommodation_type": 204,
+      "hotel_include_breakfast": 0,
+      "currencycode": "EUR",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/480491464.jpg?k=2e2aff4f7a55cf1479f69e6c35f86ea4c9387fee4df0210e0b3f0dc2afb1b04a&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/480491464.jpg?k=2e2aff4f7a55cf1479f69e6c35f86ea4c9387fee4df0210e0b3f0dc2afb1b04a&o="
+    },
+    {
+      "district": "Prague 8",
+      "distance_to_cc_formatted": "2.3 km",
+      "cc1": "cz",
+      "unit_configuration_label": "<b>Hotel room</b>: 3 beds",
+      "districts": "262,3218",
+      "city": "Prague",
+      "url": "https://www.booking.com/hotel/cz/royal-prague.html",
+      "address": "Thámova 688/36",
+      "type": "property_card",
+      "city_name_en": "Prague",
+      "cc_required": 1,
+      "hotel_facilities": "519,495,91,44,440,484,496,493,436,219,532,467,461,209,25,494,486,421,7,485,420,6,512,460,4,127,186,20,134,161,16,526,523,442,160,468,454,185,23,210,51,501,8,28,305,449,456,453,422,64,133,184,455,500,462,524,140,448,488,205,520,514,521,489,163,534,52,78,181,492,499,439,418,450,47,124,158,451,457,107,11,101,117,10,54,22,535,513,506,108,491,182,458,43,424,17,445,522,443,446,459,109,490,2,465,444,425,188,452,253,487,423,48,81,466,96,189,80",
+      "is_genius_deal": 0,
+      "is_city_center": 0,
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "review_score": 8.7,
+      "is_free_cancellable": 1,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/449633477.jpg?k=599cfc79230e0be1956397fb7001a35597b1f951dc97b5ba4e085d66093ae722&o=",
+      "district_id": 262,
+      "city_in_trans": "in Prague",
+      "review_recommendation": "",
+      "native_ad_id": "",
+      "native_ads_tracking": "",
+      "cant_book": 0,
+      "main_photo_id": 449633477,
+      "hotel_id": 2202172,
+      "updated_checkout": null,
+      "checkin": {
+        "until": "",
+        "from": "14:00"
+      },
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "class": 4,
+      "composite_price_breakdown": {
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 6
+        },
+        "gross_amount_per_night": {
+          "value": 309.12,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "charges_details": {
+              "amount": {
+                "currency": "EUR",
+                "value": 6
+              },
+              "translated_copy": "+€ 6 taxes and charges",
+              "mode": "extra_charges"
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 315.12
+            },
+            "strikethrough_amount_per_night": {
+              "currency": "EUR",
+              "value": 356
+            },
+            "benefits": [
+              {
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "name": "Mobile-only price",
+                "identifier": "mobile-rate",
+                "kind": "badge",
+                "badge_variant": "constructive",
+                "icon": null
+              }
+            ],
+            "items": [
+              {
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included",
+                "name": "VAT",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 33.12
+                },
+                "details": "12 % VAT",
+                "kind": "charge"
+              },
+              {
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                },
+                "inclusion_type": "excluded",
+                "item_amount": {
+                  "value": 6,
+                  "currency": "EUR"
+                },
+                "name": "City tax",
+                "details": null,
+                "kind": "charge"
+              }
+            ],
+            "gross_amount": {
+              "value": 309.12,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 309.12
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 33.12,
+              "currency": "EUR"
+            },
+            "net_amount": {
+              "value": 276,
+              "currency": "EUR"
+            },
+            "discounted_amount": {
+              "value": 46.88,
+              "currency": "EUR"
+            },
+            "strikethrough_amount": {
+              "value": 356,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "value": 6,
+              "currency": "EUR"
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 309.12
+            }
+          }
+        ],
+        "strikethrough_amount": {
+          "currency": "EUR",
+          "value": 356
+        },
+        "net_amount": {
+          "currency": "EUR",
+          "value": 276
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 33.12,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "value": 309.12,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 309.12
+        },
+        "discounted_amount": {
+          "currency": "EUR",
+          "value": 46.88
+        },
+        "benefits": [
+          {
+            "identifier": "mobile-rate",
+            "kind": "badge",
+            "name": "Mobile-only price",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "icon": null,
+            "badge_variant": "constructive"
+          }
+        ],
+        "items": [
+          {
+            "base": {
+              "kind": "percentage",
+              "percentage": 12
+            },
+            "inclusion_type": "included",
+            "kind": "charge",
+            "name": "VAT",
+            "item_amount": {
+              "value": 33.12,
+              "currency": "EUR"
+            },
+            "details": "12 % VAT"
+          },
+          {
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 2
+            },
+            "inclusion_type": "excluded",
+            "item_amount": {
+              "value": 6,
+              "currency": "EUR"
+            },
+            "name": "City tax",
+            "details": null,
+            "kind": "charge"
+          }
+        ],
+        "all_inclusive_amount": {
+          "value": 315.12,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "mode": "extra_charges",
+          "translated_copy": "+€ 6 taxes and charges",
+          "amount": {
+            "value": 6,
+            "currency": "EUR"
+          }
+        },
+        "strikethrough_amount_per_night": {
+          "value": 356,
+          "currency": "EUR"
+        }
+      },
+      "class_is_estimated": 0,
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "default_language": "cs",
+      "is_mobile_deal": 1,
+      "currency_code": "EUR",
+      "price_breakdown": {
+        "has_fine_print_charges": 0,
+        "sum_excluded_raw": "6.00",
+        "currency": "EUR",
+        "has_incalculable_charges": 0,
+        "all_inclusive_price": 315.12,
+        "has_tax_exceptions": 0,
+        "gross_price": 309.12
+      },
+      "block_ids": [
+        "220217202_361676193_3_1_6047313952768"
+      ],
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "min_total_price": 309.12,
+      "latitude": 50.0948149275771,
+      "default_wishlist_name": "Prague",
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "is_beach_front": 0,
+      "distance": "2.34",
+      "review_score_word": "Fabulous",
+      "is_geo_rate": "",
+      "is_smart_deal": 0,
+      "distance_to_cc": "2.35",
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "icon_set": null,
+          "text": "‎Prague 8‬ • ‎2.3 km from centre‬"
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "text": "‎This property has free cots available‬",
+          "icon_set": null
+        }
+      ],
+      "preferred": 1,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 24,
+          "localized_area": null
+        }
+      },
+      "address_trans": "Thámova 688/36",
+      "review_nr": 7442,
+      "zip": "186 00",
+      "accommodation_type": 204,
+      "wishlist_count": 0,
+      "ufi": -553173,
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "city_trans": "Prague",
+      "mobile_discount_percentage": 58.88,
+      "genius_discount_percentage": 0,
+      "id": "property_card_2202172",
+      "accommodation_type_name": "Hotel",
+      "longitude": 14.4516641846558,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 1,
+      "in_best_district": 0,
+      "hotel_name_trans": "Hotel Royal Prague",
+      "hotel_name": "Hotel Royal Prague",
+      "countrycode": "cz",
+      "extended": 0,
+      "children_not_allowed": 0,
+      "checkout": {
+        "until": "11:00",
+        "from": ""
+      },
+      "badges": [
+        {
+          "id": "Mobile Rate",
+          "badge_variant": "constructive",
+          "text": "Mobile-only price"
+        }
+      ],
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/449633477.jpg?k=599cfc79230e0be1956397fb7001a35597b1f951dc97b5ba4e085d66093ae722&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/449633477.jpg?k=599cfc79230e0be1956397fb7001a35597b1f951dc97b5ba4e085d66093ae722&o="
+    },
+    {
+      "badges": [],
+      "checkout": {
+        "until": "10:00",
+        "from": "01:00"
+      },
+      "children_not_allowed": 0,
+      "hotel_name_trans": "Golden Angel Suites by Adrez Living",
+      "hotel_name": "Golden Angel Suites by Adrez Living",
+      "countrycode": "cz",
+      "extended": 0,
+      "longitude": 14.4261062,
+      "is_no_prepayment_block": 0,
+      "updated_checkin": null,
+      "in_best_district": 0,
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "city_trans": "Prague",
+      "id": "property_card_7953685",
+      "accommodation_type_name": "Aparthotel",
+      "review_nr": 3348,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": "50",
+          "unit_type_id": 1
+        }
+      },
+      "address_trans": "29 Celetná",
+      "preferred": 1,
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "zip": "110 00",
+      "accommodation_type": 219,
+      "hotel_include_breakfast": 0,
+      "currencycode": "EUR",
+      "distance": "0.36",
+      "is_beach_front": 0,
+      "review_score_word": "Superb",
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "0.40",
+      "distances": [
+        {
+          "icon_set": null,
+          "text": "‎Prague 1‬ • ‎350 m from centre‬",
+          "icon_name": "bui_geo_pin"
+        },
+        {
+          "text": "‎This property has free cots available‬",
+          "icon_set": null,
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "min_total_price": 265,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.0873516,
+      "preferred_plus": 1,
+      "price_is_final": 1,
+      "block_ids": [
+        "795368503_340884430_4_0_0"
+      ],
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "items": [
+          {
+            "inclusion_type": "included",
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 1.9
+            },
+            "kind": "charge",
+            "details": null,
+            "item_amount": {
+              "value": 7.6,
+              "currency": "EUR"
+            },
+            "name": "City tax"
+          },
+          {
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included",
+            "kind": "charge",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 27.5785714285714
+            },
+            "name": "VAT",
+            "details": "12 % VAT"
+          }
+        ],
+        "benefits": [],
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 35.1785714285714
+        },
+        "gross_amount_hotel_currency": {
+          "value": 265,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "value": 265,
+          "currency": "EUR"
+        },
+        "net_amount": {
+          "value": 229.821428571429,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "value": 0,
+            "currency": "EUR"
+          },
+          "mode": "all_included",
+          "translated_copy": "Includes taxes and charges"
+        },
+        "all_inclusive_amount": {
+          "value": 265,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "charges_details": {
+              "translated_copy": "Includes taxes and charges",
+              "mode": "all_included",
+              "amount": {
+                "value": 0,
+                "currency": "EUR"
+              }
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 265
+            },
+            "excluded_amount": {
+              "value": 0,
+              "currency": "EUR"
+            },
+            "gross_amount_per_night": {
+              "value": 265,
+              "currency": "EUR"
+            },
+            "items": [
+              {
+                "base": {
+                  "base_amount": 1.9,
+                  "kind": "per_person_per_night"
+                },
+                "inclusion_type": "included",
+                "kind": "charge",
+                "name": "City tax",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 7.6
+                },
+                "details": null
+              },
+              {
+                "kind": "charge",
+                "details": "12 % VAT",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 27.5785714285714,
+                  "currency": "EUR"
+                },
+                "inclusion_type": "included",
+                "base": {
+                  "kind": "percentage",
+                  "percentage": 12
+                }
+              }
+            ],
+            "benefits": [],
+            "gross_amount": {
+              "value": 265,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 265
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 35.1785714285714
+            },
+            "net_amount": {
+              "value": 229.821428571429,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 265
+        },
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 0
+        }
+      },
+      "default_language": "xu",
+      "is_mobile_deal": 0,
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "currency_code": "EUR",
+      "price_breakdown": {
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "has_fine_print_charges": 0,
+        "sum_excluded_raw": "0.00",
+        "gross_price": "265.00",
+        "has_tax_exceptions": 0,
+        "all_inclusive_price": 265
+      },
+      "main_photo_id": 513238165,
+      "native_ad_id": "",
+      "cant_book": 0,
+      "native_ads_tracking": "",
+      "updated_checkout": null,
+      "hotel_id": 7953685,
+      "checkin": {
+        "until": "00:00",
+        "from": "15:00"
+      },
+      "class": 4,
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/513238165.jpg?k=89122ba18a38f5d4fa43f056f825c9560b4e3ba6b9bfd45698960326aaf4707d&o=",
+      "district_id": 255,
+      "is_free_cancellable": 1,
+      "city_in_trans": "in Prague",
+      "review_recommendation": "",
+      "is_city_center": 0,
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "external_reviews": {
+        "should_display": "",
+        "num_reviews": 15,
+        "score_word": "Exceptional",
+        "score": 10
+      },
+      "review_score": 9,
+      "hotel_facilities": "441,91,435,495,493,492,436,181,496,163,440,421,450,494,47,418,439,209,461,129,467,460,159,470,404,70,101,107,457,451,464,16,445,304,424,17,108,2,210,454,490,109,468,446,442,443,452,456,425,449,305,28,51,80,448,140,462,466,96,48,455,476,481,422,423",
+      "is_genius_deal": 0,
+      "type": "property_card",
+      "city_name_en": "Hlavní město Praha",
+      "booking_home": {
+        "segment": 1,
+        "group": "apartment_like",
+        "is_single_unit_property": "",
+        "is_booking_home": 1,
+        "quality_class": 0
+      },
+      "cc_required": 1,
+      "url": "https://www.booking.com/hotel/cz/golden-angel-prague.html",
+      "address": "29 Celetná",
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "350 m",
+      "unit_configuration_label": "<b>Entire apartment – 50 m²</b>: 2 beds • 1 bedroom • 1 living room • 1 bathroom",
+      "districts": "255,270,1641,2309",
+      "cc1": "cz",
+      "city": "Hlavní město Praha",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/513238165.jpg?k=89122ba18a38f5d4fa43f056f825c9560b4e3ba6b9bfd45698960326aaf4707d&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/513238165.jpg?k=89122ba18a38f5d4fa43f056f825c9560b4e3ba6b9bfd45698960326aaf4707d&o="
+    },
+    {
+      "city": "Hlavní město Praha",
+      "unit_configuration_label": "<b>Entire studio – 30 m²</b>: 2 beds • 1 bedroom • 1 bathroom",
+      "districts": "255,1641,2309",
+      "cc1": "cz",
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "450 m",
+      "address": "3 Václavské náměstí",
+      "url": "https://www.booking.com/hotel/cz/vn3-terraces.html",
+      "cc_required": 1,
+      "booking_home": {
+        "group": "apartment_like",
+        "segment": 1,
+        "is_single_unit_property": "",
+        "quality_class": 0,
+        "is_booking_home": 1
+      },
+      "type": "property_card",
+      "city_name_en": "Hlavní město Praha",
+      "hotel_facilities": "435,495,441,163,440,493,492,436,181,496,439,461,494,47,450,418,421,486,101,107,457,470,70,460,108,424,17,445,16,446,443,442,468,109,454,490,2,51,425,449,305,28,456,481,476,423,422,48,455,140,462,96,80,448",
+      "is_genius_deal": 0,
+      "review_score": 8.8,
+      "is_city_center": 0,
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "review_recommendation": "",
+      "is_free_cancellable": 1,
+      "district_id": 255,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/477020795.jpg?k=39fbe8b6f61bb7d60ba9a83d6708b0ae426ce5fb2a4a835c65d5f8b6d770de8c&o=",
+      "city_in_trans": "in Prague",
+      "checkin": {
+        "until": "00:00",
+        "from": "15:00"
+      },
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "class": 4,
+      "native_ads_tracking": "",
+      "native_ad_id": "",
+      "cant_book": 0,
+      "main_photo_id": 477020795,
+      "hotel_id": 7376517,
+      "updated_checkout": null,
+      "currency_code": "EUR",
+      "price_breakdown": {
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "sum_excluded_raw": "0.00",
+        "has_fine_print_charges": 0,
+        "has_tax_exceptions": 0,
+        "gross_price": "307.00",
+        "all_inclusive_price": 307
+      },
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "excluded_amount": {
+          "value": 0,
+          "currency": "EUR"
+        },
+        
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 307
+        },
+        "product_price_breakdowns": [
+          {
+            "items": [
+              {
+                "kind": "charge",
+                "details": null,
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 6
+                },
+                "name": "City tax",
+                "inclusion_type": "included",
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                }
+              },
+              {
+                "inclusion_type": "included",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "details": "12 % VAT",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 32.25
+                },
+                "name": "VAT",
+                "kind": "charge"
+              }
+            ],
+            
+            "benefits": [],
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 307
+            },
+            "gross_amount": {
+              "value": 307,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 38.25
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 268.75
+            },
+            "charges_details": {
+              "mode": "all_included",
+              "translated_copy": "Includes taxes and charges",
+              "amount": {
+                "currency": "EUR",
+                "value": 0
+              }
+            },
+            "all_inclusive_amount": {
+              "value": 307,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 0
+            },
+            "gross_amount_per_night": {
+              "value": 307,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "all_inclusive_amount": {
+          "value": 307,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "translated_copy": "Includes taxes and charges",
+          "mode": "all_included",
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          }
+        },
+        "net_amount": {
+          "currency": "EUR",
+          "value": 268.75
+        },
+        "gross_amount_hotel_currency": {
+          "value": 307,
+          "currency": "EUR"
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 38.25
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 307
+        },
+        "benefits": [],
+        "items": [
+          {
+            "name": "City tax",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 6
+            },
+            "details": null,
+            "kind": "charge",
+            "base": {
+              "base_amount": 2,
+              "kind": "per_person_per_night"
+            },
+            "inclusion_type": "included"
+          },
+          {
+            "item_amount": {
+              "value": 32.25,
+              "currency": "EUR"
+            },
+            "name": "VAT",
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included"
+          }
+        ]
+      },
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "is_mobile_deal": 0,
+      "default_language": "cs",
+      "block_ids": [
+        "737651702_333144729_3_0_0"
+      ],
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "latitude": 50.083634,
+      "default_wishlist_name": "Prague",
+      "price_is_final": 1,
+      "preferred_plus": 1,
+      "min_total_price": 307,
+      "distance_to_cc": "0.50",
+      "is_geo_rate": "",
+      "is_smart_deal": 0,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎Prague 1‬ • ‎450 m from centre‬",
+          "icon_set": null
+        },
+        {
+          "icon_set": null,
+          "text": "‎This property has free cots available‬",
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      
+      "is_beach_front": 0,
+      "distance": "0.47",
+      "review_score_word": "Fabulous",
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 12,
+          "localized_area": "30"
+        }
+      },
+      
+      "address_trans": "3 Václavské náměstí",
+      "preferred": 1,
+      "review_nr": 1976,
+      "zip": "110 00",
+      "accommodation_type": 201,
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "id": "property_card_7376517",
+      "accommodation_type_name": "Apartment",
+      "city_trans": "Prague",
+      "genius_discount_percentage": 0,
+      "mobile_discount_percentage": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 0,
+      "in_best_district": 0,
+      "longitude": 14.424344,
+      "countrycode": "cz",
+      "extended": 0,
+      "hotel_name_trans": "VN3 Terraces Suites by Adrez Living",
+      "hotel_name": "VN3 Terraces Suites by Adrez Living",
+      "checkout": {
+        "until": "10:00",
+        "from": "01:30"
+      },
+      "children_not_allowed": 0,
+      "badges": [],
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/477020795.jpg?k=39fbe8b6f61bb7d60ba9a83d6708b0ae426ce5fb2a4a835c65d5f8b6d770de8c&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/477020795.jpg?k=39fbe8b6f61bb7d60ba9a83d6708b0ae426ce5fb2a4a835c65d5f8b6d770de8c&o="
+    },
+    {
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "block_ids": [
+        "53866522_377402911_3_2_0"
+      ],
+      "min_total_price": 398.66,
+      "preferred_plus": 1,
+      "price_is_final": 0,
+      "latitude": 50.0885898027649,
+      "default_wishlist_name": "Prague",
+      "review_score_word": "Exceptional",
+      "distance": "1.44",
+      "is_beach_front": 0,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "icon_set": null,
+          "text": "‎Prague 1‬ • ‎1.4 km from centre‬"
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "text": "‎This property has free cots available‬",
+          "icon_set": null
+        }
+      ],
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "1.45",
+      "wishlist_count": 0,
+      "ufi": -553173,
+      "accommodation_type": 204,
+      "zip": "11000",
+      "review_nr": 740,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": "70",
+          "unit_type_id": 5
+        }
+      },
+      "preferred": 1,
+      "address_trans": "Nerudova 14",
+      "hotel_include_breakfast": 0,
+      "currencycode": "EUR",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "city_trans": "Prague",
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_538665",
+      "longitude": 14.4010128825903,
+      "in_best_district": 0,
+      "is_no_prepayment_block": 0,
+      "updated_checkin": null,
+      "hotel_name": "Hotel Nerudova 211",
+      "hotel_name_trans": "Hotel Nerudova 211",
+      "extended": 0,
+      "countrycode": "cz",
+      "badges": [],
+      "children_not_allowed": 0,
+      "checkout": {
+        "from": "",
+        "until": "11:00"
+      },
+      "distance_to_cc_formatted": "1.4 km",
+      "district": "Prague 1",
+      "districts": "255,271,2309",
+      "unit_configuration_label": "<b>Private suite – 70 m²</b>: 4 beds • 2 bedrooms • 1 living room • 1 bathroom",
+      "cc1": "cz",
+      "city": "Prague",
+      "url": "https://www.booking.com/hotel/cz/hotel-nerudova-211.html",
+      "address": "Nerudova 14",
+      "city_name_en": "Prague",
+      "type": "property_card",
+      "cc_required": 1,
+      "is_genius_deal": 0,
+      "hotel_facilities": "80,448,462,140,500,96,48,455,64,422,449,425,28,305,444,465,210,2,490,454,468,459,446,442,443,16,445,49,43,424,17,437,108,491,506,503,22,420,107,451,3,457,421,7,158,450,47,124,418,209,439,499,467,461,219,492,436,496,484,78,440,489,163,91,495,180",
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "is_city_center": 0,
+      "review_score": 9.8,
+      "external_reviews": {
+        "score": 10,
+        "score_word": "Exceptional",
+        "num_reviews": 5,
+        "should_display": ""
+      },
+      "city_in_trans": "in Prague",
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/403561420.jpg?k=c9fbe310ee9eb4fa23c71dc418f11ad7f19fe777e5f07942643a74e4421beb61&o=",
+      "district_id": 255,
+      "is_free_cancellable": 1,
+      "review_recommendation": "",
+      "hotel_id": 538665,
+      "updated_checkout": null,
+      "main_photo_id": 403561420,
+      "native_ads_tracking": "",
+      "native_ad_id": "",
+      "cant_book": 0,
+      "class": 4,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "checkin": {
+        "from": "15:00",
+        "until": "00:00"
+      },
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "composite_price_breakdown": {
+        "net_amount": {
+          "currency": "EUR",
+          "value": 355.946428571429
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 398.66
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 42.7135714285714
+        },
+        "gross_amount": {
+          "value": 398.66,
+          "currency": "EUR"
+        },
+        "benefits": [],
+        "items": [
+          {
+            "details": "12 % VAT",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 42.7135714285714
+            },
+            "name": "VAT",
+            "kind": "charge",
+            "inclusion_type": "included",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            }
+          },
+          {
+            "kind": "charge",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 6
+            },
+            "name": "City tax",
+            "details": null,
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 2
+            },
+            "inclusion_type": "excluded"
+          }
+        ],
+        "gross_amount_per_night": {
+          "value": 398.66,
+          "currency": "EUR"
+        },
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 6
+        },
+        "product_price_breakdowns": [
+          {
+            "items": [
+              {
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 42.7135714285714
+                },
+                "name": "VAT",
+                "details": "12 % VAT",
+                "kind": "charge",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included"
+              },
+              {
+                "name": "City tax",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 6
+                },
+                "details": null,
+                "kind": "charge",
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                },
+                "inclusion_type": "excluded"
+              }
+            ],
+            "benefits": [],
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 42.7135714285714
+            },
+            "gross_amount_hotel_currency": {
+              "value": 398.66,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "value": 398.66,
+              "currency": "EUR"
+            },
+            "net_amount": {
+              "value": 355.946428571429,
+              "currency": "EUR"
+            },
+            "charges_details": {
+              "amount": {
+                "value": 6,
+                "currency": "EUR"
+              },
+              "translated_copy": "+€ 6 taxes and charges",
+              "mode": "extra_charges"
+            },
+            "all_inclusive_amount": {
+              "value": 404.66,
+              "currency": "EUR"
+            },
+            "gross_amount_per_night": {
+              "value": 398.66,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 6
+            }
+          }
+        ],
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 404.66
+        },
+        "charges_details": {
+          "amount": {
+            "value": 6,
+            "currency": "EUR"
+          },
+          "mode": "extra_charges",
+          "translated_copy": "+€ 6 taxes and charges"
+        }
+      },
+      "class_is_estimated": 0,
+      "price_breakdown": {
+        "all_inclusive_price": 404.66,
+        "gross_price": 398.66,
+        "has_tax_exceptions": 0,
+        "has_fine_print_charges": 0,
+        "sum_excluded_raw": "6.00",
+        "currency": "EUR",
+        "has_incalculable_charges": 0
+      },
+      "currency_code": "EUR",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/403561420.jpg?k=c9fbe310ee9eb4fa23c71dc418f11ad7f19fe777e5f07942643a74e4421beb61&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/403561420.jpg?k=c9fbe310ee9eb4fa23c71dc418f11ad7f19fe777e5f07942643a74e4421beb61&o="
+    },
+    {
+      "updated_checkout": null,
+      "hotel_id": 7038823,
+      "native_ad_id": "",
+      "cant_book": 0,
+      "native_ads_tracking": "",
+      "main_photo_id": 287389552,
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "class": 4,
+      "checkin": {
+        "from": "15:00",
+        "until": "00:00"
+      },
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "is_mobile_deal": 0,
+      "default_language": "cs",
+      "composite_price_breakdown": {
+        "all_inclusive_amount": {
+          "value": 494.32,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "currency": "EUR",
+            "value": 6
+          },
+          "mode": "extra_charges",
+          "translated_copy": "+€ 6 taxes and charges"
+        },
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 488.32
+        },
+        "excluded_amount": {
+          "value": 6,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 488.32
+            },
+            "gross_amount": {
+              "value": 488.32,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 52.32,
+              "currency": "EUR"
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 436
+            },
+            "benefits": [],
+            "items": [
+              {
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included",
+                "name": "VAT",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 52.32
+                },
+                "details": "12 % VAT",
+                "kind": "charge"
+              },
+              {
+                "item_amount": {
+                  "value": 6,
+                  "currency": "EUR"
+                },
+                "name": "City tax",
+                "details": null,
+                "kind": "charge",
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                },
+                "inclusion_type": "excluded"
+              }
+            ],
+            "gross_amount_per_night": {
+              "value": 488.32,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 6
+            },
+            "charges_details": {
+              "mode": "extra_charges",
+              "translated_copy": "+€ 6 taxes and charges",
+              "amount": {
+                "value": 6,
+                "currency": "EUR"
+              }
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 494.32
+            }
+          }
+        ],
+        "benefits": [],
+        "items": [
+          {
+            "details": "12 % VAT",
+            "name": "VAT",
+            "item_amount": {
+              "value": 52.32,
+              "currency": "EUR"
+            },
+            "kind": "charge",
+            "inclusion_type": "included",
+            "base": {
+              "kind": "percentage",
+              "percentage": 12
+            }
+          },
+          {
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 2
+            },
+            "inclusion_type": "excluded",
+            "item_amount": {
+              "value": 6,
+              "currency": "EUR"
+            },
+            "name": "City tax",
+            "details": null,
+            "kind": "charge"
+          }
+        ],
+        "net_amount": {
+          "value": 436,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 488.32
+        },
+        "gross_amount": {
+          "value": 488.32,
+          "currency": "EUR"
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 52.32,
+          "currency": "EUR"
+        }
+      },
+      "class_is_estimated": 0,
+      "price_breakdown": {
+        "sum_excluded_raw": "6.00",
+        "has_fine_print_charges": 0,
+        "currency": "EUR",
+        "has_incalculable_charges": 0,
+        "all_inclusive_price": 494.32,
+        "gross_price": 488.32,
+        "has_tax_exceptions": 0
+      },
+      "currency_code": "EUR",
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "is_city_center": 0,
+      "ribbon_text": "Breakfast included",
+      "review_score": 9.5,
+      "city_in_trans": "in Prague",
+      "is_free_cancellable": 1,
+      "district_id": 255,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/287389552.jpg?k=57f659a2d2b348577a0a5b9f7c9df4c6a093d49e58eedfa6b04cd09aca86483d&o=",
+      "review_recommendation": "",
+      "city_name_en": "Hlavní město Praha",
+      "type": "property_card",
+      "cc_required": 1,
+      "is_genius_deal": 0,
+      "hotel_facilities": "44,91,495,436,493,496,212,440,421,486,494,25,209,461,467,502,420,485,16,161,211,186,183,127,210,185,468,160,442,453,449,305,28,8,501,51,448,140,462,500,455,64,422,488,181,492,78,163,489,110,158,450,124,47,418,439,505,499,506,503,22,101,498,107,11,457,451,464,445,49,17,424,458,437,491,108,497,2,490,75,109,459,446,443,452,425,444,465,80,96,466,81,48,426,423",
+      "distance_to_cc_formatted": "900 m",
+      "district": "Prague 1",
+      "cc1": "cz",
+      "unit_configuration_label": "<b>Entire apartment – 98 m²</b>: 2 beds • 1 bedroom • 1 living room • 1 bathroom",
+      "districts": "255,1641,2309",
+      "city": "Hlavní město Praha",
+      "url": "https://www.booking.com/hotel/cz/cube-hlavni-mesto-praha.html",
+      "address": "Křemencova 18",
+      "hotel_name": "Hotel CUBE Prague",
+      "hotel_name_trans": "Hotel CUBE Prague",
+      "extended": 0,
+      "countrycode": "cz",
+      "checkout": {
+        "until": "12:00",
+        "from": "00:00"
+      },
+      "children_not_allowed": 0,
+      "badges": [],
+      "city_trans": "Prague",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_7038823",
+      "longitude": 14.416683,
+      "in_best_district": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 1,
+      "review_score_word": "Exceptional",
+      "is_beach_front": 0,
+      "distance": "0.89",
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎Prague 1‬ • ‎900 m from centre‬",
+          "icon_set": null
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "icon_set": null,
+          "text": "‎This property has free cots available‬"
+        }
+      ],
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "0.90",
+      "accommodation_type": 204,
+      "zip": "110 00",
+      "wishlist_count": 0,
+      "ufi": -553173,
+      "preferred": 1,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 1,
+          "localized_area": "98"
+        }
+      },
+      "address_trans": "Křemencova 18",
+      "review_nr": 6217,
+      "currencycode": "EUR",
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "block_ids": [
+        "703882304_328073601_3_1_0"
+      ],
+      "min_total_price": 488.32,
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.079731,
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/287389552.jpg?k=57f659a2d2b348577a0a5b9f7c9df4c6a093d49e58eedfa6b04cd09aca86483d&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/287389552.jpg?k=57f659a2d2b348577a0a5b9f7c9df4c6a093d49e58eedfa6b04cd09aca86483d&o="
+    },
+    {
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "is_city_center": 0,
+      "review_score": 8.7,
+      "external_reviews": {
+        "score_word": "Exceptional",
+        "score": 9.53999996185303,
+        "should_display": "",
+        "num_reviews": 13
+      },
+      "city_in_trans": "in Prague",
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/207017141.jpg?k=89baa2471fab5d0d15ed79f8fc3310aebbce90062dd96f7921c8ded01026f4e3&o=",
+      "district_id": 255,
+      "is_free_cancellable": 1,
+      "review_recommendation": "",
+      "hotel_id": 4952635,
+      "updated_checkout": null,
+      "main_photo_id": 207017141,
+      "cant_book": 0,
+      "native_ad_id": "",
+      "native_ads_tracking": "",
+      "class": 4,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "checkin": {
+        "from": "15:00",
+        "until": "00:00"
+      },
+      "is_mobile_deal": 1,
+      "default_language": "ru",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 302.85
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 302.85
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 32.4482142857143,
+          "currency": "EUR"
+        },
+        "net_amount": {
+          "value": 270.401785714286,
+          "currency": "EUR"
+        },
+        "discounted_amount": {
+          "currency": "EUR",
+          "value": 33.65
+        },
+        "benefits": [
+          {
+            "identifier": "mobile-rate",
+            "kind": "badge",
+            "name": "Mobile-only price",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "icon": null,
+            "badge_variant": "constructive"
+          }
+        ],
+        "items": [
+          {
+            "details": "12 % VAT",
+            "name": "VAT",
+            "item_amount": {
+              "value": 32.4482142857143,
+              "currency": "EUR"
+            },
+            "kind": "charge",
+            "inclusion_type": "included",
+            "base": {
+              "kind": "percentage",
+              "percentage": 12
+            }
+          },
+          {
+            "kind": "charge",
+            "details": null,
+            "name": "City tax",
+            "item_amount": {
+              "value": 6,
+              "currency": "EUR"
+            },
+            "inclusion_type": "excluded",
+            "base": {
+              "base_amount": 2,
+              "kind": "per_person_per_night"
+            }
+          },
+          {
+            "kind": "charge",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 25
+            },
+            "name": "Cleaning fee",
+            "details": "You don't pay the cleaning fee because of Genius",
+            "base": {
+              "base_amount": 25,
+              "kind": "per_stay"
+            },
+            "inclusion_type": "excluded"
+          },
+          {
+            "identifier": "mobile-discount",
+            "kind": "discount",
+            "name": "Mobile-only price",
+            "item_amount": {
+              "value": 33.65,
+              "currency": "EUR"
+            },
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "base": {
+              "kind": "rate"
+            }
+          }
+        ],
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 31
+        },
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 302.85
+        },
+        "product_price_breakdowns": [
+          {
+            "strikethrough_amount": {
+              "currency": "EUR",
+              "value": 336.5
+            },
+            "excluded_amount": {
+              "value": 31,
+              "currency": "EUR"
+            },
+            "gross_amount_per_night": {
+              "value": 302.85,
+              "currency": "EUR"
+            },
+            "items": [
+              {
+                "inclusion_type": "included",
+                "base": {
+                  "kind": "percentage",
+                  "percentage": 12
+                },
+                "details": "12 % VAT",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 32.4482142857143
+                },
+                "name": "VAT",
+                "kind": "charge"
+              },
+              {
+                "kind": "charge",
+                "name": "City tax",
+                "item_amount": {
+                  "value": 6,
+                  "currency": "EUR"
+                },
+                "details": null,
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                },
+                "inclusion_type": "excluded"
+              },
+              {
+                "kind": "charge",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 25
+                },
+                "name": "Cleaning fee",
+                "details": "You don't pay the cleaning fee because of Genius",
+                "base": {
+                  "base_amount": 25,
+                  "kind": "per_stay"
+                },
+                "inclusion_type": "excluded"
+              },
+              {
+                "identifier": "mobile-discount",
+                "kind": "discount",
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "name": "Mobile-only price",
+                "item_amount": {
+                  "value": 33.65,
+                  "currency": "EUR"
+                },
+                "base": {
+                  "kind": "rate"
+                }
+              }
+            ],
+            "benefits": [
+              {
+                "badge_variant": "constructive",
+                "icon": null,
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "name": "Mobile-only price",
+                "kind": "badge",
+                "identifier": "mobile-rate"
+              }
+            ],
+            "discounted_amount": {
+              "value": 33.65,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 32.4482142857143
+            },
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 302.85
+            },
+            "gross_amount": {
+              "currency": "EUR",
+              "value": 302.85
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 270.401785714286
+            },
+            "strikethrough_amount_per_night": {
+              "value": 336.5,
+              "currency": "EUR"
+            },
+            "charges_details": {
+              "translated_copy": "+€ 31 taxes and charges",
+              "mode": "extra_charges",
+              "amount": {
+                "currency": "EUR",
+                "value": 31
+              }
+            },
+            "all_inclusive_amount": {
+              "value": 333.85,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "strikethrough_amount": {
+          "value": 336.5,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "value": 31,
+            "currency": "EUR"
+          },
+          "mode": "extra_charges",
+          "translated_copy": "+€ 31 taxes and charges"
+        },
+        "all_inclusive_amount": {
+          "value": 333.85,
+          "currency": "EUR"
+        },
+        "strikethrough_amount_per_night": {
+          "value": 336.5,
+          "currency": "EUR"
+        }
+      },
+      "price_breakdown": {
+        "has_tax_exceptions": 0,
+        "gross_price": 302.85,
+        "all_inclusive_price": 333.85,
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "has_fine_print_charges": 1,
+        "sum_excluded_raw": "31.00"
+      },
+      "currency_code": "EUR",
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "350 m",
+      "city": "Hlavní město Praha",
+      "unit_configuration_label": "<b>Entire apartment – 49 m²</b>: 3 beds • 1 bedroom • 1 living room • 1 bathroom",
+      "districts": "255,270,2309,3254",
+      "cc1": "cz",
+      "url": "https://www.booking.com/hotel/cz/gold-art-apartment.html",
+      "address": "U Svatého Ducha 3",
+      "city_name_en": "Hlavní město Praha",
+      "type": "property_card",
+      "booking_home": {
+        "segment": 1,
+        "group": "apartment_like",
+        "is_single_unit_property": "",
+        "is_booking_home": 1,
+        "quality_class": 0
+      },
+      "cc_required": 1,
+      "is_genius_deal": 0,
+      "hotel_facilities": "422,481,476,423,64,472,455,529,48,466,96,140,462,531,448,80,465,528,444,517,530,28,425,449,456,452,442,443,446,459,468,15,2,491,108,127,437,458,17,424,445,526,16,464,523,522,457,451,107,420,535,512,460,461,499,467,439,209,418,494,450,124,47,486,521,163,440,489,534,78,496,492,493,436,181,519,495,435,520,441",
+      "genius_discount_percentage": 0,
+      "mobile_discount_percentage": 33.65,
+      "city_trans": "Prague",
+      "accommodation_type_name": "Apartment",
+      "id": "property_card_4952635",
+      "longitude": 14.420319,
+      "in_best_district": 0,
+      "is_no_prepayment_block": 0,
+      "updated_checkin": null,
+      "hotel_name": "Gold Art Apartments",
+      "hotel_name_trans": "Gold Art Apartments",
+      "extended": 0,
+      "countrycode": "cz",
+      "badges": [
+        {
+          "id": "Mobile Rate",
+          "text": "Mobile-only price",
+          "badge_variant": "constructive"
+        }
+      ],
+      "children_not_allowed": 0,
+      "checkout": {
+        "until": "10:30",
+        "from": "01:00"
+      },
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "block_ids": [
+        "495263504_341385922_3_0_0"
+      ],
+      "min_total_price": 302.85,
+      "preferred_plus": 1,
+      "price_is_final": 0,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.09027,
+      "review_score_word": "Fabulous",
+      "distance": "0.34",
+      "is_beach_front": 0,
+      "distances": [
+        {
+          "icon_set": null,
+          "text": "‎Prague 1‬ • ‎350 m from centre‬",
+          "icon_name": "bui_geo_pin"
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "icon_set": null,
+          "text": "‎This property has free cots available‬"
+        }
+      ],
+      "is_geo_rate": "",
+      "is_smart_deal": 0,
+      "distance_to_cc": "0.35",
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "accommodation_type": 201,
+      "zip": "110 00",
+      "review_nr": 3758,
+      "address_trans": "U Svatého Ducha 3",
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": "49",
+          "unit_type_id": 1
+        }
+      },
+      "preferred": 1,
+      "hotel_include_breakfast": 0,
+      "currencycode": "EUR",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/207017141.jpg?k=89baa2471fab5d0d15ed79f8fc3310aebbce90062dd96f7921c8ded01026f4e3&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/207017141.jpg?k=89baa2471fab5d0d15ed79f8fc3310aebbce90062dd96f7921c8ded01026f4e3&o="
+    },
+    {
+      "cc_required": 1,
+      "type": "property_card",
+      "city_name_en": "Prague",
+      "hotel_facilities": "503,419,506,451,457,107,498,111,22,73,47,450,124,158,110,499,439,78,203,181,492,241,163,504,240,488,205,81,466,96,463,5,80,487,253,423,426,48,425,222,452,465,444,170,15,411,2,443,459,109,445,464,497,108,491,458,43,424,17,118,6,460,3,404,25,494,421,7,219,46,467,461,209,405,496,493,436,176,440,44,447,441,495,91,500,462,53,140,448,64,422,184,455,28,305,449,453,51,501,8,454,23,210,442,160,468,161,16,4,20",
+      "is_genius_deal": 0,
+      "cc1": "cz",
+      "unit_configuration_label": "<b>Hotel room</b>: 3 beds",
+      "districts": "261,3256",
+      "city": "Prague",
+      "distance_to_cc_formatted": "3.1 km",
+      "district": "Prague 7",
+      "address": "Ortenovo Nam. 22",
+      "url": "https://www.booking.com/hotel/cz/alta.html",
+      "checkin": {
+        "from": "14:00",
+        "until": ""
+      },
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "class": 4,
+      "native_ad_id": "",
+      "native_ads_tracking": "",
+      "cant_book": 0,
+      "main_photo_id": 480479114,
+      "hotel_id": 77360,
+      "updated_checkout": null,
+      "currency_code": "EUR",
+      "price_breakdown": {
+        "has_tax_exceptions": 0,
+        "gross_price": "344.00",
+        "all_inclusive_price": 344,
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "sum_excluded_raw": "0.00",
+        "has_fine_print_charges": 1
+      },
+      "composite_price_breakdown": {
+        "product_price_breakdowns": [
+          {
+            "excluded_amount": {
+              "value": 0,
+              "currency": "EUR"
+            },
+            "gross_amount_per_night": {
+              "value": 344,
+              "currency": "EUR"
+            },
+            "charges_details": {
+              "translated_copy": "Includes taxes and charges",
+              "mode": "all_included",
+              "amount": {
+                "value": 0,
+                "currency": "EUR"
+              }
+            },
+            "all_inclusive_amount": {
+              "value": 344,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "value": 344,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 36.8571428571429,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "currency": "EUR",
+              "value": 344
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 307.142857142857
+            },
+            "items": [
+              {
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 36.8571428571429
+                },
+                "name": "VAT",
+                "details": "12 % VAT",
+                "kind": "charge"
+              }
+            ],
+            "benefits": []
+          }
+        ],
+        "excluded_amount": {
+          "value": 0,
+          "currency": "EUR"
+        },
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 344
+        },
+        "charges_details": {
+          "translated_copy": "Includes taxes and charges",
+          "mode": "all_included",
+          "amount": {
+            "value": 0,
+            "currency": "EUR"
+          }
+        },
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 344
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 36.8571428571429
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 344
+        },
+        "gross_amount": {
+          "value": 344,
+          "currency": "EUR"
+        },
+        "net_amount": {
+          "value": 307.142857142857,
+          "currency": "EUR"
+        },
+        "items": [
+          {
+            "item_amount": {
+              "currency": "EUR",
+              "value": 36.8571428571429
+            },
+            "name": "VAT",
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included"
+          }
+        ],
+        "benefits": []
+      },
+      "class_is_estimated": 0,
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "review_score": 9.2,
+      "is_city_center": 0,
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "review_recommendation": "",
+      "is_free_cancellable": 1,
+      "district_id": 261,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/480479114.jpg?k=75593d87e92f8ffa8407227514596ed0027d14f3308f689e8c1fb947879d59bf&o=",
+      "city_in_trans": "in Prague",
+      "distance_to_cc": "3.10",
+      "is_geo_rate": "",
+      "is_smart_deal": 0,
+      "distances": [
+        {
+          "icon_set": null,
+          "text": "‎Prague 7‬ • ‎3.1 km from centre‬",
+          "icon_name": "bui_geo_pin"
+        },
+        {
+          "icon_set": null,
+          "text": "‎This property has free cots available‬",
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "is_beach_front": 0,
+      "distance": "3.07",
+      "review_score_word": "Superb",
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "address_trans": "Ortenovo Nam. 22",
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": null,
+          "unit_type_id": 13
+        }
+      },
+      "preferred": 1,
+      "review_nr": 5012,
+      "accommodation_type": 204,
+      "zip": "170 00",
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "block_ids": [
+        "7736022_357600063_0_2_0"
+      ],
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.1076789991239,
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "min_total_price": 344,
+      "countrycode": "cz",
+      "extended": 0,
+      "hotel_name_trans": "Plaza Prague Hotel - Czech Leading Hotels",
+      "hotel_name": "Plaza Prague Hotel - Czech Leading Hotels",
+      "children_not_allowed": 0,
+      "checkout": {
+        "until": "11:00",
+        "from": ""
+      },
+      "badges": [],
+      "id": "property_card_77360",
+      "accommodation_type_name": "Hotel",
+      "city_trans": "Prague",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 0,
+      "in_best_district": 0,
+      "has_free_parking": 1,
+      "longitude": 14.4500657916069,
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/480479114.jpg?k=75593d87e92f8ffa8407227514596ed0027d14f3308f689e8c1fb947879d59bf&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/480479114.jpg?k=75593d87e92f8ffa8407227514596ed0027d14f3308f689e8c1fb947879d59bf&o="
+    },
+    {
+      "longitude": 14.405613206327,
+      "in_best_district": 0,
+      "is_no_prepayment_block": 1,
+      "updated_checkin": null,
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "city_trans": "Prague",
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_77283",
+      "badges": [],
+      "children_not_allowed": 0,
+      "checkout": {
+        "until": "12:00",
+        "from": "07:00"
+      },
+      "hotel_name": "Hotel Malá Strana",
+      "hotel_name_trans": "Hotel Malá Strana",
+      "extended": 0,
+      "countrycode": "cz",
+      "min_total_price": 370.4,
+      "preferred_plus": 1,
+      "price_is_final": 0,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.0799534036218,
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "block_ids": [
+        "7728311_179869965_4_1_0"
+      ],
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "zip": "150 00",
+      "accommodation_type": 204,
+      "review_nr": 4244,
+      "address_trans": "Melnická 9",
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": "40",
+          "unit_type_id": 1
+        }
+      },
+      "preferred": 1,
+      "currencycode": "EUR",
+      "review_score_word": "Very good",
+      "distance": "1.37",
+      "is_beach_front": 0,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎Prague 5‬ • ‎1.4 km from centre‬",
+          "icon_set": null
+        },
+        {
+          "icon_set": null,
+          "text": "‎This property has free cots available‬",
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "is_geo_rate": "",
+      "distance_to_cc": "1.40",
+      "is_smart_deal": 0,
+      "city_in_trans": "in Prague",
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/20621655.jpg?k=990f45c8d44547851fb7b201d58034c06db77ff36820a777259fdcf179f7a381&o=",
+      "district_id": 259,
+      "is_free_cancellable": 1,
+      "review_recommendation": "",
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "is_city_center": 0,
+      "review_score": 8.4,
+      "ribbon_text": "Breakfast included",
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "composite_price_breakdown": {
+        "charges_details": {
+          "amount": {
+            "currency": "EUR",
+            "value": 8
+          },
+          "translated_copy": "+€ 8 taxes and charges",
+          "mode": "extra_charges"
+        },
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 378.4
+        },
+        "strikethrough_amount_per_night": {
+          "currency": "EUR",
+          "value": 463
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 370.4
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 370.4
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 39.6857142857143,
+          "currency": "EUR"
+        },
+        "net_amount": {
+          "value": 330.714285714286,
+          "currency": "EUR"
+        },
+        "discounted_amount": {
+          "currency": "EUR",
+          "value": 92.6
+        },
+        "benefits": [],
+        "items": [
+          {
+            "name": "VAT",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 39.6857142857143
+            },
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included"
+          },
+          {
+            "kind": "charge",
+            "item_amount": {
+              "value": 8,
+              "currency": "EUR"
+            },
+            "name": "City tax",
+            "details": null,
+            "base": {
+              "base_amount": 2,
+              "kind": "per_person_per_night"
+            },
+            "inclusion_type": "excluded"
+          },
+          {
+            "kind": "discount",
+            "identifier": "early-booker-deal",
+            "details": "You’re getting a reduced rate because this property is offering a discount.",
+            "name": "Early Booker Deal",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 92.6
+            },
+            "base": {
+              "kind": "rate"
+            }
+          }
+        ],
+        "gross_amount_per_night": {
+          "value": 370.4,
+          "currency": "EUR"
+        },
+        "excluded_amount": {
+          "value": 8,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "strikethrough_amount_per_night": {
+              "value": 463,
+              "currency": "EUR"
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 378.4
+            },
+            "charges_details": {
+              "amount": {
+                "currency": "EUR",
+                "value": 8
+              },
+              "mode": "extra_charges",
+              "translated_copy": "+€ 8 taxes and charges"
+            },
+            "discounted_amount": {
+              "currency": "EUR",
+              "value": 92.6
+            },
+            "net_amount": {
+              "value": 330.714285714286,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "value": 370.4,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 370.4
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 39.6857142857143
+            },
+            "items": [
+              {
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 39.6857142857143
+                },
+                "name": "VAT",
+                "details": "12 % VAT",
+                "kind": "charge",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included"
+              },
+              {
+                "details": null,
+                "name": "City tax",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 8
+                },
+                "kind": "charge",
+                "inclusion_type": "excluded",
+                "base": {
+                  "kind": "per_person_per_night",
+                  "base_amount": 2
+                }
+              },
+              {
+                "identifier": "early-booker-deal",
+                "kind": "discount",
+                "name": "Early Booker Deal",
+                "item_amount": {
+                  "value": 92.6,
+                  "currency": "EUR"
+                },
+                "details": "You’re getting a reduced rate because this property is offering a discount.",
+                "base": {
+                  "kind": "rate"
+                }
+              }
+            ],
+            "benefits": [],
+            "gross_amount_per_night": {
+              "value": 370.4,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 8
+            },
+            "strikethrough_amount": {
+              "value": 463,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "strikethrough_amount": {
+          "currency": "EUR",
+          "value": 463
+        }
+      },
+      "class_is_estimated": 0,
+      "price_breakdown": {
+        "has_fine_print_charges": 1,
+        "sum_excluded_raw": "8.00",
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "all_inclusive_price": 378.4,
+        "gross_price": "370.40",
+        "has_tax_exceptions": 0
+      },
+      "currency_code": "EUR",
+      "hotel_id": 77283,
+      "updated_checkout": null,
+      "main_photo_id": 20621655,
+      "native_ad_id": "",
+      "cant_book": 0,
+      "native_ads_tracking": "",
+      "class": 4,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "checkin": {
+        "from": "14:00",
+        "until": "00:00"
+      },
+      "url": "https://www.booking.com/hotel/cz/residence-mala-strana.html",
+      "address": "Melnická 9",
+      "distance_to_cc_formatted": "1.4 km",
+      "district": "Prague 5",
+      "city": "Prague",
+      "unit_configuration_label": "<b>Entire apartment – 40 m²</b>: 3 beds • 1 bedroom • 1 living room • 1 bathroom",
+      "districts": "259",
+      "cc1": "cz",
+      "is_genius_deal": 0,
+      "hotel_facilities": "422,136,455,529,48,96,466,81,140,462,531,448,80,465,51,8,444,14,530,305,135,28,425,449,453,443,459,468,75,210,4,108,17,12,304,445,526,16,523,522,457,451,107,420,470,143,461,499,467,129,439,209,450,494,47,124,158,163,440,489,534,78,436,492,519,488,435,91,520,514",
+      "city_name_en": "Prague",
+      "type": "property_card",
+      "cc_required": 1,
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/20621655.jpg?k=990f45c8d44547851fb7b201d58034c06db77ff36820a777259fdcf179f7a381&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/20621655.jpg?k=990f45c8d44547851fb7b201d58034c06db77ff36820a777259fdcf179f7a381&o="
+    },
+    {
+      "accommodation_type": 201,
+      "zip": "11000",
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 12,
+          "localized_area": "35"
+        }
+      },
+      "address_trans": "Řetězová 9",
+      "preferred": 1,
+      "review_nr": 591,
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "review_score_word": "Very good",
+      "is_beach_front": 0,
+      "distance": "0.29",
+      "distances": [
+        {
+          "text": "‎Prague 1‬ • ‎300 m from centre‬",
+          "icon_set": null,
+          "icon_name": "bui_geo_pin"
+        },
+        {
+          "text": "‎This property has free cots available‬",
+          "icon_set": null,
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "is_geo_rate": "",
+      "distance_to_cc": "0.30",
+      "is_smart_deal": 0,
+      "min_total_price": 283,
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.0855724332413,
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "block_ids": [
+        "23618728_343767493_3_0_0"
+      ],
+      "children_not_allowed": 0,
+      "checkout": {
+        "from": "01:00",
+        "until": "10:00"
+      },
+      "badges": [],
+      "hotel_name": "Chateau 9 Apartments by Adrez Living",
+      "hotel_name_trans": "Chateau 9 Apartments by Adrez Living",
+      "extended": 0,
+      "countrycode": "cz",
+      "longitude": 14.4178675487638,
+      "in_best_district": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 0,
+      "city_trans": "Prague",
+      "genius_discount_percentage": 0,
+      "mobile_discount_percentage": 0,
+      "accommodation_type_name": "Apartment",
+      "id": "property_card_236187",
+      "is_genius_deal": 0,
+      "hotel_facilities": "420,404,470,457,451,101,107,461,129,499,467,439,209,219,486,421,450,494,47,163,440,492,493,436,181,495,435,441,455,48,422,423,448,80,96,140,462,456,305,28,425,449,459,109,468,443,442,210,2,454,17,424,304,108,16,445,161",
+      "city_name_en": "Prague 1",
+      "type": "property_card",
+      "cc_required": 1,
+      "booking_home": {
+        "is_booking_home": 1,
+        "quality_class": 0,
+        "segment": 1,
+        "group": "apartment_like",
+        "is_single_unit_property": ""
+      },
+      "url": "https://www.booking.com/hotel/cz/residence-retezova.html",
+      "address": "Řetězová 9",
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "300 m",
+      "districts": "255,270,1641,2309",
+      "unit_configuration_label": "<b>Entire studio – 35 m²</b>: 2 beds • 1 bedroom",
+      "cc1": "cz",
+      "city": "Prague 1",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "net_amount": {
+          "value": 247.589285714286,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "value": 283,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 283
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 35.4107142857143
+        },
+        "items": [
+          {
+            "inclusion_type": "included",
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 1.9
+            },
+            "details": null,
+            "name": "City tax",
+            "item_amount": {
+              "value": 5.7,
+              "currency": "EUR"
+            },
+            "kind": "charge"
+          },
+          {
+            "kind": "charge",
+            "name": "VAT",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 29.7107142857143
+            },
+            "details": "12 % VAT",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included"
+          }
+        ],
+        "benefits": [],
+        "product_price_breakdowns": [
+          {
+            "gross_amount_per_night": {
+              "value": 283,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "value": 0,
+              "currency": "EUR"
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 283
+            },
+            "charges_details": {
+              "amount": {
+                "currency": "EUR",
+                "value": 0
+              },
+              "mode": "all_included",
+              "translated_copy": "Includes taxes and charges"
+            },
+            "net_amount": {
+              "value": 247.589285714286,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 35.4107142857143,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "value": 283,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "value": 283,
+              "currency": "EUR"
+            },
+            "benefits": [],
+            "items": [
+              {
+                "details": null,
+                "item_amount": {
+                  "value": 5.7,
+                  "currency": "EUR"
+                },
+                "name": "City tax",
+                "kind": "charge",
+                "inclusion_type": "included",
+                "base": {
+                  "base_amount": 1.9,
+                  "kind": "per_person_per_night"
+                }
+              },
+              {
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 29.7107142857143,
+                  "currency": "EUR"
+                },
+                "details": "12 % VAT",
+                "kind": "charge"
+              }
+            ]
+          }
+        ],
+        "excluded_amount": {
+          "value": 0,
+          "currency": "EUR"
+        },
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 283
+        },
+        "all_inclusive_amount": {
+          "value": 283,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "translated_copy": "Includes taxes and charges",
+          "mode": "all_included"
+        }
+      },
+      "price_breakdown": {
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "has_fine_print_charges": 1,
+        "sum_excluded_raw": "0.00",
+        "gross_price": "283.00",
+        "has_tax_exceptions": 0,
+        "all_inclusive_price": 283
+      },
+      "currency_code": "EUR",
+      "hotel_id": 236187,
+      "updated_checkout": null,
+      "native_ads_tracking": "",
+      "native_ad_id": "",
+      "cant_book": 0,
+      "main_photo_id": 319692690,
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "class": 4,
+      "checkin": {
+        "from": "15:00",
+        "until": "00:00"
+      },
+      "city_in_trans": "in Prague",
+      "is_free_cancellable": 1,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/319692690.jpg?k=9fc95e2a12c64a607f14db5432d15df9856b64368c319da8c949dad865dbe1c9&o=",
+      "district_id": 255,
+      "review_recommendation": "",
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "is_city_center": 0,
+      "review_score": 8.3,
+      "external_reviews": {
+        "score": 10,
+        "score_word": "Exceptional",
+        "num_reviews": 4,
+        "should_display": ""
+      },
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/319692690.jpg?k=9fc95e2a12c64a607f14db5432d15df9856b64368c319da8c949dad865dbe1c9&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/319692690.jpg?k=9fc95e2a12c64a607f14db5432d15df9856b64368c319da8c949dad865dbe1c9&o="
+    },
+    {
+      "review_score_word": "Exceptional",
+      "is_beach_front": 0,
+      "distance": "0.46",
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "icon_set": null,
+          "text": "‎Prague 1‬ • ‎450 m from centre‬"
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "icon_set": null,
+          "text": "‎This property has free cots available‬"
+        }
+      ],
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "0.50",
+      "zip": "110 00",
+      "accommodation_type": 204,
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 13,
+          "localized_area": null
+        }
+      },
+      "address_trans": "21 Bílkova",
+      "preferred": 1,
+      "review_nr": 1979,
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "block_ids": [
+        "900860406_380165858_4_2_0"
+      ],
+      "min_total_price": 760,
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "latitude": 50.091372,
+      "default_wishlist_name": "Prague",
+      "hotel_name": "Allure Hotel Prague",
+      "hotel_name_trans": "Allure Hotel Prague",
+      "extended": 0,
+      "countrycode": "cz",
+      "checkout": {
+        "until": "12:00",
+        "from": ""
+      },
+      "children_not_allowed": 0,
+      "badges": [],
+      "city_trans": "Prague",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_9008604",
+      "longitude": 14.421903,
+      "in_best_district": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 0,
+      "city_name_en": "Hlavní město Praha",
+      "type": "property_card",
+      "cc_required": 1,
+      "is_genius_deal": 0,
+      "hotel_facilities": "490,75,15,2,443,109,459,445,458,437,108,491,49,17,424,96,80,487,423,48,425,465,444,78,492,489,163,488,180,506,503,107,451,438,457,22,47,450,124,110,158,439,499,23,210,442,160,468,16,127,183,462,140,500,448,133,422,64,455,449,28,305,453,456,51,501,8,405,436,493,496,440,44,447,441,435,91,495,404,420,494,421,7,486,209,461",
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "450 m",
+      "cc1": "cz",
+      "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+      "districts": "255,270,2309",
+      "city": "Hlavní město Praha",
+      "url": "https://www.booking.com/hotel/cz/allure-prague.html",
+      "address": "21 Bílkova",
+      "hotel_id": 9008604,
+      "updated_checkout": null,
+      "native_ads_tracking": "",
+      "native_ad_id": "",
+      "cant_book": 0,
+      "main_photo_id": 389491180,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "class": 4,
+      "checkin": {
+        "from": "15:00",
+        "until": "00:00"
+      },
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "default_language": "cs",
+      "is_mobile_deal": 0,
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 768
+        },
+        "charges_details": {
+          "translated_copy": "+€ 8 taxes and charges",
+          "mode": "extra_charges",
+          "amount": {
+            "value": 8,
+            "currency": "EUR"
+          }
+        },
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 8
+        },
+        "gross_amount_per_night": {
+          "value": 760,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "gross_amount_per_night": {
+              "value": 760,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 8
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 768
+            },
+            "charges_details": {
+              "amount": {
+                "currency": "EUR",
+                "value": 8
+              },
+              "mode": "extra_charges",
+              "translated_copy": "+€ 8 taxes and charges"
+            },
+            "net_amount": {
+              "value": 678.571428571429,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "currency": "EUR",
+              "value": 760
+            },
+            "gross_amount_hotel_currency": {
+              "value": 760,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 81.4285714285714
+            },
+            "benefits": [],
+            "items": [
+              {
+                "details": "12 % VAT",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 81.4285714285714,
+                  "currency": "EUR"
+                },
+                "kind": "charge",
+                "inclusion_type": "included",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                }
+              },
+              {
+                "kind": "charge",
+                "details": null,
+                "name": "City tax",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 8
+                },
+                "inclusion_type": "excluded",
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                }
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "items": [
+          {
+            "name": "VAT",
+            "item_amount": {
+              "value": 81.4285714285714,
+              "currency": "EUR"
+            },
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "kind": "percentage",
+              "percentage": 12
+            },
+            "inclusion_type": "included"
+          },
+          {
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 2
+            },
+            "inclusion_type": "excluded",
+            "name": "City tax",
+            "item_amount": {
+              "value": 8,
+              "currency": "EUR"
+            },
+            "details": null,
+            "kind": "charge"
+          }
+        ],
+        "net_amount": {
+          "currency": "EUR",
+          "value": 678.571428571429
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 81.4285714285714
+        },
+        "gross_amount_hotel_currency": {
+          "value": 760,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 760
+        }
+      },
+      "price_breakdown": {
+        "all_inclusive_price": 768,
+        "has_tax_exceptions": 0,
+        "gross_price": "760.00",
+        "has_fine_print_charges": 0,
+        "sum_excluded_raw": "8.00",
+        "currency": "EUR",
+        "has_incalculable_charges": 0
+      },
+      "currency_code": "EUR",
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "is_city_center": 0,
+      "review_score": 9.6,
+      "city_in_trans": "in Prague",
+      "is_free_cancellable": 1,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/389491180.jpg?k=c5177eaecf4bdcd6e61cbd11bb8e65c4c0257b91a6fcaea0e8d0e5ab1e5fb354&o=",
+      "district_id": 255,
+      "review_recommendation": "",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/389491180.jpg?k=c5177eaecf4bdcd6e61cbd11bb8e65c4c0257b91a6fcaea0e8d0e5ab1e5fb354&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/389491180.jpg?k=c5177eaecf4bdcd6e61cbd11bb8e65c4c0257b91a6fcaea0e8d0e5ab1e5fb354&o="
+    },
+    {
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "block_ids": [
+        "38135205_343766933_3_0_0"
+      ],
+      "min_total_price": 310,
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "latitude": 50.0854360422063,
+      "default_wishlist_name": "Prague",
+      "review_score_word": "Fabulous",
+      "is_beach_front": 0,
+      "distance": "0.33",
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎Prague 1‬ • ‎350 m from centre‬",
+          "icon_set": null
+        },
+        {
+          "text": "‎This property has free cots available‬",
+          "icon_set": null,
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "0.35",
+      "accommodation_type": 201,
+      "zip": "11000",
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "address_trans": "Retezova 3",
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 12,
+          "localized_area": "44"
+        }
+      },
+      "preferred": 1,
+      "review_nr": 559,
+      "hotel_include_breakfast": 0,
+      "currencycode": "EUR",
+      "city_trans": "Prague",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "accommodation_type_name": "Apartment",
+      "id": "property_card_381352",
+      "longitude": 14.4172831624746,
+      "in_best_district": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 0,
+      "hotel_name": "3 Epoques Apartments by Adrez Living",
+      "hotel_name_trans": "3 Epoques Apartments by Adrez Living",
+      "extended": 0,
+      "countrycode": "cz",
+      "children_not_allowed": 0,
+      "checkout": {
+        "from": "01:00",
+        "until": "10:00"
+      },
+      "badges": [],
+      "distance_to_cc_formatted": "350 m",
+      "district": "Prague 1",
+      "unit_configuration_label": "<b>Entire studio – 44 m²</b>: 2 beds • 1 bedroom • 1 bathroom",
+      "districts": "255,270,1641,2309",
+      "cc1": "cz",
+      "city": "Praha 1",
+      "url": "https://www.booking.com/hotel/cz/royal-boutique-residence.html",
+      "address": "Retezova 3",
+      "city_name_en": "Praha 1",
+      "type": "property_card",
+      "cc_required": 1,
+      "booking_home": {
+        "quality_class": 0,
+        "is_booking_home": 1,
+        "group": "apartment_like",
+        "segment": 1,
+        "is_single_unit_property": ""
+      },
+      "is_genius_deal": 0,
+      "hotel_facilities": "108,21,17,424,304,445,16,160,459,468,490,454,210,2,51,305,28,425,449,456,222,422,423,64,472,455,96,140,462,80,495,91,163,436,493,492,461,499,467,129,209,47,494,450,457,451,101,107,470,419,460",
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "is_city_center": 0,
+      "review_score": 8.7,
+      "external_reviews": {
+        "score": 9.22000026702881,
+        "score_word": "Superb",
+        "num_reviews": 36,
+        "should_display": ""
+      },
+      "city_in_trans": "in Prague",
+      "is_free_cancellable": 1,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/121402222.jpg?k=20556b9e8ddbbe0c34338375f843381a2c4f4c113a6d50d012559f114bdbac56&o=",
+      "district_id": 255,
+      "review_recommendation": "",
+      "hotel_id": 381352,
+      "updated_checkout": null,
+      "cant_book": 0,
+      "native_ad_id": "",
+      "native_ads_tracking": "",
+      "main_photo_id": 121402222,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "class": 4,
+      "checkin": {
+        "from": "15:00",
+        "until": "00:00"
+      },
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "product_price_breakdowns": [
+          {
+            "benefits": [],
+            "items": [
+              {
+                "inclusion_type": "included",
+                "base": {
+                  "base_amount": 1.9,
+                  "kind": "per_person_per_night"
+                },
+                "kind": "charge",
+                "details": null,
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 5.7
+                },
+                "name": "City tax"
+              },
+              {
+                "inclusion_type": "included",
+                "base": {
+                  "kind": "percentage",
+                  "percentage": 12
+                },
+                "details": "12 % VAT",
+                "item_amount": {
+                  "value": 32.6035714285714,
+                  "currency": "EUR"
+                },
+                "name": "VAT",
+                "kind": "charge"
+              }
+            ],
+            "gross_amount": {
+              "value": 310,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "value": 310,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 38.3035714285714
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 271.696428571429
+            },
+            "charges_details": {
+              "amount": {
+                "currency": "EUR",
+                "value": 0
+              },
+              "mode": "all_included",
+              "translated_copy": "Includes taxes and charges"
+            },
+            "all_inclusive_amount": {
+              "value": 310,
+              "currency": "EUR"
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 310
+            },
+            "excluded_amount": {
+              "value": 0,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 0
+        },
+        "gross_amount_per_night": {
+          "value": 310,
+          "currency": "EUR"
+        },
+        "all_inclusive_amount": {
+          "value": 310,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "mode": "all_included",
+          "translated_copy": "Includes taxes and charges"
+        },
+        "net_amount": {
+          "currency": "EUR",
+          "value": 271.696428571429
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 38.3035714285714
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 310
+        },
+        "gross_amount": {
+          "value": 310,
+          "currency": "EUR"
+        },
+        "items": [
+          {
+            "kind": "charge",
+            "name": "City tax",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 5.7
+            },
+            "details": null,
+            "base": {
+              "base_amount": 1.9,
+              "kind": "per_person_per_night"
+            },
+            "inclusion_type": "included"
+          },
+          {
+            "kind": "charge",
+            "details": "12 % VAT",
+            "name": "VAT",
+            "item_amount": {
+              "value": 32.6035714285714,
+              "currency": "EUR"
+            },
+            "inclusion_type": "included",
+            "base": {
+              "kind": "percentage",
+              "percentage": 12
+            }
+          }
+        ],
+        "benefits": []
+      },
+      "price_breakdown": {
+        "gross_price": "310.00",
+        "has_tax_exceptions": 0,
+        "all_inclusive_price": 310,
+        "currency": "EUR",
+        "has_incalculable_charges": 0,
+        "has_fine_print_charges": 1,
+        "sum_excluded_raw": "0.00"
+      },
+      "currency_code": "EUR",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/121402222.jpg?k=20556b9e8ddbbe0c34338375f843381a2c4f4c113a6d50d012559f114bdbac56&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/121402222.jpg?k=20556b9e8ddbbe0c34338375f843381a2c4f4c113a6d50d012559f114bdbac56&o="
+    },
+    {
+      "in_best_district": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 1,
+      "longitude": 14.5640261471272,
+      "has_free_parking": 1,
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_471643",
+      "city_trans": "Prague",
+      "genius_discount_percentage": 0,
+      "mobile_discount_percentage": 38.25,
+      "children_not_allowed": 0,
+      "checkout": {
+        "from": "06:00",
+        "until": "12:00"
+      },
+      "badges": [
+        {
+          "text": "Mobile-only price",
+          "badge_variant": "constructive",
+          "id": "Mobile Rate"
+        }
+      ],
+      "extended": 0,
+      "countrycode": "cz",
+      "hotel_name": "Pytloun Chateau Hotel Ctěnice",
+      "hotel_name_trans": "Pytloun Chateau Hotel Ctěnice",
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "latitude": 50.1492922727814,
+      "default_wishlist_name": "Prague",
+      "min_total_price": 344.25,
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "block_ids": [
+        "47164309_347222684_3_33_0"
+      ],
+      "currencycode": "EUR",
+      "accommodation_type": 204,
+      "zip": "190 17",
+      "wishlist_count": 0,
+      "ufi": -553173,
+      "preferred": 1,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": "35",
+          "unit_type_id": 5
+        }
+      },
+      "address_trans": "Bohdanečská 259/1",
+      "review_nr": 1333,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎12 km from centre‬",
+          "icon_set": null
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "text": "‎This property has cots available‬",
+          "icon_set": null
+        }
+      ],
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "12.35",
+      "review_score_word": "Superb",
+      "is_beach_front": 0,
+      "distance": "12.31",
+      "review_recommendation": "",
+      "city_in_trans": "in Prague",
+      "is_free_cancellable": 1,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/344530806.jpg?k=39297bc7e3460825e450ef3cf7e767bc6da2ebd901c5c0afbf59ab09f1ea8a02&o=",
+      "district_id": 0,
+      "ribbon_text": "Breakfast included",
+      "review_score": 9.1,
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "is_city_center": 0,
+      "price_breakdown": {
+        "gross_price": 344.25,
+        "has_tax_exceptions": 0,
+        "all_inclusive_price": 349.95,
+        "currency": "EUR",
+        "has_incalculable_charges": 0,
+        "has_fine_print_charges": 0,
+        "sum_excluded_raw": "5.70"
+      },
+      "currency_code": "EUR",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "is_mobile_deal": 1,
+      "default_language": "en",
+      "composite_price_breakdown": {
+        "strikethrough_amount_per_night": {
+          "currency": "EUR",
+          "value": 425
+        },
+        "all_inclusive_amount": {
+          "value": 349.95,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "mode": "extra_charges",
+          "translated_copy": "+€ 5.70 taxes and charges",
+          "amount": {
+            "value": 6,
+            "currency": "EUR"
+          }
+        },
+        "items": [
+          {
+            "name": "VAT",
+            "item_amount": {
+              "value": 36.8839285714286,
+              "currency": "EUR"
+            },
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "kind": "percentage",
+              "percentage": 12
+            },
+            "inclusion_type": "included"
+          },
+          {
+            "inclusion_type": "excluded",
+            "base": {
+              "base_amount": 1.9,
+              "kind": "per_person_per_night"
+            },
+            "kind": "charge",
+            "details": null,
+            "name": "City tax",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 5.7
+            }
+          },
+          {
+            "identifier": "early-booker-deal",
+            "kind": "discount",
+            "details": "You’re getting a reduced rate because this property is offering a discount.",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 42.5
+            },
+            "name": "Early Booker Deal",
+            "base": {
+              "kind": "rate"
+            }
+          },
+          {
+            "base": {
+              "kind": "rate"
+            },
+            "identifier": "mobile-discount",
+            "kind": "discount",
+            "item_amount": {
+              "value": 38.25,
+              "currency": "EUR"
+            },
+            "name": "Mobile-only price",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop."
+          }
+        ],
+        "benefits": [
+          {
+            "badge_variant": "constructive",
+            "icon": null,
+            "name": "Mobile-only price",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "kind": "badge",
+            "identifier": "mobile-rate"
+          }
+        ],
+        "discounted_amount": {
+          "value": 80.75,
+          "currency": "EUR"
+        },
+        "net_amount": {
+          "value": 307.366071428571,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "value": 344.25,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "value": 344.25,
+          "currency": "EUR"
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 36.8839285714286
+        },
+        "strikethrough_amount": {
+          "currency": "EUR",
+          "value": 425
+        },
+        "product_price_breakdowns": [
+          {
+            "strikethrough_amount_per_night": {
+              "value": 425,
+              "currency": "EUR"
+            },
+            "charges_details": {
+              "translated_copy": "+€ 5.70 taxes and charges",
+              "mode": "extra_charges",
+              "amount": {
+                "value": 6,
+                "currency": "EUR"
+              }
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 349.95
+            },
+            "items": [
+              {
+                "inclusion_type": "included",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "details": "12 % VAT",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 36.8839285714286,
+                  "currency": "EUR"
+                },
+                "kind": "charge"
+              },
+              {
+                "inclusion_type": "excluded",
+                "base": {
+                  "kind": "per_person_per_night",
+                  "base_amount": 1.9
+                },
+                "details": null,
+                "item_amount": {
+                  "value": 5.7,
+                  "currency": "EUR"
+                },
+                "name": "City tax",
+                "kind": "charge"
+              },
+              {
+                "kind": "discount",
+                "identifier": "early-booker-deal",
+                "name": "Early Booker Deal",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 42.5
+                },
+                "details": "You’re getting a reduced rate because this property is offering a discount.",
+                "base": {
+                  "kind": "rate"
+                }
+              },
+              {
+                "base": {
+                  "kind": "rate"
+                },
+                "identifier": "mobile-discount",
+                "kind": "discount",
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "name": "Mobile-only price",
+                "item_amount": {
+                  "value": 38.25,
+                  "currency": "EUR"
+                }
+              }
+            ],
+            "benefits": [
+              {
+                "badge_variant": "constructive",
+                "icon": null,
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "name": "Mobile-only price",
+                "kind": "badge",
+                "identifier": "mobile-rate"
+              }
+            ],
+            "discounted_amount": {
+              "value": 80.75,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "currency": "EUR",
+              "value": 344.25
+            },
+            "gross_amount_hotel_currency": {
+              "value": 344.25,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 36.8839285714286
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 307.366071428571
+            },
+            "strikethrough_amount": {
+              "currency": "EUR",
+              "value": 425
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 5.7
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 344.25
+            }
+          }
+        ],
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 344.25
+        },
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 5.7
+        }
+      },
+      "class_is_estimated": 0,
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "class": 4,
+      "checkin": {
+        "from": "14:00",
+        "until": "20:00"
+      },
+      "updated_checkout": null,
+      "hotel_id": 471643,
+      "native_ad_id": "",
+      "native_ads_tracking": "",
+      "cant_book": 0,
+      "main_photo_id": 344530806,
+      "address": "Bohdanečská 259/1",
+      "url": "https://www.booking.com/hotel/cz/za-mecka1-2-ctanice.html",
+      "districts": "",
+      "unit_configuration_label": "<b>Private suite – 35 m²</b>: 2 beds • 1 bedroom • 1 living room • 1 bathroom",
+      "cc1": "cz",
+      "city": "Praha 9",
+      "distance_to_cc_formatted": "12 km",
+      "district": "",
+      "is_genius_deal": 0,
+      "hotel_facilities": "161,76,16,183,4,127,20,23,224,454,210,468,305,28,449,456,453,501,51,517,14,500,524,140,462,448,422,455,44,447,495,91,86,484,173,176,493,436,440,494,486,7,421,219,46,461,467,209,6,512,502,460,3,485,445,464,491,108,177,458,43,424,17,49,170,490,2,443,446,459,425,452,222,465,444,96,466,81,463,80,5,423,487,426,48,488,205,78,203,492,163,489,534,47,450,124,471,158,408,499,439,505,535,506,419,457,451,101,107,70,22",
+      "cc_required": 1,
+      "city_name_en": "Praha 9",
+      "type": "property_card",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/344530806.jpg?k=39297bc7e3460825e450ef3cf7e767bc6da2ebd901c5c0afbf59ab09f1ea8a02&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/344530806.jpg?k=39297bc7e3460825e450ef3cf7e767bc6da2ebd901c5c0afbf59ab09f1ea8a02&o="
+    },
+    {
+      "hotel_name_trans": "4 Arts Apartments by Adrez Living",
+      "hotel_name": "4 Arts Apartments by Adrez Living",
+      "countrycode": "cz",
+      "extended": 0,
+      "badges": [],
+      "checkout": {
+        "until": "10:00",
+        "from": "01:00"
+      },
+      "children_not_allowed": 0,
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "city_trans": "Prague",
+      "id": "property_card_1225215",
+      "accommodation_type_name": "Apartment",
+      "longitude": 14.4261315,
+      "is_no_prepayment_block": 0,
+      "updated_checkin": null,
+      "in_best_district": 0,
+      "distance": "0.37",
+      "is_beach_front": 0,
+      "review_score_word": "Very good",
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "0.40",
+      "distances": [
+        {
+          "text": "‎Prague 1‬ • ‎350 m from centre‬",
+          "icon_set": null,
+          "icon_name": "bui_geo_pin"
+        },
+        {
+          "icon_set": null,
+          "text": "‎This property has free cots available‬",
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "review_nr": 930,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 1,
+          "localized_area": "56"
+        }
+      },
+      "address_trans": "Rybna 650/3",
+      "preferred": 1,
+      "wishlist_count": 0,
+      "ufi": -553173,
+      "zip": "110 00",
+      "accommodation_type": 201,
+      "hotel_include_breakfast": 0,
+      "currencycode": "EUR",
+      "block_ids": [
+        "122521503_375932516_4_0_0"
+      ],
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "min_total_price": 320,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.0880051,
+      "preferred_plus": 1,
+      "price_is_final": 0,
+      "main_photo_id": 528163365,
+      "native_ad_id": "",
+      "cant_book": 0,
+      "native_ads_tracking": "",
+      "updated_checkout": null,
+      "hotel_id": 1225215,
+      "checkin": {
+        "until": "00:00",
+        "from": "15:00"
+      },
+      "class": 4,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "composite_price_breakdown": {
+        "items": [
+          {
+            "inclusion_type": "included",
+            "base": {
+              "base_amount": 1.9,
+              "kind": "per_person_per_night"
+            },
+            "kind": "charge",
+            "details": null,
+            "item_amount": {
+              "value": 7.6,
+              "currency": "EUR"
+            },
+            "name": "City tax"
+          },
+          {
+            "item_amount": {
+              "value": 33.4714285714286,
+              "currency": "EUR"
+            },
+            "name": "VAT",
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included"
+          }
+        ],
+        "benefits": [],
+        "gross_amount_hotel_currency": {
+          "value": 320,
+          "currency": "EUR"
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 41.0714285714286
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 320
+        },
+        "net_amount": {
+          "value": 278.928571428571,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "translated_copy": "Includes taxes and charges",
+          "mode": "all_included"
+        },
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 320
+        },
+        "product_price_breakdowns": [
+          {
+            "all_inclusive_amount": {
+              "value": 320,
+              "currency": "EUR"
+            },
+            "charges_details": {
+              "amount": {
+                "value": 0,
+                "currency": "EUR"
+              },
+              "mode": "all_included",
+              "translated_copy": "Includes taxes and charges"
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 320
+            },
+            "excluded_amount": {
+              "value": 0,
+              "currency": "EUR"
+            },
+            "items": [
+              {
+                "inclusion_type": "included",
+                "base": {
+                  "kind": "per_person_per_night",
+                  "base_amount": 1.9
+                },
+                "details": null,
+                "name": "City tax",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 7.6
+                },
+                "kind": "charge"
+              },
+              {
+                "kind": "charge",
+                "details": "12 % VAT",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 33.4714285714286,
+                  "currency": "EUR"
+                },
+                "inclusion_type": "included",
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                }
+              }
+            ],
+            "benefits": [],
+            "net_amount": {
+              "value": 278.928571428571,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "value": 320,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 320
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 41.0714285714286,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "excluded_amount": {
+          "value": 0,
+          "currency": "EUR"
+        },
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 320
+        }
+      },
+      "class_is_estimated": 0,
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "currency_code": "EUR",
+      "price_breakdown": {
+        "all_inclusive_price": 320,
+        "has_tax_exceptions": 0,
+        "gross_price": "320.00",
+        "has_fine_print_charges": 1,
+        "sum_excluded_raw": "0.00",
+        "has_incalculable_charges": 0,
+        "currency": "EUR"
+      },
+      "is_city_center": 0,
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "external_reviews": {
+        "score": 9.84000015258789,
+        "score_word": "Exceptional",
+        "num_reviews": 183,
+        "should_display": ""
+      },
+      "review_score": 8.4,
+      "district_id": 255,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/528163365.jpg?k=0961772b200cff280c8b9e5838fd52053f68a1452c9835e6140c34edc64f5c5b&o=",
+      "is_free_cancellable": 1,
+      "city_in_trans": "in Prague",
+      "review_recommendation": "",
+      "type": "property_card",
+      "city_name_en": "Prague",
+      "booking_home": {
+        "quality_class": 0,
+        "is_booking_home": 1,
+        "is_single_unit_property": "",
+        "group": "apartment_like",
+        "segment": 1
+      },
+      "cc_required": 1,
+      "hotel_facilities": "499,129,467,461,209,110,494,450,47,470,451,457,107,101,460,419,495,163,492,493,181,436,51,456,28,305,449,425,455,48,481,476,423,80,96,462,140,17,304,108,16,445,468,2,210,490,454",
+      "is_genius_deal": 0,
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "350 m",
+      "city": "Prague",
+      "unit_configuration_label": "<b>Entire apartment – 56 m²</b>: 2 beds • 1 bedroom • 1 living room • 1 bathroom",
+      "districts": "255,270,1641,2309",
+      "cc1": "cz",
+      "url": "https://www.booking.com/hotel/cz/4-arts-suites.html",
+      "address": "Rybna 650/3",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/528163365.jpg?k=0961772b200cff280c8b9e5838fd52053f68a1452c9835e6140c34edc64f5c5b&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/528163365.jpg?k=0961772b200cff280c8b9e5838fd52053f68a1452c9835e6140c34edc64f5c5b&o="
+    },
+    {
+      "checkout": {
+        "from": "05:00",
+        "until": "11:00"
+      },
+      "children_not_allowed": 0,
+      "badges": [
+        {
+          "id": "Mobile Rate",
+          "badge_variant": "constructive",
+          "text": "Mobile-only price"
+        }
+      ],
+      "extended": 0,
+      "countrycode": "cz",
+      "hotel_name": "Hotel Prokop Square",
+      "hotel_name_trans": "Hotel Prokop Square",
+      "in_best_district": 0,
+      "updated_checkin": null,
+      "is_no_prepayment_block": 0,
+      "longitude": 14.451776,
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_3235782",
+      "city_trans": "Prague",
+      "genius_discount_percentage": 0,
+      "mobile_discount_percentage": 52.2500000000001,
+      "currencycode": "EUR",
+      "accommodation_type": 204,
+      "zip": "130 00",
+      "wishlist_count": 0,
+      "ufi": -553173,
+      "address_trans": "Cimburkova 28",
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": null,
+          "unit_type_id": 13
+        }
+      },
+      "preferred": 1,
+      "review_nr": 1182,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎Prague 3‬ • ‎2.2 km from centre‬",
+          "icon_set": null
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "icon_set": null,
+          "text": "‎This property has free cots available‬"
+        }
+      ],
+      "is_geo_rate": "",
+      "is_smart_deal": 0,
+      "distance_to_cc": "2.20",
+      "review_score_word": "Superb",
+      "is_beach_front": 0,
+      "distance": "2.20",
+      "price_is_final": 0,
+      "preferred_plus": 1,
+      "latitude": 50.086561,
+      "default_wishlist_name": "Prague",
+      "min_total_price": 470.25,
+      "selected_review_topic": null,
+      "native_ads_cpc": 0,
+      "block_ids": [
+        "323578208_382946368_5_1_0"
+      ],
+      "price_breakdown": {
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "sum_excluded_raw": "8.00",
+        "has_fine_print_charges": 0,
+        "has_tax_exceptions": 0,
+        "gross_price": 470.25,
+        "all_inclusive_price": 478.25
+      },
+      "currency_code": "EUR",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "default_language": "cs",
+      "is_mobile_deal": 1,
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "charges_details": {
+          "amount": {
+            "value": 8,
+            "currency": "EUR"
+          },
+          "mode": "extra_charges",
+          "translated_copy": "+€ 8 taxes and charges"
+        },
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 478.25
+        },
+        "strikethrough_amount_per_night": {
+          "value": 550,
+          "currency": "EUR"
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 50.3839285714286
+        },
+        "gross_amount_hotel_currency": {
+          "value": 470.25,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "value": 470.25,
+          "currency": "EUR"
+        },
+        "net_amount": {
+          "currency": "EUR",
+          "value": 419.866071428571
+        },
+        "discounted_amount": {
+          "value": 79.7499999999999,
+          "currency": "EUR"
+        },
+        "benefits": [
+          {
+            "badge_variant": "constructive",
+            "icon": null,
+            "name": "Mobile-only price",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "kind": "badge",
+            "identifier": "mobile-rate"
+          }
+        ],
+        "items": [
+          {
+            "name": "VAT",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 50.3839285714286
+            },
+            "details": "12 % VAT",
+            "kind": "charge",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included"
+          },
+          {
+            "inclusion_type": "excluded",
+            "base": {
+              "base_amount": 2,
+              "kind": "per_person_per_night"
+            },
+            "details": null,
+            "name": "City tax",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 8
+            },
+            "kind": "charge"
+          },
+          {
+            "base": {
+              "kind": "rate"
+            },
+            "identifier": "mobile-discount",
+            "kind": "discount",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "name": "Mobile-only price",
+            "item_amount": {
+              "value": 52.2500000000001,
+              "currency": "EUR"
+            }
+          },
+          {
+            "base": {
+              "kind": "rate"
+            },
+            "name": "Early Booker Deal",
+            "item_amount": {
+              "value": 27.4999999999999,
+              "currency": "EUR"
+            },
+            "details": "You’re getting a reduced rate because this property is offering a discount.",
+            "kind": "discount",
+            "identifier": "early-booker-deal"
+          }
+        ],
+        "excluded_amount": {
+          "value": 8,
+          "currency": "EUR"
+        },
+        "gross_amount_per_night": {
+          "value": 470.25,
+          "currency": "EUR"
+        },
+        "product_price_breakdowns": [
+          {
+            "strikethrough_amount": {
+              "currency": "EUR",
+              "value": 550
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 8
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 470.25
+            },
+            "benefits": [
+              {
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "name": "Mobile-only price",
+                "kind": "badge",
+                "identifier": "mobile-rate",
+                "badge_variant": "constructive",
+                "icon": null
+              }
+            ],
+            "items": [
+              {
+                "inclusion_type": "included",
+                "base": {
+                  "kind": "percentage",
+                  "percentage": 12
+                },
+                "details": "12 % VAT",
+                "name": "VAT",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 50.3839285714286
+                },
+                "kind": "charge"
+              },
+              {
+                "inclusion_type": "excluded",
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                },
+                "details": null,
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 8
+                },
+                "name": "City tax",
+                "kind": "charge"
+              },
+              {
+                "name": "Mobile-only price",
+                "item_amount": {
+                  "value": 52.2500000000001,
+                  "currency": "EUR"
+                },
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "identifier": "mobile-discount",
+                "kind": "discount",
+                "base": {
+                  "kind": "rate"
+                }
+              },
+              {
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 27.4999999999999
+                },
+                "name": "Early Booker Deal",
+                "details": "You’re getting a reduced rate because this property is offering a discount.",
+                "kind": "discount",
+                "identifier": "early-booker-deal",
+                "base": {
+                  "kind": "rate"
+                }
+              }
+            ],
+            "gross_amount": {
+              "currency": "EUR",
+              "value": 470.25
+            },
+            "gross_amount_hotel_currency": {
+              "value": 470.25,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 50.3839285714286,
+              "currency": "EUR"
+            },
+            "net_amount": {
+              "value": 419.866071428571,
+              "currency": "EUR"
+            },
+            "discounted_amount": {
+              "currency": "EUR",
+              "value": 79.7499999999999
+            },
+            "charges_details": {
+              "translated_copy": "+€ 8 taxes and charges",
+              "mode": "extra_charges",
+              "amount": {
+                "value": 8,
+                "currency": "EUR"
+              }
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 478.25
+            },
+            "strikethrough_amount_per_night": {
+              "value": 550,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "strikethrough_amount": {
+          "value": 550,
+          "currency": "EUR"
+        }
+      },
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "class": 4,
+      "checkin": {
+        "until": "23:30",
+        "from": "15:00"
+      },
+      "updated_checkout": null,
+      "hotel_id": 3235782,
+      "native_ad_id": "",
+      "cant_book": 0,
+      "native_ads_tracking": "",
+      "main_photo_id": 504952272,
+      "review_recommendation": "",
+      "city_in_trans": "in Prague",
+      "is_free_cancellable": 1,
+      "district_id": 257,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/504952272.jpg?k=70feb206161f77b05a7d5b0d58f7a216fc4885458dc01cf4d06ce69daa5d1d3b&o=",
+      "ribbon_text": "Breakfast included",
+      "review_score": 9,
+      "hotel_has_vb_boost": 0,
+      "soldout": 0,
+      "is_city_center": 0,
+      "is_genius_deal": 0,
+      "hotel_facilities": "467,461,209,7,483,421,485,420,404,502,460,142,495,435,91,44,440,496,436,8,14,51,453,28,305,449,184,455,422,476,448,462,53,140,20,474,127,183,16,161,468,442,160,210,23,439,158,471,110,124,450,47,111,117,470,22,451,457,107,489,163,181,78,444,465,222,452,425,48,481,423,426,80,81,466,96,424,17,49,118,108,182,458,177,479,445,459,109,443,446,478,2,75,15",
+      "cc_required": 1,
+      "city_name_en": "Praha 3",
+      "type": "property_card",
+      "address": "Cimburkova 28",
+      "url": "https://www.booking.com/hotel/cz/prokop-boutique-praha-3.html",
+      "city": "Praha 3",
+      "unit_configuration_label": "<b>Hotel room</b>: 5 beds",
+      "districts": "257,3206",
+      "cc1": "cz",
+      "district": "Prague 3",
+      "distance_to_cc_formatted": "2.2 km",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/504952272.jpg?k=70feb206161f77b05a7d5b0d58f7a216fc4885458dc01cf4d06ce69daa5d1d3b&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/504952272.jpg?k=70feb206161f77b05a7d5b0d58f7a216fc4885458dc01cf4d06ce69daa5d1d3b&o="
+    },
+    {
+      "city_name_en": "Prague",
+      "type": "property_card",
+      "cc_required": 1,
+      "is_genius_deal": 0,
+      "hotel_facilities": "107,3,457,404,218,111,420,219,209,439,467,461,450,494,124,47,418,408,158,486,489,440,163,78,405,493,492,436,176,203,496,406,205,435,91,495,447,426,423,422,64,48,184,455,462,140,53,81,500,96,80,5,448,51,501,465,444,8,425,28,305,453,442,443,468,109,459,454,411,75,210,2,458,4,497,410,108,17,424,43,445,161,16",
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "400 m",
+      "unit_configuration_label": "<b>42 m²</b>: 3 beds • 1 bedroom • 1 living room • 1 bathroom",
+      "cc1": "cz",
+      "districts": "255,270,1641,2309",
+      "city": "Prague",
+      "url": "https://www.booking.com/hotel/cz/prague-inn.html",
+      "address": "28.října 378/15",
+      "updated_checkout": null,
+      "hotel_id": 77256,
+      "main_photo_id": 34355952,
+      "native_ads_tracking": "",
+      "native_ad_id": "",
+      "cant_book": 0,
+      "class": 4,
+      "country_trans": "Czech Republic",
+      "timezone": "Europe/Prague",
+      "checkin": {
+        "until": "",
+        "from": "14:00"
+      },
+      "default_language": "en",
+      "is_mobile_deal": 1,
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "composite_price_breakdown": {
+        "gross_amount_per_night": {
+          "value": 752.4,
+          "currency": "EUR"
+        },
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 8
+        },
+        "product_price_breakdowns": [
+          {
+            "strikethrough_amount": {
+              "value": 836,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 8
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 752.4
+            },
+            "items": [
+              {
+                "base": {
+                  "percentage": 12,
+                  "kind": "percentage"
+                },
+                "inclusion_type": "included",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 80.6142857142857,
+                  "currency": "EUR"
+                },
+                "details": "12 % VAT",
+                "kind": "charge"
+              },
+              {
+                "item_amount": {
+                  "value": 8,
+                  "currency": "EUR"
+                },
+                "name": "City tax",
+                "details": null,
+                "kind": "charge",
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                },
+                "inclusion_type": "excluded"
+              },
+              {
+                "identifier": "mobile-discount",
+                "kind": "discount",
+                "name": "Mobile-only price",
+                "item_amount": {
+                  "value": 83.6,
+                  "currency": "EUR"
+                },
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "base": {
+                  "kind": "rate"
+                }
+              }
+            ],
+            "benefits": [
+              {
+                "identifier": "mobile-rate",
+                "kind": "badge",
+                "name": "Mobile-only price",
+                "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                "icon": null,
+                "badge_variant": "constructive"
+              }
+            ],
+            "discounted_amount": {
+              "currency": "EUR",
+              "value": 83.6
+            },
+            "gross_amount_hotel_currency": {
+              "value": 752.4,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 80.6142857142857
+            },
+            "gross_amount": {
+              "value": 752.4,
+              "currency": "EUR"
+            },
+            "net_amount": {
+              "currency": "EUR",
+              "value": 671.785714285714
+            },
+            "strikethrough_amount_per_night": {
+              "value": 836,
+              "currency": "EUR"
+            },
+            "charges_details": {
+              "mode": "extra_charges",
+              "translated_copy": "+€ 8 taxes and charges",
+              "amount": {
+                "value": 8,
+                "currency": "EUR"
+              }
+            },
+            "all_inclusive_amount": {
+              "value": 760.4,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "strikethrough_amount": {
+          "currency": "EUR",
+          "value": 836
+        },
+        "net_amount": {
+          "currency": "EUR",
+          "value": 671.785714285714
+        },
+        "gross_amount_hotel_currency": {
+          "currency": "EUR",
+          "value": 752.4
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 80.6142857142857
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 752.4
+        },
+        "discounted_amount": {
+          "currency": "EUR",
+          "value": 83.6
+        },
+        "benefits": [
+          {
+            "kind": "badge",
+            "identifier": "mobile-rate",
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "name": "Mobile-only price",
+            "icon": null,
+            "badge_variant": "constructive"
+          }
+        ],
+        "items": [
+          {
+            "inclusion_type": "included",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "details": "12 % VAT",
+            "name": "VAT",
+            "item_amount": {
+              "value": 80.6142857142857,
+              "currency": "EUR"
+            },
+            "kind": "charge"
+          },
+          {
+            "details": null,
+            "name": "City tax",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 8
+            },
+            "kind": "charge",
+            "inclusion_type": "excluded",
+            "base": {
+              "kind": "per_person_per_night",
+              "base_amount": 2
+            }
+          },
+          {
+            "base": {
+              "kind": "rate"
+            },
+            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+            "item_amount": {
+              "value": 83.6,
+              "currency": "EUR"
+            },
+            "name": "Mobile-only price",
+            "kind": "discount",
+            "identifier": "mobile-discount"
+          }
+        ],
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 760.4
+        },
+        "charges_details": {
+          "mode": "extra_charges",
+          "translated_copy": "+€ 8 taxes and charges",
+          "amount": {
+            "value": 8,
+            "currency": "EUR"
+          }
+        },
+        "strikethrough_amount_per_night": {
+          "value": 836,
+          "currency": "EUR"
+        }
+      },
+      "class_is_estimated": 0,
+      "price_breakdown": {
+        "has_incalculable_charges": 0,
+        "currency": "EUR",
+        "has_fine_print_charges": 0,
+        "sum_excluded_raw": "8.00",
+        "gross_price": "752.40",
+        "has_tax_exceptions": 0,
+        "all_inclusive_price": 760.4
+      },
+      "currency_code": "EUR",
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "is_city_center": 0,
+      "ribbon_text": "Breakfast included",
+      "review_score": 8.1,
+      "city_in_trans": "in Prague",
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/34355952.jpg?k=2ae09936fe8621ddb6ab8c801c10a4e5cc6fac2598e69d03457007505e4a04c9&o=",
+      "district_id": 255,
+      "is_free_cancellable": 1,
+      "review_recommendation": "",
+      "review_score_word": "Very good",
+      "distance": "0.38",
+      "is_beach_front": 0,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "text": "‎Prague 1‬ • ‎400 m from centre‬",
+          "icon_set": null
+        },
+        {
+          "text": "‎This property has cots available‬",
+          "icon_set": null,
+          "icon_name": "bui_baby_cot"
+        }
+      ],
+      "is_geo_rate": "",
+      "distance_to_cc": "0.40",
+      "is_smart_deal": 0,
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "accommodation_type": 204,
+      "zip": "11000",
+      "review_nr": 2008,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": "42",
+          "unit_type_id": 1
+        }
+      },
+      "address_trans": "28.října 378/15",
+      "preferred": 1,
+      "currencycode": "EUR",
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "block_ids": [
+        "7725618_347367805_0_1_0"
+      ],
+      "min_total_price": 752.4,
+      "preferred_plus": 1,
+      "price_is_final": 0,
+      "default_wishlist_name": "Prague",
+      "latitude": 50.0841164281435,
+      "hotel_name": "Prague Inn",
+      "hotel_name_trans": "Prague Inn",
+      "extended": 0,
+      "countrycode": "cz",
+      "badges": [
+        {
+          "id": "Mobile Rate",
+          "text": "Mobile-only price",
+          "badge_variant": "constructive"
+        }
+      ],
+      "children_not_allowed": 0,
+      "checkout": {
+        "from": "",
+        "until": "12:00"
+      },
+      "genius_discount_percentage": 0,
+      "mobile_discount_percentage": 83.6,
+      "city_trans": "Prague",
+      "id": "property_card_77256",
+      "accommodation_type_name": "Hotel",
+      "longitude": 14.4231551885605,
+      "in_best_district": 0,
+      "is_no_prepayment_block": 1,
+      "updated_checkin": null,
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/34355952.jpg?k=2ae09936fe8621ddb6ab8c801c10a4e5cc6fac2598e69d03457007505e4a04c9&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/34355952.jpg?k=2ae09936fe8621ddb6ab8c801c10a4e5cc6fac2598e69d03457007505e4a04c9&o="
+    },
+    {
+      "is_no_prepayment_block": 0,
+      "updated_checkin": null,
+      "in_best_district": 0,
+      "has_free_parking": 1,
+      "longitude": 14.4361008703709,
+      "accommodation_type_name": "Hotel",
+      "id": "property_card_246321",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "city_trans": "Prague",
+      "badges": [],
+      "children_not_allowed": 0,
+      "checkout": {
+        "until": "11:00",
+        "from": "01:00"
+      },
+      "countrycode": "cz",
+      "extended": 0,
+      "hotel_name_trans": "Hotel Merkur - Czech Leading Hotels",
+      "hotel_name": "Hotel Merkur - Czech Leading Hotels",
+      "latitude": 50.0915414196661,
+      "default_wishlist_name": "Prague",
+      "preferred_plus": 0,
+      "price_is_final": 1,
+      "min_total_price": 268,
+      "block_ids": [
+        "24632104_351702905_0_2_0"
+      ],
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "review_nr": 5835,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "unit_type_id": 7,
+          "localized_area": null
+        }
+      },
+      "address_trans": "Tesnov 1162/9",
+      "preferred": 1,
+      "wishlist_count": 0,
+      "ufi": -553173,
+      "accommodation_type": 204,
+      "zip": "11000",
+      "is_geo_rate": "",
+      "distance_to_cc": "1.20",
+      "is_smart_deal": 0,
+      "distances": [
+        {
+          "text": "‎Prague 1‬ • ‎1.2 km from centre‬",
+          "icon_set": null,
+          "icon_name": "bui_geo_pin"
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "icon_set": null,
+          "text": "‎This property has free cots available‬"
+        }
+      ],
+      "distance": "1.18",
+      "is_beach_front": 0,
+      "review_score_word": "Superb",
+      "review_recommendation": "",
+      "district_id": 255,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/517961684.jpg?k=5366c93640f542395cddd0242d898f3d55203276181f01ee38aa09a163793d78&o=",
+      "is_free_cancellable": 1,
+      "city_in_trans": "in Prague",
+      "review_score": 9,
+      "is_city_center": 0,
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "currency_code": "EUR",
+      "price_breakdown": {
+        "currency": "EUR",
+        "has_incalculable_charges": 0,
+        "sum_excluded_raw": "0.00",
+        "has_fine_print_charges": 0,
+        "gross_price": "268.00",
+        "has_tax_exceptions": 0,
+        "all_inclusive_price": 268
+      },
+      "class_is_estimated": 0,
+      "composite_price_breakdown": {
+        "product_price_breakdowns": [
+          {
+            "charges_details": {
+              "amount": {
+                "currency": "EUR",
+                "value": 0
+              },
+              "translated_copy": "Includes taxes and charges",
+              "mode": "all_included"
+            },
+            "all_inclusive_amount": {
+              "value": 268,
+              "currency": "EUR"
+            },
+            "strikethrough_amount_per_night": {
+              "value": 536,
+              "currency": "EUR"
+            },
+            "gross_amount_hotel_currency": {
+              "value": 268,
+              "currency": "EUR"
+            },
+            "included_taxes_and_charges_amount": {
+              "value": 28.7142857142857,
+              "currency": "EUR"
+            },
+            "gross_amount": {
+              "currency": "EUR",
+              "value": 268
+            },
+            "net_amount": {
+              "value": 239.285714285714,
+              "currency": "EUR"
+            },
+            "discounted_amount": {
+              "currency": "EUR",
+              "value": 268
+            },
+            "benefits": [],
+            "items": [
+              {
+                "item_amount": {
+                  "value": 28.7142857142857,
+                  "currency": "EUR"
+                },
+                "name": "VAT",
+                "details": "12 % VAT",
+                "kind": "charge",
+                "base": {
+                  "kind": "percentage",
+                  "percentage": 12
+                },
+                "inclusion_type": "included"
+              },
+              {
+                "details": "You’re getting a reduced rate because this property is offering a discount.",
+                "item_amount": {
+                  "currency": "EUR",
+                  "value": 268
+                },
+                "name": "Bonus savings",
+                "kind": "discount",
+                "identifier": "basic-deal",
+                "base": {
+                  "kind": "rate"
+                }
+              }
+            ],
+            "gross_amount_per_night": {
+              "value": 268,
+              "currency": "EUR"
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 0
+            },
+            "strikethrough_amount": {
+              "value": 536,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 268
+        },
+        "excluded_amount": {
+          "value": 0,
+          "currency": "EUR"
+        },
+        "strikethrough_amount": {
+          "value": 536,
+          "currency": "EUR"
+        },
+        "discounted_amount": {
+          "currency": "EUR",
+          "value": 268
+        },
+        "gross_amount": {
+          "value": 268,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "value": 268,
+          "currency": "EUR"
+        },
+        "included_taxes_and_charges_amount": {
+          "currency": "EUR",
+          "value": 28.7142857142857
+        },
+        "net_amount": {
+          "currency": "EUR",
+          "value": 239.285714285714
+        },
+        "items": [
+          {
+            "details": "12 % VAT",
+            "name": "VAT",
+            "item_amount": {
+              "currency": "EUR",
+              "value": 28.7142857142857
+            },
+            "kind": "charge",
+            "inclusion_type": "included",
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            }
+          },
+          {
+            "identifier": "basic-deal",
+            "kind": "discount",
+            "details": "You’re getting a reduced rate because this property is offering a discount.",
+            "name": "Bonus savings",
+            "item_amount": {
+              "value": 268,
+              "currency": "EUR"
+            },
+            "base": {
+              "kind": "rate"
+            }
+          }
+        ],
+        "benefits": [],
+        "strikethrough_amount_per_night": {
+          "value": 536,
+          "currency": "EUR"
+        },
+        "charges_details": {
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "translated_copy": "Includes taxes and charges",
+          "mode": "all_included"
+        },
+        "all_inclusive_amount": {
+          "value": 268,
+          "currency": "EUR"
+        }
+      },
+      "is_mobile_deal": 0,
+      "default_language": "en",
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "checkin": {
+        "until": "23:30",
+        "from": "14:00"
+      },
+      "class": 4,
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "main_photo_id": 517961684,
+      "native_ad_id": "",
+      "native_ads_tracking": "",
+      "cant_book": 0,
+      "hotel_id": 246321,
+      "updated_checkout": null,
+      "address": "Tesnov 1162/9",
+      "url": "https://www.booking.com/hotel/cz/merkur.html",
+      "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+      "city": "Praha 1",
+      "districts": "255,2309",
+      "cc1": "cz",
+      "district": "Prague 1",
+      "distance_to_cc_formatted": "1.2 km",
+      "hotel_facilities": "405,493,436,176,440,55,44,447,441,91,495,460,3,404,218,250,494,483,251,46,209,467,461,454,23,210,442,160,468,245,161,246,16,76,21,127,4,183,12,462,140,53,500,448,133,422,455,449,28,135,305,453,456,51,501,14,8,78,492,203,247,489,163,488,205,180,419,107,101,451,457,470,22,111,73,450,47,124,110,158,505,439,499,75,478,2,443,459,445,464,458,177,108,424,43,17,81,96,5,80,426,423,48,249,425,465",
+      "is_genius_deal": 0,
+      "cc_required": 1,
+      "type": "property_card",
+      "city_name_en": "Praha 1",
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/517961684.jpg?k=5366c93640f542395cddd0242d898f3d55203276181f01ee38aa09a163793d78&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/517961684.jpg?k=5366c93640f542395cddd0242d898f3d55203276181f01ee38aa09a163793d78&o="
+    },
+    {
+      "has_swimming_pool": 1,
+      "currencycode": "EUR",
+      "hotel_include_breakfast": 0,
+      "ufi": -553173,
+      "wishlist_count": 0,
+      "zip": "14063",
+      "accommodation_type": 204,
+      "review_nr": 7353,
+      "matching_units_configuration": {
+        "matching_units_common_config": {
+          "localized_area": null,
+          "unit_type_id": 5
+        }
+      },
+      "address_trans": "Milevská 7",
+      "preferred": 1,
+      "distances": [
+        {
+          "icon_name": "bui_geo_pin",
+          "icon_set": null,
+          "text": "‎Prague 4‬ • ‎4.4 km from centre‬"
+        },
+        {
+          "icon_name": "bui_baby_cot",
+          "icon_set": null,
+          "text": "‎This property has free cots available‬"
+        }
+      ],
+      "is_smart_deal": 0,
+      "is_geo_rate": "",
+      "distance_to_cc": "4.45",
+      "review_score_word": "Very good",
+      "distance": "4.43",
+      "is_beach_front": 0,
+      "preferred_plus": 0,
+      "price_is_final": 0,
+      "latitude": 50.048996276252,
+      "default_wishlist_name": "Prague",
+      "min_total_price": 280,
+      "native_ads_cpc": 0,
+      "selected_review_topic": null,
+      "block_ids": [
+        "7702852_243599452_3_2_0"
+      ],
+      "badges": [],
+      "children_not_allowed": 0,
+      "checkout": {
+        "until": "12:00",
+        "from": ""
+      },
+      "extended": 0,
+      "countrycode": "cz",
+      "hotel_name": "Panorama Hotel Prague",
+      "hotel_name_trans": "Panorama Hotel Prague",
+      "in_best_district": 0,
+      "is_no_prepayment_block": 1,
+      "updated_checkin": null,
+      "longitude": 14.4381541013718,
+      "id": "property_card_77028",
+      "accommodation_type_name": "Hotel",
+      "mobile_discount_percentage": 0,
+      "genius_discount_percentage": 0,
+      "city_trans": "Prague",
+      "is_genius_deal": 0,
+      "hotel_facilities": "8,50,501,51,226,103,305,28,449,455,422,133,448,500,140,53,20,194,304,183,121,4,246,16,161,245,468,160,442,210,23,461,129,467,209,251,7,421,257,420,485,250,3,502,6,495,91,55,44,440,433,496,493,436,176,484,444,425,249,48,423,253,487,80,96,466,17,424,118,108,242,445,459,229,109,198,2,15,75,411,499,158,301,110,79,418,450,47,124,73,220,117,10,111,22,54,470,457,451,227,107,11,63,503,205,240,163,489,247,241,203,181",
+      "cc_required": 1,
+      "city_name_en": "Prague",
+      "type": "property_card",
+      "address": "Milevská 7",
+      "url": "https://www.booking.com/hotel/cz/corinthiapanorama.html",
+      "districts": "258",
+      "unit_configuration_label": "<b>Private suite</b>: 2 beds",
+      "cc1": "cz",
+      "city": "Prague",
+      "distance_to_cc_formatted": "4.4 km",
+      "district": "Prague 4",
+      "price_breakdown": {
+        "all_inclusive_price": 286,
+        "has_tax_exceptions": 0,
+        "gross_price": "280.00",
+        "has_fine_print_charges": 1,
+        "sum_excluded_raw": "6.00",
+        "has_incalculable_charges": 0,
+        "currency": "EUR"
+      },
+      "currency_code": "EUR",
+      "default_language": "en",
+      "is_mobile_deal": 0,
+      "bwallet": {
+        "hotel_eligibility": 0
+      },
+      "composite_price_breakdown": {
+        "net_amount": {
+          "currency": "EUR",
+          "value": 250
+        },
+        "included_taxes_and_charges_amount": {
+          "value": 30,
+          "currency": "EUR"
+        },
+        "gross_amount_hotel_currency": {
+          "value": 280,
+          "currency": "EUR"
+        },
+        "gross_amount": {
+          "currency": "EUR",
+          "value": 280
+        },
+        "items": [
+          {
+            "base": {
+              "percentage": 12,
+              "kind": "percentage"
+            },
+            "inclusion_type": "included",
+            "kind": "charge",
+            "name": "VAT",
+            "item_amount": {
+              "value": 30,
+              "currency": "EUR"
+            },
+            "details": "12 % VAT"
+          },
+          {
+            "inclusion_type": "excluded",
+            "base": {
+              "base_amount": 2,
+              "kind": "per_person_per_night"
+            },
+            "kind": "charge",
+            "details": null,
+            "name": "City tax",
+            "item_amount": {
+              "value": 6,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "benefits": [],
+        "product_price_breakdowns": [
+          {
+            "items": [
+              {
+                "kind": "charge",
+                "details": "12 % VAT",
+                "name": "VAT",
+                "item_amount": {
+                  "value": 30,
+                  "currency": "EUR"
+                },
+                "inclusion_type": "included",
+                "base": {
+                  "kind": "percentage",
+                  "percentage": 12
+                }
+              },
+              {
+                "inclusion_type": "excluded",
+                "base": {
+                  "base_amount": 2,
+                  "kind": "per_person_per_night"
+                },
+                "details": null,
+                "name": "City tax",
+                "item_amount": {
+                  "value": 6,
+                  "currency": "EUR"
+                },
+                "kind": "charge"
+              }
+            ],
+            "benefits": [],
+            "net_amount": {
+              "currency": "EUR",
+              "value": 250
+            },
+            "gross_amount_hotel_currency": {
+              "currency": "EUR",
+              "value": 280
+            },
+            "included_taxes_and_charges_amount": {
+              "currency": "EUR",
+              "value": 30
+            },
+            "gross_amount": {
+              "value": 280,
+              "currency": "EUR"
+            },
+            "all_inclusive_amount": {
+              "currency": "EUR",
+              "value": 286
+            },
+            "charges_details": {
+              "mode": "extra_charges",
+              "translated_copy": "+€ 6 taxes and charges",
+              "amount": {
+                "value": 6,
+                "currency": "EUR"
+              }
+            },
+            "excluded_amount": {
+              "currency": "EUR",
+              "value": 6
+            },
+            "gross_amount_per_night": {
+              "currency": "EUR",
+              "value": 280
+            }
+          }
+        ],
+        "excluded_amount": {
+          "currency": "EUR",
+          "value": 6
+        },
+        "gross_amount_per_night": {
+          "currency": "EUR",
+          "value": 280
+        },
+        "all_inclusive_amount": {
+          "currency": "EUR",
+          "value": 286
+        },
+        "charges_details": {
+          "amount": {
+            "value": 6,
+            "currency": "EUR"
+          },
+          "translated_copy": "+€ 6 taxes and charges",
+          "mode": "extra_charges"
+        }
+      },
+      "class_is_estimated": 0,
+      "class": 4,
+      "timezone": "Europe/Prague",
+      "country_trans": "Czech Republic",
+      "checkin": {
+        "until": "",
+        "from": "14:00"
+      },
+      "updated_checkout": null,
+      "hotel_id": 77028,
+      "main_photo_id": 317297189,
+      "native_ad_id": "",
+      "cant_book": 0,
+      "native_ads_tracking": "",
+      "review_recommendation": "",
+      "city_in_trans": "in Prague",
+      "district_id": 258,
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/317297189.jpg?k=55cc42820e8e1f094ff079eb11b6632c67b9174ea632e64c325251885732e681&o=",
+      "is_free_cancellable": 1,
+      "review_score": 8.2,
+      "soldout": 0,
+      "hotel_has_vb_boost": 0,
+      "is_city_center": 0,
+      "max_photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/317297189.jpg?k=55cc42820e8e1f094ff079eb11b6632c67b9174ea632e64c325251885732e681&o=",
+      "max_1440_photo_url": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/317297189.jpg?k=55cc42820e8e1f094ff079eb11b6632c67b9174ea632e64c325251885732e681&o="
+    }
+  ]
+}

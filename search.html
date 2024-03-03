@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/all.min.css">
+            <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+            <link rel="shortcut icon" href="img/ki.png" type="image/x-icon">
+
+            <title>Home</title>
+
+
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/jquery-ui.css" />
+            <link rel="stylesheet" href="css/date.css" />
+
+		<link rel="stylesheet" href="css/jquery.selectBoxIt.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+      
+</head>
+<body ng-app="myApp"  ng-controller="myCtrl" >
+
+
+     <!-- headar  -->
+     <div class="headar container-fluid border-bottom" style="border-color: var(--dm-gray) !important;">
+      <div class="container ">
+            <div class="d-flex  align-items-center justify-content-between">
+               <a href=""><img class="logo" src="images/لقطة الشاشة 2024-02-11 130217-Photoroom 1.png" alt=""></a>
+               <div class="right-side-headar d-none d-md-flex  justify-content-between align-items-center " >
+                  <div   ng-click="dispcurfun()" id="currency" class=" list p-2 mx-2 text-uppercase ">USD</div>
+
+                        <div ng-show="dispcur" class="currency-section">
+                              <div class="container-fluid">
+                        <div    class="d-flex     pb-1 pt-1">
+                              <div class=" p-2 m-2 fitc  ">
+                                    <div class=" ">
+                                       <div class=" mb-4 ">
+                                        <ul class="mt-3 p-0">
+                        <li class="ft-li-curr"><span class="font-bold">AED</span> <p class="m-0">emtrites dirham</p></li>
+                        <li class="ft-li-curr"><span class="font-bold">USD</span> <p class="m-0"> U.S. Dollar</p></li>
+                        <li class="ft-li-curr"><span class="font-bold">INR</span> <p class="m-0">Indian Rupee</p> </li>
+                        <li class="ft-li-curr"><span class="font-bold">EUR</span> <p class="m-0">Euro</p> </li>
+                        <li class="ft-li-curr"><span class="font-bold">mxn</span> <p class="m-0">mexican peso</p></li>
+                        <li class="ft-li-curr"><span class="font-bold">mdl</span> <p class="m-0">moldovan leu</p></li>
+                        
+
+                        </ul>
+                                      </div>
+                        
+                                     
+                              </div>
+                              </div>
+                              <div class=" p-2 m-2 fitc">
+                                    <div class=" ">
+                                     <div class=" mb-4 ">
+                                   <ul class="mt-3 p-0">
+                                    <li class="ft-li-curr"><span class="font-bold">AUD</span> <p class="m-0">Australian Dollar</p></li>
+                                    <li class="ft-li-curr"><span class="font-bold">CAD</span> <p class="m-0">Canadian Dollar</p> </li>
+                                    <li class="ft-li-curr"><span class="font-bold">THB</span> <p class="m-0">Thai Baht</p></li>
+                                    <li class="ft-li-curr"><span class="font-bold">BGN</span> <p class="m-0">Bulgarian Lev</p> </li>
+                                    <li class="ft-li-curr"><span class="font-bold">nok</span> <p class="m-0">norwegain krone</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">pln</span> <p class="m-0">polish zloty</p></li>
+            
+                        </ul>
+                                    </div>
+                                    
+                              </div>
+                        </div>
+                        
+                              <div class=" p-2 m-2 fitc">
+                                    <div class=" ">
+                                    <div class=" mb-4">
+                                    <ul class="mt-3 p-0">
+                                          <li class="ft-li-curr"><span class="font-bold">BHD</span> <p class="m-0">Bahraini Dinar</p> </li>
+                                          <li class="ft-li-curr"><span class="font-bold">BRL</span> <p class="m-0">Brazilian Real</p> </li>
+                                          <li class="ft-li-curr"><span class="font-bold">CZK</span> <p class="m-0">Czech Koruna</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">COP</span> <p class="m-0">Colombian Peso</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">omr</span> <p class="m-0">omani rial</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">qar</span> <p class="m-0">qatari riyal</p></li>
+                                      </ul>
+                                   </div>
+                              </div>
+                             </div>
+                        
+                              <div class=" p-2 m-2 fitc ">
+                                    <div class=" ">
+                                     <div class=" mb-4 ">
+
+                                    <ul class="mt-3 p-0">
+                                          <li class="ft-li-curr"><span class="font-bold">RUB</span> <p class="m-0">New Taiwan Dollar</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">MYR</span> <p class="m-0">Malaysian Ringgit</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">JPY</span> <p class="m-0">Japanese Yen</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">NAD</span> <p class="m-0">Namibian Dollar</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">nzd</span> <p class="m-0">new zealand dollar</p></li>
+                                          <li class="ft-li-curr"><span class="font-bold">ron</span> <p class="m-0">romanian leu</p></li>
+                                    </ul>
+                        
+                                    </div>
+                              </div>
+                              </div>
+           
+
+                        </div>
+                        </div>
+                        </div>
+
+
+                  
+                  <div class=" list p-2 mx-2 "><a href="" >list your property</a></div>
+                  <div class=" list p-2  mx-2 i-fav "><a href="" class="d-flex align-items-center" > <i class="fa-regular fa-heart pe-1" ></i><p class="p-0 m-0">favourite</p></a></div>
+                  <div class=" list p-2 mx-2 i-fav "><a href="" class="d-flex align-items-center" ><i class="fa-regular fa-circle-user pe-1"></i><p class="p-0 m-0">login</p></a></div>
+
+                   
+                       
+
+               </div>
+               <input id="menu-toggle" type="checkbox" />
+               <label class='menu-button-container' for="menu-toggle">
+               <div class='menu-button'></div>
+             </label>
+               <ul class="menu container-fluid">
+                 <li>One</li>
+                 <li>Two</li>
+                 <li>Three</li>
+                 <li>Four</li>
+                 <li>Five</li>
+               </ul>
+          </div>
+      </div>
+</div>
+
+<div class="intro-div container ">
+     
+
+      <div class="searchbar position-relative container row align-items-center mt-1 mt-sm-5">
+            <div    class=" cursor-pointer  col-12 col-md-3 icon-box  d-flex align-items-center">
+                  <i class="fa-regular fa-location-dot pe-1"></i>
+                  <input onclick="focus_input()" oninput="cl_dest_api()" class="dest"  type="text" name="dest" data-dest_id="42342" data-dest_id_img="42342" data-dest_type="city" data-dest_fcityname="sd"  id="dest" placeholder="going for">
+                  <div  id="popup-dest"  class="popup-dest border p-3" style="display: none;">
+                        <!-- <div onclick="addname(event)" data-each_dest_id="1111"  class="location-box p-2 ps-3 rounded d-flex align-items-center">
+                              <i class="fa-regular fa-location-dot pe-3 "></i>
+                              <div class="loc-name-box">
+                                  <p  id="loc-head" class="m-0 p-0 loc-text-1  text-capitalize">los angles</p>
+                                  <p id="loc-text"  class="m-0 p-0 loc-text-2 text-capitalize ">united states</p>
+                              </div>
+                           </div> -->
+
+
+      <ul id="load_anim" class="o-vertical-spacing o-vertical-spacing--l m-0 p-0" style="display: none;">
+        <li class="blog-post o-media">
+          <div class="o-media__body">
+            <div class="o-vertical-spacing">
+              <p>
+                <span class="skeleton-box" ></span>
+                <span class="skeleton-box" ></span>
+                <span class="skeleton-box" ></span>
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+                      
+                  </div>
+            </div>
+
+            <div class="checkin-box  col-12 col-md-2  input-text-h  icon-box  d-flex align-items-center">
+                  <i class="fa-regular fa-calendar-days pe-1"></i>
+                  <input id="checkin" type="text" class="dest dateselect" required="required"/>
+                  <p>checkin</p>
+            </div>
+
+            <div class=" input-text-h  col-12 col-md-2  checkout-box icon-box  d-flex align-items-center">
+                  <i class="fa-regular fa-calendar-days pe-1"></i>
+                  <input type="text" class="dest dateselect" name="checkout" id="checkout" required="required"/>
+                 <p>checkout</p>
+            </div>
+          
+            <div    class="dest-box    col-12 col-md-3 icon-box  ">
+                  <div ng-click="display=true"     class="d-flex cursor-pointer    align-items-center">
+                  <i class="fa-regular fa-user  pe-1"></i>
+                  <div class="mt-1"><span id="rooms_num" data-rooms_num="{{count}}">{{ count }} room</span> <span id="adults_num" data-adults_num="{{count1}}" > {{ count1 }} adult</span> <span id="childern_num" data-childern_num="{{count2}}">{{ count2 }} childern</span></div>
+                  <p class="trvl">travelers</p>
+            </div>
+                  <div  ng-show="display"  id="pol"   class="popup-travel  d-flex flex-column border p-3" >
+                        <div>
+
+                    <div    class="  ps-3 rounded  align-items-center">
+
+                        <div   class="d-flex justify-content-between  align-items-center border-bottom pb-2" style="     border-color: var(--carmine) !important; ">
+                              <p class="p-0 cat-ser  m-0">rooms</p>
+                              <div class=" d-flex align-items-center mt-1">
+                                 <i  ng-click = "increment()" class="fa-regular p-1  m-1 rounded m-0 fa-plus"></i>
+                                 <p id="ad-num"class=" p-0 m-0 ">{{ count }}</p>
+                                 <i  ng-click = "minus()" class="fa-regular  p-1 m-1 rounded m-0 fa-minus"></i>
+                              </div>
+                           </div>
+                           
+<!--html comment -->
+                         <div class="d-flex justify-content-between  align-items-center border-bottom pb-2" style="     border-color: var(--carmine) !important; ">
+                           <p class="p-0 cat-ser  m-0">adult</p>
+                           <div class=" d-flex align-items-center mt-1">
+                              <i ng-click = "increment1()" class="fa-regular p-1  m-1 rounded m-0 fa-plus"></i>
+                              <p id="ad-num"class=" p-0 m-0 ">{{ count1 }}</p>
+                              <i  ng-click = "minus1()" class="fa-regular  p-1 m-1 rounded m-0 fa-minus"></i>
+                           </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between  align-items-center border-bottom pb-2" style="     border-color: var(--carmine) !important; ">
+                              <p class="p-0 cat-ser  m-0">childern</p>
+                              <div class=" d-flex align-items-center mt-1">
+                                 <i  ng-click = "increment2()" class="fa-regular p-1  m-1 rounded m-0 fa-plus"></i>
+                                 <p id="ad-num"class=" d-flex p-0 m-0 ">{{ count2 }}</p>
+                                 <i  ng-click = "minus2()" class="fa-regular  p-1 m-1 rounded m-0 fa-minus"></i>
+                              </div>
+                           </div>
+                        </div>
+                           <div ng-click="display=false"  class="done-btn mt-3 text-capitalize text-center">done</div>
+                    </div>
+                  </div>
+            </div>
+            <div onclick="gethotels()" class="submit-search cursor-pointer  col-12 col-md-1 p-2 text-center">search</div>
+      </div>
+</div>
+
+
+
+<div class="container text-center">
+<div class="row align-items-start">
+<!--Left section-->
+<div class="col-3">
+    <div class="left" style="text-align: left;" >
+    <h5><b>Property By Type</b></h5>
+    <hr>
+    <div class="property" >
+        <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="ht_id=204" id="flexCheckDefault1">
+            <label class="form-check-label mb-2" for="flexCheckDefault1">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> hotels </p>
+                <p  class="m-0 p-0" style="color: #8C0B1C;">(4562)</p>
+            </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="ht_id=201" id="flexCheckDefault2">
+            <label class="form-check-label mb-2" for="flexCheckDefault2">
+
+                  <p class=" text-capitalize m-0 p-0 bl_color"> apartments </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>        
+                </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="ht_id=213" id="flexCheckDefault3">
+            <label class="form-check-label mb-2" for="flexCheckDefault3">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> villas </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                    </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="ht_id=216" id="flexCheckDefault4">
+            <label class="form-check-label mb-2" for="flexCheckDefault4">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> guest house </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                    </label>
+    </div>
+    </div>
+    <div price>
+        <h5 class="mt-3" ><b>property price</b></h5>
+        <hr>
+
+
+        <div class="form_control">
+            <input class=" d-none form_control_container__time__input" type="number" id="fromInput" value="10" min="0" max="100"/>
+            <input  class="d-none form_control_container__time__input" type="number" id="toInput" value="40" min="0" max="100"/>
+
+
+        </div>
+        <p class="rangetext"><span class="text-uppercase">aed</span><span>{{v1}}</span> to <span class="text-uppercase">aed</span><span>{{v2}}+</span></p>
+
+        <div class="range_container">
+            <div class="sliders_control">
+                <input  ng-model="v1" id="fromSlider" type="range" value="10" min="0" max="100"/>
+                <input  ng-model="v2" id="toSlider" type="range" value="40" min="0" max="100"/>
+            </div>
+            
+        </div>
+
+    </div>
+    <div Amenities>
+        <h5 onclick="amen_search()" class="mt-3" ><b>Amenities</b></h5>
+        <hr>
+        <div class="Amen">
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="hotelfacility=107" id="flexCheckDefault5">
+                <label class="form-check-label mb-2" for="flexCheckDefault5">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> free wifi </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="hotelfacility=52" id="flexCheckDefault6">
+                <label class="form-check-label mb-2" for="flexCheckDefault6">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> Valet parking </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="hotelfacility=301" id="flexCheckDefault7">
+                <label class="form-check-label mb-2" for="flexCheckDefault7">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> swimming pool </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+            </div>
+
+            <div class="form-check">
+                  <input class="form-check-input ck" type="checkbox" value="hotelfacility=46" id="flexCheckDefault41">
+                  <label class="form-check-label mb-2" for="flexCheckDefault41">
+                    <p class=" text-capitalize m-0 p-0 bl_color"> parking </p>
+                    <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+              </div>
+
+              <div class="form-check">
+                  <input class="form-check-input ck" type="checkbox" value="hotelfacility=16" id="flexCheckDefault42">
+                  <label class="form-check-label mb-2" for="flexCheckDefault42">
+                    <p class=" text-capitalize m-0 p-0 bl_color"> non-smoking rooms </p>
+                    <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+              </div>
+
+              <div class="form-check">
+                  <input class="form-check-input ck" type="checkbox" value="hotelfacility=253" id="flexCheckDefault43">
+                  <label class="form-check-label mb-2" for="flexCheckDefault43">
+                    <p class=" text-capitalize m-0 p-0 bl_color"> fitness center </p>
+                    <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+              </div>
+           
+
+            <div ng-show="amet_show">
+                  <div class="form-check">
+                        <input class="form-check-input ck" type="checkbox" value="hotelfacility=4" id="flexCheckDefault44">
+                        <label class="form-check-label mb-2" for="flexCheckDefault44">
+                          <p class=" text-capitalize m-0 p-0 bl_color"> pets allowed </p>
+                          <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input ck" type="checkbox" value="hotelfacility=139" id="flexCheckDefault45">
+                        <label class="form-check-label mb-2" for="flexCheckDefault45">
+                          <p class=" text-capitalize m-0 p-0 bl_color"> Airport shuttle </p>
+                          <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input ck" type="checkbox" value="hotelfacility=hotelfacility28" id="flexCheckDefault46">
+                        <label class="form-check-label mb-2" for="flexCheckDefault46">
+                          <p class=" text-capitalize m-0 p-0 bl_color"> family rooms </p>
+                          <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+                    </div>
+      
+                    <div class="form-check">
+                        <input class="form-check-input ck" type="checkbox" value="hotelfacility=72" id="flexCheckDefault47">
+                        <label class="form-check-label mb-2" for="flexCheckDefault47">
+                          <p class=" text-capitalize m-0 p-0 bl_color">BBQ facilities </p>
+                          <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+                    </div>
+      
+                    <div class="form-check">
+                        <input class="form-check-input ck" type="checkbox" value="hotelfacility=54" id="flexCheckDefault48">
+                        <label class="form-check-label mb-2" for="flexCheckDefault48">
+                          <p class=" text-capitalize m-0 p-0 bl_color"> spa</p>
+                          <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+                    </div>
+
+      
+
+            </div>
+            
+      
+            <div  ng-click="amefun()"    id="showmorebtn" class="d-flex cursor-pointer align-items-center i-fav .d-flex align-items-center" style="color: var(--blue);">
+                <p class="m-0 pe-1">show all (5) </p>
+                  <i class="fa-solid fa-chevron-down" ></i>
+            </div>
+        </div>    
+    </div> 
+
+
+
+    <div Amenities>
+        <h5 onclick="amen_search()" class="mt-3" ><b>review score</b></h5>
+        <hr>
+        <div class="Amen">
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="review_score=90" id="rv9">
+                <label class="form-check-label mb-2" for="rv9">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> wonderful: 9+ </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="review_score=80" id="rv8">
+                <label class="form-check-label mb-2" for="rv8">
+                  <p class=" text-capitalize m-0 p-0 bl_color">very good: 8+</p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="review_score=70" id="rv7">
+                <label class="form-check-label mb-2" for="rv7">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> good: 7+</p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+            </div>
+
+            <div class="form-check">
+                  <input class="form-check-input ck" type="checkbox" value="review_score=60" id="rv6">
+                  <label class="form-check-label mb-2" for="rv6">
+                    <p class=" text-capitalize m-0 p-0 bl_color"> pleasant: 6+ </p>
+                    <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                        </label>
+              </div>
+
+
+
+
+            
+      
+           
+        </div>    
+    </div>
+
+
+    <div class="number">
+        <h5 class="mt-3" ><b>Number Of Beds</b></h5>
+        <hr>
+        <div class="Amen">
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="num_beds=2" id="flexCheckDefault8">
+                <label class="form-check-label mb-2" for="flexCheckDefault8">
+                     <p class="m-0 p-0" >2 Bed</p>
+                    <p class="m-0 p-0"style=" color: #8C0B1C;">(432)</p>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value="num_beds=3" id="flexCheckDefault9">
+                <label class="form-check-label mb-2" for="flexCheckDefault9">
+                    <p class="m-0 p-0" >3 Beds </p>
+                    <p  class="m-0 p-0"style=" color: #8C0B1C;">(242)</p>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input ck" type="checkbox" value=";num_beds=4" id="flexCheckDefault10">
+                <label class="form-check-label mb-2" for="flexCheckDefault10">
+                  <p class="m-0 p-0" >4 Beds </p>
+
+                    <p class="m-0 p-0" style=" color: #8C0B1C;">(134)</p>
+                </label>
+            </div>
+        </div>       
+    </div>
+    <div class="Rating" >
+        <h5><b>Property Rating</b></h5>
+        <hr>
+        <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="class::2" id="flexCheckDefault11">
+            <label class="form-check-label mb-2" for="flexCheckDefault11">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> 2 stars </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                    </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="class::3" id="flexCheckDefault12">
+            <label class="form-check-label mb-2" for="flexCheckDefault12">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> 3 stars </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                    </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="class::4" id="flexCheckDefault13">
+            <label class="form-check-label mb-2" for="flexCheckDefault13">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> 4 stars </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                    </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="class::5" id="flexCheckDefault14">
+            <label class="form-check-label mb-2" for="flexCheckDefault14">
+                  <p class=" text-capitalize m-0 p-0 bl_color"> 5 stars </p>
+                  <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>                    </label>
+    </div>
+    </div>
+    <div class="Meals" >
+        <h5><b>Meals</b></h5>
+        <hr>
+        <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="mealplan=99" id="flexCheckDefault15">
+            <label class="form-check-label mb-2" for="flexCheckDefault15">
+            
+                <p class=" text-capitalize m-0 p-0 bl_color"> Kitchen Amenties </p>
+                <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>        
+            </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input ck" type="checkbox" value="mealplan=1" id="flexCheckDefault16">
+            <label class="form-check-label mb-2" for="flexCheckDefault16">
+                <p class=" text-capitalize m-0 p-0 bl_color">    Breakfast Included </p>
+                <p  class="m-0 p-0" style="color: #8C0B1C;">(342)</p>       
+            </label>
+    </div>
+    </div>
+    </div>
+</div>
+<!--End Left section-->
+
+<!--right section-->
+    <div class="col" style="margin-top:90px;">
+        <div id="hotelad_Sec" class="right" >
+            <div class="Title" style="max-width: 980PX;">
+                <h2 id="rs_num" class="font-weight-bold" style="text-align: left; font-weight: bold;">Showing 442 hotelsinNew York, NY</h2>
+                <div class=" lis p-2  mx-2 i-fav ">
+                  <li class="d-flex align-items-center " style="color: #8C0B1C;"> 
+                        <i class="fa-solid fa-up-down"></i>
+                                          <p class="p-0 m-0">Sort By</p>
+                  </li>
+               </div>
+            </div>
+            <div class="card mb-3" style="max-width: 980PX;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="height: 210px;">
+                        <img src="images/2222222222222222222222.png" class="rounded mx-auto d-block" style="width: 100%; height: 100%;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div ng-show="0" class="card-body">
+                            <div style="text-align: left;">
+                                <div class="box-title">
+                                    <h4 class="m-0" class="card-title ">AkA times square</h4>
+                                    <li style="font-size: 19px;">
+                                       <i class="fa-solid fa-location-dot" ></i>               
+                                      <i class="fa-regular fa-heart"></i>
+                                    </li>
+                                </div>
+                                <p class="card-text" style="line-height: 4px; margin-top:-5px;">
+                                    <small class="text-body-secondary sm-text">Lowest East Side New York</small></p>
+                                <hr style=" margin-top:-10px; width: 150px;">
+                                <div class="the details">
+                                <p class="card-text"><b>Queen Studio</b></p>
+                                    <div style="line-height: 4px; font-size: 15px; margin-left: 12px;">
+                                    <p>• Entire studio • 1 bathroom • 1 kitchen • 398.3feet²</p>
+                                    <p>• 1 queen bed</p>
+                                    </div>
+                                </div>
+                                <div class="evaluation d-flex justify-content-between align-items-end">
+                                    <div class="d-flex align-items-center">
+                                          <div class="star m-0 ">7.7</div>
+                                          <p class="card-text  ms-2 text-body-secondary">
+                                     <span>3,232 ratings</span> | <span>3 star hotel</span>
+                                          </p>
+                                    </div>
+                                   
+                                    <div class="fees d-flex flex-column align-items-end">
+                                        <div class="tax">
+                                            <li class="d-flex  align-items-end">
+                                                <p class="material-symbols-outlined text-body-secondary m-0 me-2"style="font-size: 16px;"><span class="text-decoration-line-through">$</span><span class="text-decoration-line-through">342</span></p>
+                                                <p class="material-symbols-outlined text-bold fw-bold m-0"style="font-size: 24px; color:var(--jet);"><span>$</span><span>${composite_price_breakdown}</span></p>
+
+
+                                          </li>
+                                           
+                                        </div>
+                                        <p class="card-text text-body-secondary" style="font-size: 12px;">Included Tax & Fees</p>
+                                    </div>
+                                </div>
+                                </div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+           
+            <div  onclick="show_btn_clicked()"   class="submit-search cursor-pointer  p-2 text-center" style="width:fit-content; margin:20px auto ;">show more</div>
+
+           
+           
+            
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="javascript/script.js"></script>
+<script src="javascript/jquery-1.12.1.min.js"></script>
+<script src="javascript/range.js"></script>
+
+<script src="javascript/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="javascript/jquery.selectBoxIt.min.js"></script>
+<!-- <script src="javascript/swiper-bundle.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+
+<script src="javascript/front.js"></script>
+<script src="javascript/angular.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+<script src="javascript/validate.js"></script>
+<script src="javascript/date.js"></script>
+</body>
