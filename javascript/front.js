@@ -15,29 +15,65 @@ $("#flip").click(function(){
   $("#panel").slideToggle();
 });
 
+function am2(event){
+  var clicked_ck = event.currentTarget;
+  if(clicked_ck.checked == false){
+    console.log( clicked_ck.value )
 
+    let curr_loc = new URLSearchParams(location.search);
+    var catgories_ar =  curr_loc.get("categories_filter_ids").split(',');
+   
+
+    const index = catgories_ar.indexOf(clicked_ck.value);
+if (index > -1) {
+  if(catgories_ar.length==1) 
+  {
+    curr_loc.delete("categories_filter_ids");
+
+  var t1 = "?";
+curr_loc = t1.concat("",curr_loc);
+  redirect_search(curr_loc.toString())
+
+  }
+  else{
+  catgories_ar.splice(index, 1); 
+
+  curr_loc.set("categories_filter_ids", catgories_ar.toString());
+
+  var t1 = "?";
+curr_loc = t1.concat("",curr_loc);
+  redirect_search(curr_loc.toString())
+  }
+
+}
+
+  }
+  
+
+}
 function amen_search(event){
 
   var clicked_ck = event.currentTarget.value;
   let curr_loc = new URLSearchParams(location.search);
 
+  
 if(!curr_loc.has("categories_filter_ids")){
   curr_loc.set("categories_filter_ids", clicked_ck);
   var t1 = "?";
   curr_loc = t1.concat("",curr_loc);
-  console.log(curr_loc.toString());
+  // console.log(curr_loc.toString());
     redirect_search(curr_loc.toString())
 
 
 }
 else{
   
-  var conc = curr_loc.get("categories_filter_ids").concat(";", clicked_ck);
-  console.log(conc)
+  var conc = curr_loc.get("categories_filter_ids").concat(",", clicked_ck);
+  // console.log(conc)
   curr_loc.set("categories_filter_ids", conc);
   var t1 = "?";
   curr_loc = t1.concat("",curr_loc);
-  console.log(curr_loc.toString());
+  // console.log(curr_loc.toString());
   redirect_search(curr_loc.toString())
 
 
@@ -49,18 +85,44 @@ else{
 
   if(window.location.pathname === "/search.html" ){
     console.log(location.search)
-      hotel_search_api(location.search);
+    let locsearch = new URLSearchParams(location.search)
+    if(locsearch.get("categories_filter_ids")!== null  ){
+      if(locsearch.get("categories_filter_ids").search(',') == -1){
+        var catgories_ar =  locsearch.get("categories_filter_ids");
+        var cat_e = document.getElementById(catgories_ar)
+        cat_e.checked = true;
+      }
+      else{
+        var catgories_ar =  locsearch.get("categories_filter_ids").split(',');
+        for (let x in catgories_ar) {
+          var cat_e = document.getElementById(catgories_ar[x])
+          console.log(cat_e)
+          cat_e.checked = true; 
+        }
+
+      }
+    
+    console.log(catgories_ar)
+   
+  }
+  hotel_search_api(location.search);
+    }
+
+    
 
 
   
-  }
+  
   checkbox()
   function checkbox(){
     var chboxes = document.getElementsByClassName("ck")
     for(var ck = 0 ;ck<chboxes.length;ck++){
 
       var ckbtn =  chboxes[ck]
+      ckbtn.addEventListener("change", am2);
       ckbtn.addEventListener("click", amen_search);
+
+      
     }
 
   }
@@ -130,22 +192,24 @@ function redirect_search(query){
 
 }
 function redirect_search_nw(dest_id,checkout_date,checkin_date,dest_type,adults_number,room_number,childern_number){
-  window.open(`http://127.0.0.1:5500/search.html?order_by=popularity&checkout_date=${checkout_date}&filter_by_currency=AED&locale=en-gb&units=metric&dest_id=${dest_id}&dest_type=${dest_type}&adults_number=${adults_number}&room_number=${room_number}&checkin_date=${checkin_date}&include_adjacency=true&page_number=0&children_number=${childern_number}`, "mozillaWindow");
+  window.open(`http://127.0.0.1:5500/search.html?order_by=popularity&checkout_date=${checkout_date}&filter_by_currency=AED&locale=en-gb&units=metric&dest_id=${dest_id}&dest_type=${dest_type}&adults_number=${adults_number}&room_number=${room_number}&checkin_date=${checkin_date}&include_adjacency=false&page_number=0&children_number=${childern_number}`, "mozillaWindow");
 
 }
 async function hotel_search_api(quey) {
+  
   	const url = `https://booking-com.p.rapidapi.com/v1/hotels/search${quey}`;
 
   const options = {
   	method: 'GET',
   	headers: {
-  		'X-RapidAPI-Key': 'a52afd9723msha91f8291b928d48p12d98djsnbd58709c9cff',
+  		'X-RapidAPI-Key': 'bea5676ca1msheb920d6760fc0dap1ec6f2jsne1a7e2289391',
+
   		'X-RapidAPI-Host': 'booking-com.p.rapidapi.com'
   	}
   };
   try {
-  	const response = await fetch(url, options);
-  	const result = await response.json();
+  	var response = await fetch(url, options);
+  	var result = await response.json();
     add_search_dest(result);
    var rs_p = document.getElementById('rs_num'); 
    rs_p.innerHTML = `showing ${result.primary_count} properties in ${result.result[0].city_trans} `;
@@ -173,7 +237,7 @@ async function getdata() {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "a52afd9723msha91f8291b928d48p12d98djsnbd58709c9cff",
+        "X-RapidAPI-Key": "bea5676ca1msheb920d6760fc0dap1ec6f2jsne1a7e2289391",
         "X-RapidAPI-Host": "booking-com.p.rapidapi.com",
       },
     };
@@ -300,7 +364,7 @@ async function gethotels() {
   var d1 = month1.concat(" ", day1);
   var d2 = month2.concat(" ", day2);
 
-  const purl = `https://booking-com.p.rapidapi.com/v1/hotels/search?order_by=popularity&checkout_date=${checkout_date}&filter_by_currency=AED&locale=en-gb&units=metric&dest_id=${dest_id}&dest_type=${dest_type}&adults_number=${adults_number}&room_number=${room_number}&checkin_date=${checkin_date}&include_adjacency=true&page_number=0&page_number=0&children_number=${childern_number}`;
+  const purl = `https://booking-com.p.rapidapi.com/v1/hotels/search?order_by=popularity&checkout_date=${checkout_date}&filter_by_currency=AED&locale=en-gb&units=metric&dest_id=${dest_id}&dest_type=${dest_type}&adults_number=${adults_number}&room_number=${room_number}&checkin_date=${checkin_date}&include_adjacency=false&page_number=0&page_number=0&children_number=${childern_number}`;
 console.log(purl)
   store_rec_search(first_city_name, d1, d2, room_number, image_url,purl);
   redirect_search_nw(dest_id,checkout_date,checkin_date,dest_type,adults_number,room_number,childern_number);

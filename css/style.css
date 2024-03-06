@@ -29,7 +29,7 @@ body{
       margin-bottom: 20px;
 
 }
-.cursor-pointer{
+.cursor-pointe{
       cursor: pointer;
 }
 .form-check-input{
@@ -589,9 +589,13 @@ outline: none;
       color: black;
   }
   */
+  .left .form-check input{
+      cursor: pointer;
+  }
   .left .form-check label {
       display: flex;
       justify-content: space-between;
+      cursor: pointer;
   }
   .left .form-check p {
       float:inline-end;
