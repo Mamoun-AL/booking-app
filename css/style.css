@@ -50,6 +50,30 @@ body{
       b p  {
             display: block;
       }
+  
+      .rounded-btn{
+            padding: 4px 10px;
+            font-size:17px;
+            text-transform: capitalize;
+            border: 1px solid var(--silver);
+            color: var(--carmine);
+            border-radius: 5px;
+            border-radius: 17px;
+            cursor: pointer;
+      }
+      .img-count{
+            position: absolute;
+            bottom: 20px;
+            right: 8px;
+            padding: 4px 12px;
+            font-size:17px;
+            text-transform: capitalize;
+            color: white;
+background-color: #666666e4;
+            border-radius: 17px;
+            cursor: pointer;
+
+      }
     
 /*  end full page */
 
@@ -271,6 +295,7 @@ color: var(--jet);
       font-size: 21px;
       font-weight: 500;
       text-transform: capitalize;
+      cursor: pointer;
 }
 /* end intro */
 /* pop up destination */
@@ -658,6 +683,28 @@ outline: none;
       color: var(--carmine);
       font-size: 13px;
   }
+
+  .order_popup{
+      position: absolute;
+      top: 39px;
+      left: 4px;
+      z-index: 10;
+      width: 239px;
+      text-align: left;
+      background-color: #e8e8e8;
+      text-transform: capitalize;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+  }
+  .order_popup  li{
+      padding: 8px 10px;
+      font-size: 15px;
+  }
+  .order_popup  li:hover{
+      cursor: pointer;
+      background-color: var(--chamagne-pink);
+
+  }
   
   /*END right section*/
 
@@ -751,7 +798,156 @@ outline: none;
     }
 /* range section */
     
-    
+/* hotel details section */
+.uper-div-li i{
+font-size: 20px;
+}
+.uper-div-li p{
+      font-size: 17px;
+}
+
+
+/* hotel details section */
+/* review nav section */
+.left-or-nav li {
+padding: 10px 15px;
+padding: 15px 15px 10px 15px;
+color: var(--jet);
+text-transform: capitalize;
+}
+.left-or-nav li:hover{
+      background-color: #d5d5d5;
+      cursor: pointer;
+}
+.left-or-nav ul .orseleted{
+      color: var(--carmine);
+      border-bottom: 2px solid var(--carmine);
+}
+.reverse-btn{
+      font-size: 16px;
+      background-color: var(--carmine);
+      color: white;
+      text-transform: capitalize;
+      padding: 4px 9px;
+      border-radius: 23px;
+}
+.rating-div{
+      background-color: var(--carmine);
+      color: white;
+      padding: 3px 5px 1px 5px;
+      font-size: 19px;
+      border-radius: 10px 2px 5px 0px;
+}
+.min-price-sec{
+      color: var(--carmine);
+}
+#min-cur{
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+}
+#min-price{
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 50px;
+}
+.detils-map img{
+      width: 100%;
+      height: 100%;
+
+}
+.poli-h{
+      font-size: 19px;
+      text-transform: capitalize;
+      color: var(--carmine);
+      font-weight: 600;
+}
+/* end review nav section */
+/* start policies  */
+.poli li{
+      color: var(--dm-gray);
+      font-size: 18px;
+}
+
+.panel {
+      display: none;
+     
+    }
+   
+/* end policies  */
+/*start rating */
+.grey-div{
+      position: relative;
+      width: 100%;
+      height: 8px;
+      background-color: #d9d9d9;
+      border-radius: 5px;
+}
+.carmine-div{
+      width: 75%;
+      height: 8px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: var(--carmine);
+      border-radius: 5px;
+}
+.amenties-sec{
+
+      margin: 5px;
+}
+.amenties-sec i{
+      font-size: 16px;
+      color: var(--jet);
+}
+.amenties-sec p{
+font-size: 16px;
+      color: var(--jet);
+}
+/* end rating */
+/* start load box animtion */
+
+  
+ 
+  .right1 .evaluation .fees .tax {
+      display: flex;
+      margin-left: 75px;
+  }
+  .right1 .evaluation .fees .card-text {
+      margin-left: 65px;
+  
+  }
+  .skeleton {
+      opacity: .7;
+      animation: skeleton-loading 1s linear infinite alternate;
+  }
+  
+  .skeleton-text {
+    width: 100%;
+    height: .5rem;
+    margin-bottom: .25rem;
+    border-radius: .125rem;
+  }
+  
+  .skeleton-text:last-child {
+    margin-bottom: 0;
+    width: 80%;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-color: hsl(200, 20%, 70%);
+    }
+  
+    100% {
+      background-color: hsl(200, 20%, 95%);
+    }
+  }
+  /* end load box animtion */
+  
+
+
+
     
 
 

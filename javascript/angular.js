@@ -4,7 +4,7 @@ app.controller("myCtrl", function ($scope) {
   $scope.count = 1;
   $scope.v1 = 10;
   $scope.v2 =  40;
-
+  $scope.order_show = false;
   $scope.dispcur = false;
   $scope.d1 = true;
   $scope.d2 = false;
@@ -20,6 +20,10 @@ app.controller("myCtrl", function ($scope) {
   };
   $scope.dispcurfun = function () {
     $scope.dispcur = !$scope.dispcur;
+
+  };
+  $scope.disporder = function () {
+    $scope.order_show = !$scope.order_show;
 
   };
 
