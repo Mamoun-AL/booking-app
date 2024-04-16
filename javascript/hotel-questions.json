@@ -1,0 +1,31 @@
+{
+      "opted_out_of_q_and_a": 0,
+      "average_response_time": "This property usually replies within hours",
+      "average_response_time_in_seconds": 14985,
+      "average_response_time_text": "Usually hear back within 4 hours",
+      "collect_q_and_a_questions": 1,
+      "success": 1,
+      "hotel_id": "1866161",
+      "q_and_a_pairs": [
+        {
+          "naive_sentiment": -91,
+          "hidden": 0,
+          "question": "Buongiorno, la spa è inclusa con il pernottamento? Grazie",
+          "answered_at": "2022-04-14 18:08:33",
+          "room_id": null,
+          "answer_time_epoch": 1649959713,
+          "question_id": 23308442,
+          "is_or_could_be_translated": null,
+          "ask_time_epoch": 1649944728,
+          "sign_off": null,
+          "hotel_id": 1866161,
+          "translated_answer": null,
+          "language": "en",
+          "answered_at_formatted": "2022-04-14 18:08:33",
+          "votes": 0,
+          "answer": "Spa Privata ad uso esclusivo previa disponibilità a partire dai seguenti orari: 10:0 ",
+          "asked_at": "2022-04-14 13:58:48",
+          "translated_question": null
+        }
+      ]
+    }

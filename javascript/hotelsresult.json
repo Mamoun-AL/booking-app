@@ -1,1683 +1,256 @@
 {
-  
-  "primary_count": 232,
-  "unfiltered_primary_count": 232,
-  "count": 232,
-  "extended_count": 0,
-  "filters": [
+  "hotel_id": 1676161,
+  "policygroup_id": 310333226,
+  "policygroup_type_id": 1,
+  "policy": [
     {
-      "any_text": "No rating selected",
-      "subtitle": "",
-      "irene_resp_id": "previous",
-      "is_group": 0,
-      "type": "multiple_intersection",
-      "title": "Your previous filters",
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsable": 0,
-        "is_collapsed": 0
-      },
-      "id": "previous",
-      "iconfont": "aconfirmation",
-      "categories": [
+      "content": [
         {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2,
-          "style_for_count": 0,
-          "name": "Hotels",
-          "id": "property_type::204",
-          "count": 162
-        },
+          "type": "POLICY_CHILDREN",
+          "name": "Children and Extra Bed Policy",
+          "languagecode": "en-gb",
+          "ruleset": [
+            {
+              "rule": [
+                {
+                  "content": "Children of any age are allowed."
+                }
+              ],
+              "type": "RULESET_CHILDRENALLOWED",
+              "name": "Children allowed"
+            },
+            {
+              "type": "RULESET_EXTRABED",
+              "rule": [
+                {
+                  "content": "1 child (up to and including 1 year old) stays for free when using available cots.\t"
+                },
+                {
+                  "content": "1 child (up to and including 11 years old) stays for € 35 per child per night when using available extra beds.\t"
+                }
+              ],
+              "name": "Extra beds"
+            },
+            {
+              "rule": [
+                {
+                  "content": "The maximum number of extra beds is 1."
+                },
+                {
+                  "content": "The maximum number of cots is 1."
+                },
+                {
+                  "content": "The maximum number of guests is 2."
+                }
+              ],
+              "type": "RULESET_CHILDREN_CAPACITY",
+              "name": "Room Capacity"
+            }
+          ],
+          "allow_children": 1,
+          "cribs_and_extra_beds": [
+            {
+              "text": "Supplements are not calculated automatically in the total costs and will have to be paid for separately during your stay.",
+              "highlight": 0
+            },
+            {
+              "text": "The maximum number of cots, extra beds and children allowed in existing beds may vary depending on the option you book.",
+              "highlight": 0
+            },
+            {
+              "highlight": 0,
+              "text": "All cots and extra beds are subject to availability."
+            }
+          ],
+          "children_at_the_property": [
+            {
+              "highlight": 0,
+              "text": "Children of any age are welcome."
+            },
+            {
+              "text": "To see correct prices and occupancy information, please add the number of children in your group and their ages to your search.",
+              "highlight": 1
+            }
+          ],
+          "age_intervals": [
+            {
+              "max_age": 1,
+              "types_by_price": [
+                [
+                  "crib"
+                ],
+                [
+                  "extra_bed"
+                ]
+              ],
+              "extra_bed": {
+                "id": 13889990,
+                "price_mode": "per_night",
+                "price_mode_n": 0,
+                "price": "€ 35",
+                "price_type": "fixed",
+                "price_type_n": 2
+              },
+              "group_by_price": {
+                "free,per_night,0": [
+                  "crib"
+                ],
+                "fixed,per_night,35.00": [
+                  "extra_bed"
+                ]
+              },
+              "crib": {
+                "price_type": "free",
+                "price_type_n": 0,
+                "price": 0,
+                "price_mode": "per_night",
+                "price_mode_n": 0,
+                "id": 13889989
+              },
+              "min_age": 0
+            },
+            {
+              "min_age": 2,
+              "group_by_price": {
+                "fixed,per_night,35.00": [
+                  "extra_bed"
+                ]
+              },
+              "extra_bed": {
+                "price_type_n": 2,
+                "price_type": "fixed",
+                "price": "€ 35",
+                "price_mode_n": 0,
+                "price_mode": "per_night",
+                "id": 13889990
+              },
+              "types_by_price": [
+                [
+                  "extra_bed"
+                ]
+              ],
+              "max_age": 11
+            }
+          ]
+        }
+      ],
+      "type": "POLICY_CHILDREN",
+      "policy_id": 1234567891
+    },
+    {
+      "policy_id": 1234567891,
+      "type": "POLICY_HOTEL_INTERNET",
+      "content": [
         {
-          "count": 37,
-          "id": "class::5",
-          "name": "5 stars",
-          "style_for_count": 1,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "selected": 1,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "style_for_count": 1,
-          "name": "4 stars",
-          "id": "class::4",
-          "count": 226
-        },
-        {
-          "id": "facility::28",
-          "count": 175,
-          "name": "Family rooms",
-          "style_for_count": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "name": "Private pool",
-          "count": 1,
-          "id": "room_facility::93",
-          "style_for_count": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "count": 232,
-          "id": "free_cancellation::1",
-          "name": "Free cancellation",
-          "style_for_count": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 1
-        },
-        {
-          "style_for_count": 1,
-          "id": "class::2",
-          "count": 6,
-          "name": "2 stars",
-          "selected": 1,
-          "popular": 1,
-          "popular_rank": 16
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "style_for_count": 1,
-          "id": "class::3",
-          "count": 225,
-          "name": "3 stars"
-        },
-        {
-          "style_for_count": 1,
-          "name": "1 star",
-          "count": 2,
-          "id": "class::1",
-          "selected": 0,
-          "popular_rank": 2147483647,
-          "popular": 1
-        },
-        {
-          "id": "distance::5000",
-          "count": 202,
-          "name": "City centre: Less than 5 km",
-          "style_for_count": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 0
+          "name": "Internet",
+          "languagecode": "en-gb",
+          "ruleset": [
+            {
+              "name": "Internet Connection",
+              "type": "RULESET_HOTEL_INTERNET_INTERNETFEE",
+              "rule": [
+                {
+                  "b_good_rule": 2,
+                  "b_connection": "wireless",
+                  "content": "WiFi is available in all areas and is free of charge."
+                }
+              ]
+            }
+          ],
+          "type": "POLICY_HOTEL_INTERNET"
         }
       ]
     },
     {
-      "is_group": 0,
-      "layout": {
-        "is_collapsable": 0,
-        "is_collapsed": 0,
-        "collapsed_count": 5
-      },
-      "slider_options": {
-        "max": 4000,
-        "histogram": [
-          0,
-          0,
-          0,
-          0,
-          5,
-          5,
-          5,
-          0,
-          11,
-          11,
-          11,
-          22,
-          0,
-          44,
-          55,
-          66,
-          38,
-          77,
-          44,
-          100,
-          83,
-          44,
-          72,
-          16,
-          16,
-          38,
-          77,
-          11,
-          16,
-          22,
-          27,
-          38,
-          22,
-          22,
-          27,
-          5,
-          16,
-          16,
-          16,
-          5,
-          11,
-          22,
-          5,
-          22,
-          0,
-          11,
-          5,
-          5,
-          11,
-          0
-        ],
-        "value": "",
-        "selected": 0,
-        "max_selected_pretty": "AED 4,000",
-        "step": 100,
-        "currency": "AED",
-        "min": 200,
-        "min_selected_pretty": "AED 200",
-        "length_of_stay": 1
-      },
-      "categories": [],
-      "any_text": "No price range selected",
-      "subtitle": "",
-      "irene_resp_id": "price",
-      "title": "Your budget (for 1 night)",
-      "type": "slider_price",
-      "iconfont": "pricetag",
-      "id": "price"
-    },
-    {
-      "subtitle": "",
-      "any_text": "No rating selected",
-      "irene_resp_id": "popular",
-      "type": "multiple_intersection",
-      "title": "Popular filters",
-      "experiment_tracking_data": {
-        "track_on_view": [
-          {
-            "value": 4,
-            "experiment_tag": "srfo_fbl_popular_filters_unify_apps",
-            "type": 0
-          },
-          {
-            "value": 5,
-            "experiment_tag": "srfo_fbl_popular_filters_unify_apps",
-            "type": 0
-          }
-        ]
-      },
-      "id": "popular",
-      "iconfont": "aconfirmation",
-      "is_group": 0,
-      "layout": {
-        "is_collapsed": 0,
-        "is_collapsable": 0,
-        "collapsed_count": 5
-      },
-      "categories": [
+      "type": "POLICY_HOTEL_PARKING",
+      "content": [
         {
-          "style_for_count": 0,
-          "id": "mealplan::breakfast_included",
-          "count": 149,
-          "name": "Breakfast included",
-          "selected": 0,
-          "popular_rank": 0,
-          "popular": 1
-        },
-        {
-          "popular": 1,
-          "popular_rank": 1,
-          "selected": 0,
-          "count": 169,
-          "id": "district::10095",
-          "name": "Guests' favourite area ",
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "name": "Hotels",
-          "count": 162,
-          "id": "property_type::204",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2
-        },
-        {
-          "style_for_count": 0,
-          "name": "All Travel Sustainable properties",
-          "id": "SustainablePropertyLevelFilter::1",
-          "count": 166,
-          "selected": 0,
-          "popular_rank": 3,
-          "popular": 1
-        },
-        {
-          "id": "district::3254",
-          "count": 5,
-          "name": "Josefov",
-          "style_for_count": 0,
-          "popular_rank": 4,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "count": 186,
-          "id": "distance::3000",
-          "name": "Less than 3 km",
-          "style_for_count": 0,
-          "popular_rank": 5,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 6,
-          "style_for_count": 0,
-          "id": "room_facility::86",
-          "count": 172,
-          "name": "Electric kettle"
-        },
-        {
-          "selected": 0,
-          "popular_rank": 7,
-          "popular": 1,
-          "style_for_count": 0,
-          "count": 7,
-          "id": "district::262",
-          "name": "Prague 8"
-        }
-      ]
-    },
-    {
-      "categories": [
-        {
-          "selected": 1,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "style_for_count": 0,
-          "id": "free_cancellation::1",
-          "count": 232,
-          "name": "Free cancellation"
+          "type": "POLICY_HOTEL_PARKING",
+          "languagecode": "en-gb",
+          "name": "Parking",
+          "ruleset": [
+            {
+              "rule": [
+                {
+                  "b_good_rule": 2,
+                  "content": "Free private parking is possible on site (reservation is not needed)."
+                }
+              ],
+              "type": "RULESET_HOTEL_PARKING_PARKINGSPACE",
+              "name": "Parking Space"
+            }
+          ]
         }
       ],
-      "iconfont": "aconfirmation",
-      "id": "free_cancellation",
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsed": 0,
-        "is_collapsable": 0
-      },
-      "title": "Free cancellation ",
-      "type": "single_option",
-      "is_group": 0,
-      "irene_resp_id": "fc",
-      "subtitle": "",
-      "any_text": null
+      "policy_id": 1234567891
     },
     {
-      "type": "multiple_union",
-      "title": "Meals",
-      "is_group": 0,
-      "irene_resp_id": "mealplan",
-      "subtitle": "",
-      "any_text": "Any meal options",
-      "categories": [
+      "policy_id": 1234567891,
+      "content": [
         {
-          "count": 149,
-          "id": "mealplan::breakfast_included",
-          "name": "Breakfast included",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 1,
-          "selected": 0
-        },
-        {
-          "style_for_count": 0,
-          "name": "Breakfast & dinner included",
-          "count": 11,
-          "id": "mealplan::breakfast_and_dinner",
-          "selected": 0,
-          "popular_rank": 2,
-          "popular": 1
-        },
-        {
-          "name": "Self catering",
-          "count": 90,
-          "id": "mealplan::999",
-          "style_for_count": 0,
-          "popular_rank": 3,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "count": 1,
-          "id": "mealplan::full_board",
-          "name": "All meals included",
-          "style_for_count": 0,
-          "popular_rank": 4,
-          "popular": 1,
-          "selected": 0
+          "name": "Pets",
+          "languagecode": "en-gb",
+          "ruleset": [
+            {
+              "name": "Pets",
+              "rule": [
+                {
+                  "content": "Pets are not allowed."
+                }
+              ],
+              "type": "RULESET_HOTEL_PETS_PETSFEE"
+            }
+          ],
+          "type": "POLICY_HOTEL_PETS"
         }
       ],
-      "id": "mealplan",
-      "iconfont": "restaurants",
-      "layout": {
-        "is_collapsed": 0,
-        "is_collapsable": 0,
-        "collapsed_count": 5
-      }
+      "type": "POLICY_HOTEL_PETS"
     },
     {
-      "irene_resp_id": "hotelfacility",
-      "subtitle": "",
-      "any_text": "No facilities selected",
-      "type": "multiple_intersection",
-      "title": "Facilities",
-      "experiment_tracking_data": {
-        "track_on_view": [
-          {
-            "value": 1,
-            "experiment_tag": "srfo_refactor_accessible_facilities_apps",
-            "type": 0
-          },
-          {
-            "value": 3,
-            "experiment_tag": "srfo_refactor_accessible_facilities_apps",
-            "type": 0
-          }
-        ]
-      },
-      "iconfont": "frontdesk",
-      "id": "facility",
-      "is_group": 0,
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsed": 1,
-        "is_collapsable": 1
-      },
-      "categories": [
+      "policy_id": "",
+      "content": [
         {
-          "style_for_count": 0,
-          "count": 11,
-          "id": "facility::433",
-          "name": "Swimming Pool",
-          "selected": 0,
-          "popular_rank": 1,
-          "popular": 1
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2,
-          "style_for_count": 0,
-          "name": "Free parking",
-          "id": "facility::46",
-          "count": 28
-        },
-        {
-          "selected": 0,
-          "popular_rank": 3,
-          "popular": 1,
-          "style_for_count": 0,
-          "count": 193,
-          "id": "facility::2",
-          "name": "Parking"
-        },
-        {
-          "popular": 1,
-          "popular_rank": 4,
-          "selected": 0,
-          "count": 105,
-          "id": "facility::4",
-          "name": "Pets allowed",
-          "style_for_count": 0
-        },
-        {
-          "popular_rank": 5,
-          "popular": 1,
-          "selected": 0,
-          "name": "Free WiFi",
-          "id": "facility::107",
-          "count": 229,
-          "style_for_count": 0
-        },
-        {
-          "id": "facility::54",
-          "count": 32,
-          "name": "Spa and wellness centre",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 6,
-          "selected": 0
-        },
-        {
-          "name": "Family rooms",
-          "count": 175,
-          "id": "facility::28",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 7,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 8,
-          "style_for_count": 0,
-          "name": "Non-smoking rooms",
-          "id": "facility::16",
-          "count": 226
-        },
-        {
-          "name": "Airport shuttle",
-          "count": 182,
-          "id": "facility::17",
-          "style_for_count": 0,
-          "popular_rank": 9,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "count": 138,
-          "id": "facility::8",
-          "name": "24-hour front desk",
-          "style_for_count": 0,
-          "popular_rank": 10,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "popular": 1,
-          "popular_rank": 11,
-          "selected": 0,
-          "name": "Restaurant",
-          "count": 77,
-          "id": "facility::3",
-          "style_for_count": 0
-        },
-        {
-          "selected": 0,
-          "popular_rank": 12,
-          "popular": 1,
-          "style_for_count": 0,
-          "count": 42,
-          "id": "facility::11",
-          "name": "Fitness centre"
-        },
-        {
-          "name": "Airport shuttle (free)",
-          "id": "facility::139",
-          "count": 3,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 13,
-          "selected": 0
-        },
-        {
-          "style_for_count": 0,
-          "id": "facility::72",
-          "count": 11,
-          "name": "BBQ facilities",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 14
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 15,
-          "experiment_tracking_data": {
-            "track_on_select": [
-              {
-                "value": 2,
-                "type": 1,
-                "experiment_tag": "srfo_refactor_accessible_facilities_apps"
-              }
-            ]
-          },
-          "style_for_count": 0,
-          "name": "Facilities for disabled guests",
-          "id": "facility::25",
-          "count": 72
-        },
-        {
-          "id": "facility::5",
-          "count": 76,
-          "name": "Room service",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 16,
-          "selected": 0
-        },
-        {
-          "style_for_count": 0,
-          "name": "Electric vehicle charging station",
-          "id": "facility::182",
-          "count": 22,
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 17
-        }
-      ]
-    },
-    {
-      "irene_resp_id": "ht_id",
-      "is_group": 0,
-      "any_text": "No property type selected",
-      "subtitle": "",
-      "title": "Property type",
-      "type": "multiple_union",
-      "layout": {
-        "is_collapsed": 1,
-        "is_collapsable": 1,
-        "collapsed_count": 5
-      },
-      "categories": [
-        {
-          "name": "Hotels",
-          "id": "property_type::204",
-          "count": 162,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 1,
-          "selected": 0
-        },
-        {
-          "popular": 1,
-          "popular_rank": 1,
-          "selected": 0,
-          "count": 138,
-          "id": "privacy_type::3",
-          "name": "Entire homes & apartments",
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "name": "Family friendly properties",
-          "id": "family_friendly_property::1",
-          "count": 25,
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 1
-        },
-        {
-          "selected": 0,
-          "popular_rank": 2,
-          "popular": 1,
-          "style_for_count": 0,
-          "id": "property_type::201",
-          "count": 77,
-          "name": "Apartments"
-        },
-        {
-          "name": "Hostels",
-          "id": "property_type::203",
-          "count": 5,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 3,
-          "selected": 0
-        },
-        {
-          "name": "Holiday parks",
-          "id": "property_type::212",
-          "count": 1,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 4,
-          "selected": 0
+          "ruleset": [
+            {
+              "rule": [
+                {
+                  "content": "There is no age requirement for check-in"
+                }
+              ],
+              "type": "POLICY_AGE_RESTRICTION",
+              "name": "No age restriction"
+            }
+          ],
+          "name": "No age restriction",
+          "languagecode": "en-gb",
+          "type": "POLICY_AGE_RESTRICTION"
         }
       ],
-      "id": "property_type",
-      "iconfont": "homecrop"
+      "type": "POLICY_AGE_RESTRICTION"
     },
     {
-      "id": "room_facility",
-      "iconfont": "bath",
-      "categories": [
+      "policy_id": "",
+      "content": [
         {
-          "popular": 1,
-          "popular_rank": 1,
-          "selected": 0,
-          "id": "room_facility::38",
-          "count": 222,
-          "name": "Private bathroom",
-          "style_for_count": 0
-        },
-        {
-          "name": "Air conditioning",
-          "count": 159,
-          "id": "room_facility::11",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 2,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "popular_rank": 3,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "Kitchen/kitchenette",
-          "id": "room_facility::999",
-          "count": 90
-        },
-        {
-          "name": "Balcony",
-          "id": "room_facility::17",
-          "count": 39,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 4,
-          "selected": 0
-        },
-        {
-          "style_for_count": 0,
-          "count": 5,
-          "id": "room_facility::20",
-          "name": "Spa bath",
-          "selected": 0,
-          "popular_rank": 5,
-          "popular": 1
-        },
-        {
-          "popular": 1,
-          "popular_rank": 6,
-          "selected": 0,
-          "id": "room_facility::93",
-          "count": 1,
-          "name": "Private pool",
-          "style_for_count": 0
-        },
-        {
-          "name": "Bath",
-          "count": 114,
-          "id": "room_facility::5",
-          "style_for_count": 0,
-          "popular_rank": 7,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "popular": 1,
-          "popular_rank": 8,
-          "selected": 0,
-          "count": 49,
-          "id": "room_facility::34",
-          "name": "Washing machine",
-          "style_for_count": 0
-        },
-        {
-          "count": 33,
-          "id": "room_facility::123",
-          "name": "Terrace",
-          "style_for_count": 0,
-          "popular_rank": 9,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "name": "Kitchenette",
-          "id": "room_facility::16",
-          "count": 66,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 10,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 11,
-          "style_for_count": 0,
-          "count": 116,
-          "id": "room_facility::81",
-          "name": "View"
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 12,
-          "style_for_count": 0,
-          "name": "Flat-screen TV",
-          "count": 211,
-          "id": "room_facility::75"
-        },
-        {
-          "style_for_count": 0,
-          "name": "Soundproofing",
-          "count": 73,
-          "id": "room_facility::79",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 13
-        },
-        {
-          "style_for_count": 0,
-          "id": "room_facility::86",
-          "count": 172,
-          "name": "Electric kettle",
-          "selected": 0,
-          "popular_rank": 14,
-          "popular": 1
-        },
-        {
-          "name": "Coffee/tea maker",
-          "count": 199,
-          "id": "room_facility::998",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 15,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "popular_rank": 16,
-          "popular": 1,
-          "style_for_count": 0,
-          "count": 99,
-          "id": "room_facility::120",
-          "name": "Coffee machine"
-        },
-        {
-          "name": "Patio",
-          "id": "room_facility::37",
-          "count": 11,
-          "style_for_count": 0,
-          "popular_rank": 17,
-          "popular": 1,
-          "selected": 0
+          "type": "POLICY_NO_CURFEW",
+          "languagecode": "en-gb",
+          "ruleset": [
+            {
+              "name": "No curfew",
+              "rule": [
+                {
+                  "content": "Come and go anytime you want."
+                }
+              ],
+              "type": "POLICY_NO_CURFEW"
+            }
+          ],
+          "name": "No curfew"
         }
       ],
-      "layout": {
-        "is_collapsed": 1,
-        "is_collapsable": 1,
-        "collapsed_count": 5
-      },
-      "type": "multiple_intersection",
-      "title": "Room facilities",
-      "any_text": "No room facilities selected",
-      "subtitle": "",
-      "irene_resp_id": "roomfacility",
-      "is_group": 0
-    },
-    {
-      "categories": [
-        {
-          "selected": 0,
-          "popular_rank": 1,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "Prague City Centre",
-          "id": "district::2309",
-          "count": 128
-        },
-        {
-          "style_for_count": 0,
-          "name": "Old Town (Stare Mesto)",
-          "id": "district::270",
-          "count": 61,
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2
-        },
-        {
-          "style_for_count": 0,
-          "name": "Prague 1",
-          "count": 130,
-          "id": "district::255",
-          "selected": 0,
-          "popular_rank": 3,
-          "popular": 1
-        },
-        {
-          "popular_rank": 4,
-          "popular": 1,
-          "selected": 0,
-          "count": 169,
-          "id": "district::10095",
-          "name": "Guests' favourite area ",
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "name": "Prague 2",
-          "id": "district::256",
-          "count": 25,
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 5
-        },
-        {
-          "popular": 1,
-          "popular_rank": 6,
-          "selected": 0,
-          "count": 9,
-          "id": "district::3219",
-          "name": "Smichov",
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "count": 14,
-          "id": "district::259",
-          "name": "Prague 5",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 7
-        },
-        {
-          "name": "Prague 7",
-          "count": 7,
-          "id": "district::261",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 8,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 9,
-          "style_for_count": 0,
-          "id": "district::257",
-          "count": 10,
-          "name": "Prague 3"
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 10,
-          "style_for_count": 0,
-          "count": 6,
-          "id": "district::3256",
-          "name": "Holesovice"
-        },
-        {
-          "popular": 1,
-          "popular_rank": 11,
-          "selected": 0,
-          "name": "Zizkov",
-          "count": 9,
-          "id": "district::3206",
-          "style_for_count": 0
-        },
-        {
-          "popular_rank": 12,
-          "popular": 1,
-          "selected": 0,
-          "name": "Prague 11",
-          "id": "district::265",
-          "count": 1,
-          "style_for_count": 0
-        },
-        {
-          "selected": 0,
-          "popular_rank": 13,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "Wenceslas Square",
-          "id": "district::1641",
-          "count": 67
-        },
-        {
-          "style_for_count": 0,
-          "count": 7,
-          "id": "district::262",
-          "name": "Prague 8",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 14
-        },
-        {
-          "popular": 1,
-          "popular_rank": 15,
-          "selected": 0,
-          "id": "district::260",
-          "count": 10,
-          "name": "Prague 6",
-          "style_for_count": 0
-        },
-        {
-          "popular": 1,
-          "popular_rank": 16,
-          "selected": 0,
-          "count": 6,
-          "id": "district::3218",
-          "name": "Karlin",
-          "style_for_count": 0
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 17,
-          "style_for_count": 0,
-          "name": "Prague 9",
-          "id": "district::263",
-          "count": 5
-        },
-        {
-          "popular": 1,
-          "popular_rank": 18,
-          "selected": 0,
-          "count": 2,
-          "id": "district::3207",
-          "name": "Dejvice",
-          "style_for_count": 0
-        },
-        {
-          "selected": 0,
-          "popular_rank": 19,
-          "popular": 1,
-          "style_for_count": 0,
-          "id": "district::3254",
-          "count": 5,
-          "name": "Josefov"
-        },
-        {
-          "name": "Hradcany",
-          "id": "district::272",
-          "count": 3,
-          "style_for_count": 0,
-          "popular_rank": 20,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "popular": 1,
-          "popular_rank": 21,
-          "selected": 0,
-          "count": 23,
-          "id": "district::271",
-          "name": "Lesser Quarter (Mala Strana)",
-          "style_for_count": 0
-        },
-        {
-          "popular": 1,
-          "popular_rank": 22,
-          "selected": 0,
-          "id": "district::3217",
-          "count": 13,
-          "name": "Vinohrady",
-          "style_for_count": 0
-        },
-        {
-          "selected": 0,
-          "popular_rank": 23,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "Prague 4",
-          "count": 10,
-          "id": "district::258"
-        },
-        {
-          "popular_rank": 24,
-          "popular": 1,
-          "selected": 0,
-          "id": "district::9999997",
-          "count": 41,
-          "name": "Best areas outside centre",
-          "style_for_count": 0
-        }
-      ],
-      "iconfont": "marker",
-      "id": "district",
-      "layout": {
-        "is_collapsed": 1,
-        "is_collapsable": 1,
-        "collapsed_count": 5
-      },
-      "type": "multiple_union",
-      "title": "District",
-      "irene_resp_id": "di",
-      "is_group": 0,
-      "any_text": "No district selected",
-      "subtitle": ""
-    },
-    {
-      "any_text": "Choose bed type",
-      "subtitle": "",
-      "irene_resp_id": "tdb",
-      "type": "multiple_union",
-      "title": "Bed preference",
-      "experiment_tracking_data": {
-        "track_on_view": [
-          {
-            "value": 1,
-            "type": 0,
-            "experiment_tag": "android_fax_cribs_filter"
-          }
-        ]
-      },
-      "id": "twin_double_bed",
-      "iconfont": null,
-      "is_group": 0,
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsed": 0,
-        "is_collapsable": 0
-      },
-      "categories": [
-        {
-          "name": "Double bed",
-          "id": "twin_double_bed::3",
-          "count": 0,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 1,
-          "selected": 0
-        },
-        {
-          "style_for_count": 0,
-          "id": "twin_double_bed::2",
-          "count": 0,
-          "name": "2 single beds",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2
-        }
-      ]
-    },
-    {
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsable": 0,
-        "is_collapsed": 0
-      },
-      "categories": [
-        {
-          "selected": 0,
-          "popular_rank": 1,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "Old Town Square",
-          "count": 92,
-          "id": "popular_nearby_landmarks::20350"
-        },
-        {
-          "style_for_count": 0,
-          "count": 75,
-          "id": "popular_nearby_landmarks::1367",
-          "name": "Charles Bridge",
-          "selected": 0,
-          "popular_rank": 2,
-          "popular": 1
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 3,
-          "style_for_count": 0,
-          "count": 2,
-          "id": "popular_nearby_landmarks::20222",
-          "name": "Vysehrad Castle"
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 4,
-          "style_for_count": 0,
-          "id": "popular_nearby_landmarks::20354",
-          "count": 22,
-          "name": "Prague Castle"
-        }
-      ],
-      "id": "popular_nearby_landmarks",
-      "iconfont": "landmark",
-      "is_group": 0,
-      "irene_resp_id": "popular_nearby_landmarks",
-      "subtitle": "",
-      "any_text": "No landmarks selected",
-      "type": "multiple_union",
-      "title": "Landmarks"
-    },
-    {
-      "categories": [
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 1,
-          "id": "chaincode::1093",
-          "name": "Courtyard by Marriott"
-        },
-        {
-          "id": "chaincode::13667",
-          "count": 1,
-          "name": "Áurea",
-          "selected": 0,
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 1,
-          "id": "chaincode::12738",
-          "name": "Old Town Hotels"
-        },
-        {
-          "id": "chaincode::10466",
-          "count": 1,
-          "name": "Human Company",
-          "selected": 0,
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 14,
-          "id": "chaincode::6868",
-          "name": "CZECH INN HOTELS"
-        },
-        {
-          "name": "K+K Hotels",
-          "count": 1,
-          "id": "chaincode::1627",
-          "style_for_count": 0,
-          "selected": 0
-        },
-        {
-          "name": "Orea Hotels",
-          "id": "chaincode::1981",
-          "count": 1,
-          "selected": 0,
-          "style_for_count": 0
-        },
-        {
-          "id": "chaincode::14582",
-          "count": 4,
-          "name": "Bohemian Hostels & Hotels",
-          "selected": 0,
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "name": "EA Hotels",
-          "count": 1,
-          "id": "chaincode::6939"
-        },
-        {
-          "id": "chaincode::1873",
-          "count": 1,
-          "name": "Corinthia Hotels",
-          "selected": 0,
-          "style_for_count": 0
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 3,
-          "id": "chaincode::13189",
-          "name": "Pytloun"
-        },
-        {
-          "selected": 0,
-          "style_for_count": 0,
-          "name": "Vienna House by Wyndham",
-          "id": "chaincode::14334",
-          "count": 2
-        },
-        {
-          "name": "Clarion",
-          "id": "chaincode::1124",
-          "count": 3,
-          "selected": 0,
-          "style_for_count": 0
-        },
-        {
-          "count": 1,
-          "id": "chaincode::12700",
-          "name": "Joie De Vivre",
-          "style_for_count": 0,
-          "selected": 0
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 1,
-          "id": "chaincode::2113",
-          "name": "Innside by Melia"
-        },
-        {
-          "count": 1,
-          "id": "chaincode::12900",
-          "name": "Tribute Portfolio",
-          "style_for_count": 0,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "style_for_count": 0,
-          "name": "NH Collection",
-          "id": "chaincode::1711",
-          "count": 1
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 2,
-          "id": "chaincode::5876",
-          "name": "Occidental Hotels and Resorts by Barcelo Hotel Group"
-        },
-        {
-          "selected": 0,
-          "style_for_count": 0,
-          "name": "NH Hotels",
-          "id": "chaincode::1043",
-          "count": 1
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 1,
-          "id": "chaincode::1045",
-          "name": "Ramada"
-        },
-        {
-          "name": "Holiday Inn Hotels & Resorts",
-          "count": 1,
-          "id": "chaincode::1072",
-          "style_for_count": 0,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "style_for_count": 0,
-          "id": "chaincode::1936",
-          "count": 1,
-          "name": "MGallery"
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "count": 1,
-          "id": "chaincode::1029",
-          "name": "Best Western"
-        },
-        {
-          "style_for_count": 0,
-          "selected": 0,
-          "name": "Leonardo Hotels",
-          "count": 1,
-          "id": "chaincode::1844"
-        }
-      ],
-      "id": "chaincode",
-      "iconfont": "hotel",
-      "layout": {
-        "is_collapsed": 1,
-        "is_collapsable": 1,
-        "collapsed_count": 5
-      },
-      "type": "multiple_union",
-      "title": "Chain",
-      "irene_resp_id": "chaincode",
-      "is_group": 0,
-      "any_text": "No chain selected",
-      "subtitle": ""
-    },
-    {
-      "title": "Review score",
-      "type": "multiple_single_selection",
-      "irene_resp_id": "review_score",
-      "is_group": 0,
-      "any_text": "No score selected",
-      "subtitle": "",
-      "categories": [
-        {
-          "popular_rank": 13,
-          "popular": 1,
-          "selected": 0,
-          "id": "reviewscorebuckets::50",
-          "count": 229,
-          "name": "Passable: 5+",
-          "style_for_count": 0
-        },
-        {
-          "selected": 0,
-          "popular_rank": 29,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "Pleasant: 6+",
-          "id": "reviewscorebuckets::60",
-          "count": 229
-        },
-        {
-          "count": 227,
-          "id": "reviewscorebuckets::70",
-          "name": "Good: 7+",
-          "style_for_count": 0,
-          "popular_rank": 31,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "count": 206,
-          "id": "reviewscorebuckets::80",
-          "name": "Very good: 8+",
-          "style_for_count": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "style_for_count": 0,
-          "count": 74,
-          "id": "reviewscorebuckets::90",
-          "name": "Superb: 9+",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 30
-        }
-      ],
-      "iconfont": "reviews",
-      "id": "reviewscorebuckets",
-      "layout": {
-        "is_collapsed": 0,
-        "is_collapsable": 0,
-        "collapsed_count": 5
-      }
-    },
-    {
-      "irene_resp_id": "SustainablePropertyLevelFilter",
-      "is_group": 0,
-      "any_text": null,
-      "subtitle": "Properties taking steps to make your stay more sustainable",
-      "title": "Travel Sustainable",
-      "type": "multiple_union",
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsable": 0,
-        "is_collapsed": 0
-      },
-      "categories": [
-        {
-          
-          "popular": 1,
-          "popular_rank": 18,
-          "selected": 0,
-          "count": 6,
-          "id": "SustainablePropertyLevelFilter::4",
-          "name": "Travel Sustainable Level 3+",
-          "style_for_count": 0
-        },
-        {
-          
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "style_for_count": 0,
-          "name": "Travel Sustainable Level 3 and higher",
-          "id": "SustainablePropertyLevelFilter::3",
-          "count": 11
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "style_for_count": 0,
-          "name": "Travel Sustainable Level 2 and higher",
-          "id": "SustainablePropertyLevelFilter::2",
-          "count": 73
-        },
-        {
-          "selected": 0,
-          "popular_rank": 3,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "All Travel Sustainable properties",
-          "id": "SustainablePropertyLevelFilter::1",
-          "count": 166
-        }
-      ],
-      "id": "SustainablePropertyLevelFilter",
-      "iconfont": null
-    },
-    {
-      "any_text": "No preference",
-      "subtitle": "",
-      "irene_resp_id": "distance",
-      "is_group": 0,
-      "title": "Distance from city centre",
-      "type": "multiple_single_selection",
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsed": 0,
-        "is_collapsable": 0
-      },
-      "id": "distance",
-      "iconfont": null,
-      "categories": [
-        {
-          "selected": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "style_for_count": 0,
-          "name": "Less than 1 km",
-          "id": "distance::1000",
-          "count": 93
-        },
-        {
-          "id": "distance::3000",
-          "count": 186,
-          "name": "Less than 3 km",
-          "style_for_count": 0,
-          "popular_rank": 5,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "style_for_count": 0,
-          "name": "Less than 5 km",
-          "count": 202,
-          "id": "distance::5000"
-        }
-      ]
-    },
-    {
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsable": 0,
-        "is_collapsed": 0
-      },
-      "id": "class",
-      "iconfont": "acstar",
-      "categories": [
-        {
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 0,
-          "name": "Unrated",
-          "count": 38,
-          "id": "class::0",
-          "style_for_count": 1
-        },
-        {
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "selected": 0,
-          "id": "class::1",
-          "count": 2,
-          "name": "1 star",
-          "style_for_count": 1
-        },
-        {
-          "id": "class::2",
-          "count": 6,
-          "name": "2 stars",
-          "style_for_count": 1,
-          "popular_rank": 16,
-          "popular": 1,
-          "selected": 1
-        },
-        {
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "selected": 0,
-          "name": "3 stars",
-          "count": 225,
-          "id": "class::3",
-          "style_for_count": 1
-        },
-        {
-          "name": "4 stars",
-          "count": 226,
-          "id": "class::4",
-          "style_for_count": 1,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 1
-        },
-        {
-          "style_for_count": 1,
-          "name": "5 stars",
-          "count": 37,
-          "id": "class::5",
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2147483647
-        }
-      ],
-      "subtitle": "",
-      "any_text": "No stars selected",
-      "is_group": 0,
-      "irene_resp_id": "class",
-      "type": "multiple_union",
-      "title": "Property rating"
-    },
-    {
-      "is_group": 0,
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsable": 0,
-        "is_collapsed": 0
-      },
-      "categories": [
-        {
-          "selected": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "style_for_count": 0,
-          "id": "num_beds::1",
-          "count": 232,
-          "name": "1+ bed"
-        },
-        {
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "selected": 0,
-          "count": 232,
-          "id": "num_beds::2",
-          "name": "2+ beds",
-          "style_for_count": 0
-        },
-        {
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "selected": 0,
-          "name": "3+ beds",
-          "id": "num_beds::3",
-          "count": 202,
-          "style_for_count": 0
-        },
-        {
-          "name": "4+ beds",
-          "id": "num_beds::4",
-          "count": 176,
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "selected": 0
-        },
-        {
-          "name": "5+ beds",
-          "count": 77,
-          "id": "num_beds::5",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "selected": 0
-        }
-      ],
-      "subtitle": "",
-      "any_text": null,
-      "irene_resp_id": "num_beds",
-      "stepper_options": [
-        {
-          "default": 0,
-          "max": 5,
-          "title": "Number of beds",
-          "min": 0,
-          "field": "num_beds",
-          "selected": 0
-        }
-      ],
-      "title": "Beds",
-      "type": "number_stepper",
-      "id": "num_beds",
-      "iconfont": null
-    },
-    {
-      "layout": {
-        "collapsed_count": 5,
-        "is_collapsed": 0,
-        "is_collapsable": 0
-      },
-      "iconfont": null,
-      "id": "entire_place_bedroom_count",
-      "categories": [
-        {
-          "selected": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "style_for_count": 0,
-          "name": "1+ bedrooms",
-          "id": "entire_place_bedroom_count::1",
-          "count": 151
-        },
-        {
-          "selected": 0,
-          "popular_rank": 2147483647,
-          "popular": 1,
-          "style_for_count": 0,
-          "count": 125,
-          "id": "entire_place_bedroom_count::2",
-          "name": "2+ bedrooms"
-        },
-        {
-          "count": 26,
-          "id": "entire_place_bedroom_count::3",
-          "name": "3+ bedrooms",
-          "style_for_count": 0,
-          "popular_rank": 12,
-          "popular": 1,
-          "selected": 0
-        },
-        {
-          "name": "4+ bedrooms",
-          "count": 9,
-          "id": "entire_place_bedroom_count::4",
-          "style_for_count": 0,
-          "popular": 1,
-          "popular_rank": 2147483647,
-          "selected": 0
-        }
-      ],
-      "subtitle": "",
-      "any_text": null,
-      "is_group": 0,
-      "irene_resp_id": "entire_place_bedroom_count",
-      "type": "multiple_single_selection",
-      "title": "Number of bedrooms"
+      "type": "POLICY_NO_CURFEW"
     }
-  ]
+  ],
+  "active_since": "2021-04-20 14:10:01",
+  "name": "General"
 }

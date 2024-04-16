@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/jquery-ui.css" />
+        <link rel="stylesheet" href="css/date.css" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="css/jquery.selectBoxIt.css" />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <style>
+.right1 .box-title {
+    color: var(--carmine);
+    display: flex;
+    justify-content: space-between;
+
+}
+.right1 .box-title i {
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.right1 .evaluation .fees {
+    margin-left: 250px;
+}
+.right1 .evaluation .fees .tax {
+    display: flex;
+    margin-left: 75px;
+}
+.right1 .evaluation .fees .card-text {
+    margin-left: 65px;
+    margin-top: -7px;
+}
+.skeleton {
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-text {
+  width: 100%;
+  height: .5rem;
+  margin-bottom: .25rem;
+  border-radius: .125rem;
+}
+
+.skeleton-text:last-child {
+  margin-bottom: 0;
+  width: 80%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+</style>
+    </head>
+    <body>
+        <div class="right1">
+            <div class="card mb-3" style="max-width: 980PX;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img class="header-img skeleton" src
+                            class="rounded mx-auto d-block"
+                            style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div style="text-align: left;">
+                                <div class="box-title">
+                                    <h4 class="skeleton skeleton-text"
+                                        class="card-title"
+                                        style="max-width: 70%; height: 30px;"></h4>
+                                    <li>
+                                        <i class="skeleton skeleton-text"
+                                            class="material-symbols-outlined"
+                                            style="color:hsl(200, 20%, 70%);">
+                                            ico</i>
+                                        <i class="skeleton skeleton-text"
+                                            class="material-symbols-outlined"
+                                            style="color:hsl(200, 20%, 70%);">ico</i>
+                                    </li>
+                                </div>
+                                <p class="skeleton skeleton-text"
+                                    class="card-text"
+                                    style="max-width: 50%; line-height: 4px; "><small
+                                        class="text-body-secondary"></small></p>
+                                <div class="the details mb-4 mt-4" style="margin-bottom: 12px;">
+                                    <p class="skeleton skeleton-text"
+                                        class="card-text"
+                                        style="max-width: 60%; height: 15px;"><b></b></p>
+                                    <div
+                                        style="line-height: 4px; font-size: 15px; ">
+                                        <p class="skeleton skeleton-text"></p>
+                                        <p class="skeleton skeleton-text"></p>
+                                    </div>
+                                </div>
+                                <div class="evaluation mt-4  d-flex   ">
+                                    <p class="skeleton star skeleton-text"
+                                    
+                                        style="max-width: 5%;"></p>
+                                    <p class="skeleton card-text skeleton-text"
+                        
+                                        style="max-width: 40%;"><small
+                                            class="text-body-secondary"></small></p>
+                                     <div class="fees d-flex flex-column align-items-end">
+                                        <div class="tax d-flex  align-items-end">
+                                            <p class="skeleton skeleton-text card-text text-body-secondary" style="max-width: 55%;"></p>
+                                        </div>
+                                        <p class="skeleton skeleton-text card-text text-body-secondary" style="max-width: 70%;"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </body>
+    </html>

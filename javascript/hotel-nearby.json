@@ -1,0 +1,91 @@
+{
+      "transport": {
+        "airport": {
+          "code": "TIA",
+          "name": "Tirana International Airport Mother Teresa",
+          "transport": [
+            {
+              "currency_code": "",
+              "price": 23,
+              "duration_minutes": 30,
+              "depart_minutes": null,
+              "transport_type": "taxi"
+            }
+          ]
+        },
+        "has_parking": 1,
+        "is_well_connected": 0,
+        "has_free_parking": 1,
+        "has_airport_shuttle": 1,
+        "has_free_airport_shuttle": 0
+      },
+      "landmarks": {
+        "closests": [
+          {
+            "landmark_name": "Toptani Shopping Centre",
+            "group_id": 11,
+            "distance": 64
+          },
+          {
+            "group_id": 13,
+            "landmark_name": "Clock Tower Tirana",
+            "distance": 89
+          },
+          {
+            "landmark_name": "National Gallery of Arts Tirana",
+            "group_id": 5,
+            "distance": 98
+          },
+          {
+            "landmark_name": "Et'hem Bey Mosque",
+            "group_id": 13,
+            "distance": 108
+          },
+          {
+            "distance": 117,
+            "landmark_name": "Skanderbeg Square",
+            "group_id": 7
+          }
+        ],
+        "populars": [
+          {
+            "landmark_name": "Former Residence of Enver Hoxha",
+            "group_id": 13,
+            "distance": 502
+          },
+          {
+            "landmark_name": "National Sport Park Resort",
+            "group_id": 9,
+            "distance": 1637
+          },
+          {
+            "distance": 2597,
+            "group_id": 13,
+            "landmark_name": "Dajti Ekspres Cable Car"
+          },
+          {
+            "distance": 16021,
+            "landmark_name": "Rock of Kavaje",
+            "group_id": 13
+          },
+          {
+            "distance": 18737,
+            "group_id": 27,
+            "landmark_name": "Port of Durres"
+          }
+        ]
+      },
+      "surroundings": [
+        {
+          "items": [
+            {
+              "type_title": "Mountain",
+              "landmark_name": "Dajti Mountain",
+              "distance": 6000
+            }
+          ],
+          "type_title": "Mountain",
+          "type": "mountain"
+        }
+      ]
+    }

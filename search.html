@@ -8,7 +8,7 @@
 
             <link rel="stylesheet" href="css/style.css">
             <link rel="stylesheet" href="css/all.min.css">
-            <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+            <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
             <link rel="shortcut icon" href="img/ki.png" type="image/x-icon">
 
             <title>Home</title>
@@ -288,7 +288,7 @@
         </div>
 
     </div>
-    <div Amenities>
+    <div >
         <h5 onclick="amen_search()" class="mt-3" ><b>Amenities</b></h5>
         <hr>
         <div class="Amen">
@@ -501,75 +501,38 @@
 <!--End Left section-->
 
 <!--right section-->
-    <div class="col" style="margin-top:90px;">
+    <div class="col "  style="margin-top:90px;">
         <div id="hotelad_Sec" class="right" >
-            <div class="Title" style="max-width: 980PX;">
+            <div class="Title" style="max-width: 980PX; ">
                 <h2 id="rs_num" class="font-weight-bold" style="text-align: left; font-weight: bold;">Showing 442 hotelsinNew York, NY</h2>
                 <div class=" lis p-2  mx-2 i-fav ">
-                  <li class="d-flex align-items-center " style="color: #8C0B1C;"> 
-                        <i class="fa-solid fa-up-down"></i>
-                                          <p class="p-0 m-0">Sort By</p>
+                  <li class="d-flex align-items-center " style="color: #8C0B1C; position:relative;"> 
+                        <i class="fa-solid fa-up-down p-1"></i>
+                                          <p ng-click="disporder()" class="p-0 m-0 cursor-pointe" >Sort By: <span id="order_type">our top picks</span></p>
+
+                                          <div  ng-show="order_show" class="order_popup">
+                                            <ul class="  p-0 m-0"> 
+                                                <li class="order_list" data-order_type = "popularity" >our top picks</li>
+                                                <li class="order_list" data-order_type = "price" >price lowest first</li>
+                                                <li class="order_list" data-order_type = "class_ascending" >property class (high to low)</li>
+                                                <li class="order_list" data-order_type = "class_descending" >property class (low to high)</li>
+                                                <li class="order_list" data-order_type = "review_score" >top reviewed</li>
+        
+                                            </ul>
+                            
+                                           </div>
                   </li>
                </div>
+              
             </div>
-            <div class="card mb-3" style="max-width: 980PX;">
-                <div class="row g-0">
-                    <div class="col-md-4" style="height: 210px;">
-                        <img src="images/2222222222222222222222.png" class="rounded mx-auto d-block" style="width: 100%; height: 100%;" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div ng-show="0" class="card-body">
-                            <div style="text-align: left;">
-                                <div class="box-title">
-                                    <h4 class="m-0" class="card-title ">AkA times square</h4>
-                                    <li style="font-size: 19px;">
-                                       <i class="fa-solid fa-location-dot" ></i>               
-                                      <i class="fa-regular fa-heart"></i>
-                                    </li>
-                                </div>
-                                <p class="card-text" style="line-height: 4px; margin-top:-5px;">
-                                    <small class="text-body-secondary sm-text">Lowest East Side New York</small></p>
-                                <hr style=" margin-top:-10px; width: 150px;">
-                                <div class="the details">
-                                <p class="card-text"><b>Queen Studio</b></p>
-                                    <div style="line-height: 4px; font-size: 15px; margin-left: 12px;">
-                                    <p>• Entire studio • 1 bathroom • 1 kitchen • 398.3feet²</p>
-                                    <p>• 1 queen bed</p>
-                                    </div>
-                                </div>
-                                <div class="evaluation d-flex justify-content-between align-items-end">
-                                    <div class="d-flex align-items-center">
-                                          <div class="star m-0 ">7.7</div>
-                                          <p class="card-text  ms-2 text-body-secondary">
-                                     <span>3,232 ratings</span> | <span>3 star hotel</span>
-                                          </p>
-                                    </div>
-                                   
-                                    <div class="fees d-flex flex-column align-items-end">
-                                        <div class="tax">
-                                            <li class="d-flex  align-items-end">
-                                                <p class="material-symbols-outlined text-body-secondary m-0 me-2"style="font-size: 16px;"><span class="text-decoration-line-through">$</span><span class="text-decoration-line-through">342</span></p>
-                                                <p class="material-symbols-outlined text-bold fw-bold m-0"style="font-size: 24px; color:var(--jet);"><span>$</span><span>${composite_price_breakdown}</span></p>
+            <div id="ads_con">
+              
+           
 
-
-                                          </li>
-                                           
-                                        </div>
-                                        <p class="card-text text-body-secondary" style="font-size: 12px;">Included Tax & Fees</p>
-                                    </div>
-                                </div>
-                                </div>
-                        
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
+            justify-content-between
             </div>
            
-            <div  onclick="show_btn_clicked()"   class="submit-search cursor-pointer  p-2 text-center" style="width:fit-content; margin:20px auto ;">show more</div>
+            <div  onclick="show_btn_clicked()"   class="submit-search   p-2 text-center" style="width:fit-content; margin:20px auto ; font-size: 17px;">show more</div>
 
            
            
